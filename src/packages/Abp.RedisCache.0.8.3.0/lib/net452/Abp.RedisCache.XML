@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Abp.RedisCache</name>
+    </assembly>
+    <members>
+        <member name="T:Abp.Runtime.Caching.Redis.AbpRedisCacheModule">
+            <summary>
+            This modules is used to replace ABP's cache system with Redis server.
+            </summary>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.AbpRedisCache">
+            <summary>
+            Used to store cache in a Redis server.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.AbpRedisCache.#ctor(System.String,Abp.Runtime.Caching.Redis.IAbpRedisCacheDatabaseProvider)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.AbpRedisCacheManager">
+            <summary>
+            Used to create <see cref="T:Abp.Runtime.Caching.Redis.AbpRedisCache"/> instances.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.AbpRedisCacheManager.#ctor(Abp.Dependency.IIocManager,Abp.Runtime.Caching.Configuration.ICachingConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Abp.Runtime.Caching.Redis.AbpRedisCacheManager"/> class.
+            </summary>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.IAbpRedisCacheDatabaseProvider">
+            <summary>
+            Used to get <see cref="T:StackExchange.Redis.IDatabase"/> for Redis cache.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.IAbpRedisCacheDatabaseProvider.GetDatabase">
+            <summary>
+            Gets the database connection.
+            </summary>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider">
+            <summary>
+            Implements <see cref="T:Abp.Runtime.Caching.Redis.IAbpRedisCacheDatabaseProvider"/>.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider"/> class.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.AbpRedisCacheDatabaseProvider.GetDatabase">
+            <summary>
+            Gets the database connection.
+            </summary>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions">
+            <summary>
+            Extension methods for <see cref="T:Abp.Runtime.Caching.Configuration.ICachingConfiguration"/>.
+            </summary>
+        </member>
+        <member name="M:Abp.Runtime.Caching.Redis.RedisCacheConfigurationExtensions.UseRedis(Abp.Runtime.Caching.Configuration.ICachingConfiguration)">
+            <summary>
+            Configures caching to use Redis as cache server.
+            </summary>
+            <param name="cachingConfiguration">The caching configuration.</param>
+        </member>
+        <member name="T:Abp.Runtime.Caching.Redis.RedisDatabaseExtensions">
+            <summary>
+            Extension methods for <see cref="T:StackExchange.Redis.IDatabase"/>.
+            </summary>
+        </member>
+    </members>
+</doc>

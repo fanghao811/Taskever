@@ -1,0 +1,415 @@
+﻿DEBUG 2016-04-20 14:29:25,203 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-20 14:29:26,325 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-20 14:29:26,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,363 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,363 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,363 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:29:26,376 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-20 14:29:26,467 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:29:26,467 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:29:26,467 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:29:26,467 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:29:29,133 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-20 14:29:29,139 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-20 14:29:29,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-20 14:29:29,167 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-20 14:29:29,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2016-04-20 14:29:29,274 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-20 14:29:30,729 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 29 classes defines auto mapping attributes
+DEBUG 2016-04-20 14:29:30,729 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-20 14:29:30,736 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-20 14:29:30,737 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-20 14:29:30,738 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-20 14:29:30,739 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-20 14:29:30,740 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-20 14:29:30,741 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-20 14:29:30,743 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-20 14:29:30,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-20 14:29:30,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2016-04-20 14:29:30,745 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-20 14:29:30,747 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2016-04-20 14:29:30,747 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-20 14:29:30,749 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-20 14:29:30,751 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-20 14:29:30,752 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-20 14:29:30,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-20 14:29:30,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-20 14:29:30,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-20 14:29:30,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-20 14:29:30,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-20 14:29:30,762 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-20 14:29:30,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-20 14:29:30,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-20 14:29:30,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-20 14:29:30,769 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-20 14:29:30,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-20 14:29:30,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-20 14:29:30,770 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-20 14:29:30,780 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-20 14:29:30,780 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-20 14:29:30,781 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-20 14:29:30,782 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-20 14:29:30,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-20 14:29:30,783 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-20 14:29:30,784 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-20 14:29:30,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-20 14:29:30,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-20 14:29:30,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-20 14:29:30,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-20 14:29:30,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-20 14:29:30,788 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-20 14:29:30,789 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-20 14:29:30,790 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-20 14:29:30,791 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-20 14:29:30,792 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-20 14:29:30,792 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-04-20 14:31:18,277 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-20 14:31:19,226 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2016-04-20 14:31:19,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: MyCompanyName.AbpZeroTemplate.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:19,232 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:31:20,355 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2016-04-20 14:31:20,397 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:31:20,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:31:20,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:31:20,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:31:22,050 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-20 14:31:22,055 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-20 14:31:22,056 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-20 14:31:22,063 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-20 14:31:22,069 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2016-04-20 14:31:22,151 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-20 14:31:22,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 29 classes defines auto mapping attributes
+DEBUG 2016-04-20 14:31:22,618 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-20 14:31:22,620 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-20 14:31:22,621 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-20 14:31:22,621 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-20 14:31:22,625 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-20 14:31:22,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-20 14:31:22,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-20 14:31:22,627 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-20 14:31:22,628 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-20 14:31:22,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-20 14:31:22,632 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-20 14:31:22,633 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-20 14:31:22,634 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-20 14:31:22,635 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-20 14:31:22,635 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-20 14:31:22,636 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-20 14:31:22,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-20 14:31:22,638 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-20 14:31:22,639 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionEditDto
+DEBUG 2016-04-20 14:31:22,640 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-20 14:31:22,641 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Editions.Dto.EditionListDto
+DEBUG 2016-04-20 14:31:22,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-20 14:31:22,644 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-20 14:31:22,645 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-20 14:31:22,646 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-20 14:31:22,648 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-20 14:31:22,649 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-20 14:31:22,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-20 14:31:22,651 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - MyCompanyName.AbpZeroTemplate.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-20 14:31:22,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-20 14:31:22,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-20 14:31:22,660 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-20 14:31:22,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-20 14:31:22,661 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-20 14:31:22,662 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-20 14:31:22,663 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-20 14:31:22,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-20 14:31:22,664 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-20 14:31:22,665 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-20 14:31:22,666 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-20 14:31:22,666 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-20 14:31:22,667 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-20 14:31:22,668 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-20 14:31:22,669 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-20 14:31:22,669 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-20 14:31:22,670 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-20 14:31:22,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'MyCompanyName.AbpZeroTemplate.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-04-20 14:33:36,487 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-20 14:33:37,525 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-20 14:33:37,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,529 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateApplicationModule, MyCompanyName.AbpZeroTemplate.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateCoreModule, MyCompanyName.AbpZeroTemplate.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateDataModule, MyCompanyName.AbpZeroTemplate.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.AbpZeroTemplateWebModule, MyCompanyName.AbpZeroTemplate.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,530 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.AbpZeroTemplateWebApiModule, MyCompanyName.AbpZeroTemplate.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:33:37,534 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-20 14:33:37,571 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:33:37,571 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:33:37,571 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:33:37,571 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:33:38,856 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-20 14:33:38,862 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-20 14:33:38,862 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-20 14:33:38,870 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-20 14:33:38,870 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2016-04-20 14:33:38,959 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-20 14:33:39,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 29 classes defines auto mapping attributes
+DEBUG 2016-04-20 14:33:39,447 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-20 14:33:39,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-20 14:33:39,454 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-20 14:33:39,455 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-20 14:33:39,456 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-20 14:33:39,457 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-20 14:33:39,458 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-20 14:33:39,460 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-20 14:33:39,460 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-20 14:33:39,461 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-04-20 14:33:39,462 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-20 14:33:39,463 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-04-20 14:33:39,464 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-20 14:33:39,466 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-20 14:33:39,468 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-20 14:33:39,469 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-20 14:33:39,471 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-20 14:33:39,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-20 14:33:39,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-20 14:33:39,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-20 14:33:39,475 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-20 14:33:39,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-20 14:33:39,476 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-20 14:33:39,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-20 14:33:39,480 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-20 14:33:39,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-20 14:33:39,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-20 14:33:39,481 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-20 14:33:39,482 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-20 14:33:39,488 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-20 14:33:39,488 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-20 14:33:39,489 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-20 14:33:39,490 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-20 14:33:39,490 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-20 14:33:39,491 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-20 14:33:39,492 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-20 14:33:39,492 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-20 14:33:39,493 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-20 14:33:39,494 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-20 14:33:39,495 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-20 14:33:39,495 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-20 14:33:39,496 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-20 14:33:39,497 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-20 14:33:39,498 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-20 14:33:39,499 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-20 14:33:39,499 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-20 14:33:39,500 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2016-04-20 14:33:46,902 [9    ] Abp.Logging.LogHelper                    - Can not find 'HomePage' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:46,903 [9    ] Abp.Logging.LogHelper                    - Can not find 'AboutUs' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:46,920 [9    ] Abp.Logging.LogHelper                    - Can not find 'NewTenant' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:46,920 [9    ] Abp.Logging.LogHelper                    - Can not find 'LogIn' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:48,613 [12   ] Abp.Logging.LogHelper                    - Can not find 'Administration' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:48,620 [12   ] Abp.Logging.LogHelper                    - Can not find 'HomePage' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:48,620 [12   ] Abp.Logging.LogHelper                    - Can not find 'AboutUs' in localization source 'AbpZeroTemplate'!
+WARN  2016-04-20 14:33:48,623 [12   ] Abp.Logging.LogHelper                    - Can not find 'Administration' in localization source 'AbpZeroTemplate'!
+DEBUG 2016-04-20 14:51:05,065 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-20 14:51:06,380 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-20 14:51:06,384 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,385 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,386 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.AbpZeroTemplateDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.AbpZeroTemplateWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,432 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.AbpZeroTemplateWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:51:06,446 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-20 14:51:06,539 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:51:06,539 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:51:06,539 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:51:06,539 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZeroTemplate (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:51:07,885 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-20 14:51:07,891 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-20 14:51:07,892 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-20 14:51:07,914 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-20 14:51:07,945 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZeroTemplate
+DEBUG 2016-04-20 14:51:08,018 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-20 14:51:08,522 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 29 classes defines auto mapping attributes
+DEBUG 2016-04-20 14:51:08,522 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-20 14:51:08,529 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-20 14:51:08,530 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-20 14:51:08,531 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-20 14:51:08,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-20 14:51:08,533 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-20 14:51:08,534 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-20 14:51:08,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-20 14:51:08,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-20 14:51:08,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-04-20 14:51:08,539 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-20 14:51:08,540 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-04-20 14:51:08,541 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-20 14:51:08,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-20 14:51:08,545 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-20 14:51:08,546 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-20 14:51:08,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-20 14:51:08,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-20 14:51:08,551 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-20 14:51:08,552 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-20 14:51:08,553 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-20 14:51:08,554 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-20 14:51:08,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-20 14:51:08,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-20 14:51:08,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-20 14:51:08,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-20 14:51:08,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-20 14:51:08,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-20 14:51:08,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-20 14:51:08,567 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-20 14:51:08,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-20 14:51:08,568 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-20 14:51:08,569 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-20 14:51:08,570 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-20 14:51:08,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-20 14:51:08,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-20 14:51:08,572 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-20 14:51:08,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-20 14:51:08,573 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-20 14:51:08,574 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-20 14:51:08,575 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-20 14:51:08,576 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-20 14:51:08,577 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-20 14:51:08,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-20 14:51:08,578 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-20 14:51:08,579 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-20 14:51:08,580 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-04-20 14:54:09,197 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-20 14:54:10,288 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-20 14:54:10,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-20 14:54:10,298 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-20 14:54:10,336 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:54:10,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:54:10,337 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:54:10,337 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-20 14:54:11,540 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-20 14:54:11,545 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-20 14:54:11,546 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-20 14:54:11,553 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-20 14:54:11,553 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-04-20 14:54:11,620 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-20 14:54:12,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 29 classes defines auto mapping attributes
+DEBUG 2016-04-20 14:54:12,110 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-20 14:54:12,119 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-20 14:54:12,120 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-20 14:54:12,124 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-20 14:54:12,126 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-20 14:54:12,127 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-20 14:54:12,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-20 14:54:12,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-20 14:54:12,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-20 14:54:12,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-04-20 14:54:12,134 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-20 14:54:12,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-04-20 14:54:12,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-20 14:54:12,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-20 14:54:12,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-20 14:54:12,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-20 14:54:12,143 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-20 14:54:12,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-20 14:54:12,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-20 14:54:12,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-20 14:54:12,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-20 14:54:12,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-20 14:54:12,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-20 14:54:12,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-20 14:54:12,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-20 14:54:12,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-20 14:54:12,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-20 14:54:12,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-20 14:54:12,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-20 14:54:12,160 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-20 14:54:12,161 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-20 14:54:12,161 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-20 14:54:12,162 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-20 14:54:12,163 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-20 14:54:12,164 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-20 14:54:12,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-20 14:54:12,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-20 14:54:12,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-20 14:54:12,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-20 14:54:12,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-20 14:54:12,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-20 14:54:12,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-20 14:54:12,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-20 14:54:12,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-20 14:54:12,171 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-20 14:54:12,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-20 14:54:12,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+WARN  2016-04-20 14:54:21,005 [9    ] Abp.Logging.LogHelper                    - Can not find 'HomePage' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:21,006 [9    ] Abp.Logging.LogHelper                    - Can not find 'AboutUs' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:21,020 [9    ] Abp.Logging.LogHelper                    - Can not find 'NewTenant' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:21,020 [9    ] Abp.Logging.LogHelper                    - Can not find 'LogIn' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:22,087 [12   ] Abp.Logging.LogHelper                    - Can not find 'Administration' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:22,092 [12   ] Abp.Logging.LogHelper                    - Can not find 'HomePage' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:22,093 [12   ] Abp.Logging.LogHelper                    - Can not find 'AboutUs' in localization source 'Taskever'!
+WARN  2016-04-20 14:54:22,096 [12   ] Abp.Logging.LogHelper                    - Can not find 'Administration' in localization source 'Taskever'!
