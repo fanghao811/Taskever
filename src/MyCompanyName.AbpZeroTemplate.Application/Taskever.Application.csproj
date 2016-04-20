@@ -121,8 +121,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbpZeroTemplateApplicationModule.cs" />
-    <Compile Include="AbpZeroTemplateAppServiceBase.cs" />
+    <Compile Include="TaskeverApplicationModule.cs" />
+    <Compile Include="TaskeverAppServiceBase.cs" />
     <Compile Include="AppConsts.cs" />
     <Compile Include="Auditing\AuditLogAndUser.cs" />
     <Compile Include="Auditing\Dto\AuditLogListDto.cs" />

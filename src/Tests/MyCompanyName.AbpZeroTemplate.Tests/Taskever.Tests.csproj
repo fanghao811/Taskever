@@ -140,7 +140,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbpZeroTemplateTestModule.cs" />
+    <Compile Include="TaskeverTestModule.cs" />
     <Compile Include="AppTestBase.cs" />
     <Compile Include="Auditing\AuditLogAppService_Tests.cs" />
     <Compile Include="Authorization\Roles\RoleAppService_Tests.cs" />

@@ -28,7 +28,7 @@
         var source = abp.localization.values[sourceName];
 
         if (!source) {
-            abp.log.warn('Could not find localization source: ' + sourceName);
+            abp.log.warn('Could not find localization source: ' + sourceName);B
             return key;
         }
 

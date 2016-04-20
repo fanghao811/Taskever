@@ -107,8 +107,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EntityFramework\AbpZeroTemplateDbContext.cs" />
-    <Compile Include="EntityFramework\Repositories\AbpZeroTemplateRepositoryBase.cs" />
+    <Compile Include="EntityFramework\TaskeverDbContext.cs" />
+    <Compile Include="EntityFramework\Repositories\TaskeverRepositoryBase.cs" />
     <Compile Include="Migrations\201501041229232_InitialCreate.cs" />
     <Compile Include="Migrations\201501041229232_InitialCreate.Designer.cs">
       <DependentUpon>201501041229232_InitialCreate.cs</DependentUpon>
@@ -266,7 +266,7 @@
       <DependentUpon>201603101127455_Upgrated_To_Module_Zero_0_8_3.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="AbpZeroTemplateDataModule.cs" />
+    <Compile Include="TaskeverDataModule.cs" />
     <Compile Include="Migrations\Seed\DefaultEditionCreator.cs" />
     <Compile Include="Migrations\Seed\DefaultLanguagesCreator.cs" />
     <Compile Include="Migrations\Seed\DefaultSettingsCreator.cs" />
