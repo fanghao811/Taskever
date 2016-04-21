@@ -6,12 +6,17 @@ namespace Taskever.Web.Navigation
         {
             public static class Common
             {
+                //系统管理
                 public const string Administration = "Administration";
                 public const string Roles = "Administration.Roles";
                 public const string Users = "Administration.Users";
                 public const string AuditLogs = "Administration.AuditLogs";
                 public const string OrganizationUnits = "Administration.OrganizationUnits";
                 public const string Languages = "Administration.Languages";
+                public const string ChatHub = "Administration.ChatHub";
+                //人事管理
+                public const string HumanResources = "HumanResources";
+                public const string People = "HumanResources.People";
             }
 
             public static class Host

@@ -11,7 +11,7 @@
             };
 
             vm.getDurationAsMs = function() {
-                return app.localize('Xms', vm.auditLog.executionDuration);
+                return app.localize('Xms', vm.auditLog.executionDuration);               
             };
 
             vm.getFormattedParameters = function() {

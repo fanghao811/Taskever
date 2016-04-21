@@ -119,14 +119,7 @@
                 });
             };
 
-            vm.showLoginAttempts = function () {
-                $uibModal.open({
-                    templateUrl: '~/App/common/views/users/loginAttemptsModal.cshtml',
-                    controller: 'common.views.users.loginAttemptsModal as vm',
-                    backdrop: 'static'
-                });
-            };
-
+            //定义消息全局接受处理事件，在Commom.js app.UserNotificationHelper的setAsRead方法中触发(trigger)
             abp.event.on('abp.notifications.received', function (userNotification) {
                 appUserNotificationHelper.show(userNotification);
                 vm.loadNotifications();

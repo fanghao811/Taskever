@@ -1,7 +1,7 @@
 ﻿(function () {
     appModule.controller('host.views.tenants.index', [
-        '$scope', '$stateParams', '$uibModal', 'uiGridConstants', 'abp.services.app.tenant', 'abp.services.app.commonLookup', 'lookupModal',
-        function ($scope, $stateParams, $uibModal, uiGridConstants, tenantService, commonLookupService, lookupModal) {
+        '$scope', '$uibModal', 'uiGridConstants', 'abp.services.app.tenant', 'abp.services.app.commonLookup', 'lookupModal',
+        function ($scope, $uibModal, uiGridConstants, tenantService, commonLookupService, lookupModal) {
             var vm = this;
 
             $scope.$on('$viewContentLoaded', function () {
@@ -9,7 +9,7 @@
             });
 
             vm.loading = false;
-            vm.filterText = $stateParams.filterText || null;
+            vm.filterText = null;
 
             vm.permissions = {
                 create: abp.auth.hasPermission('Pages.Tenants.Create'),
@@ -105,22 +105,22 @@
                 vm.tenantGridOptions.columnDefs.shift();
             }
 
-            vm.getTenants = function () {
+            vm.getTenants = function() {
                 vm.loading = true;
                 tenantService.getTenants({
                     skipCount: requestParams.skipCount,
                     maxResultCount: requestParams.maxResultCount,
                     sorting: requestParams.sorting,
                     filter: vm.filterText
-                }).success(function (data) {
+                }).success(function(data) {
                     vm.tenantGridOptions.totalItems = data.totalCount;
                     vm.tenantGridOptions.data = data.items;
-                }).finally(function () {
+                }).finally(function() {
                     vm.loading = false;
                 });
             };
 
-            vm.impersonate = function (tenant) {
+            vm.impersonate = function(tenant) {
                 lookupModal.open({
                     title: app.localize('SelectAUser'),
                     serviceMethod: commonLookupService.findUsers,

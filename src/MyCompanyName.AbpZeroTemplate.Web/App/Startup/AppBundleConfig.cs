@@ -17,6 +17,7 @@ namespace Taskever.Web.App.Startup
                     .Include(
                         ScriptPaths.Json2,
                         ScriptPaths.JQuery,
+                        //ScriptPaths.JQuery_UI,
                         ScriptPaths.JQuery_Migrate,
                         ScriptPaths.Bootstrap,
                         ScriptPaths.Bootstrap_Hover_Dropdown,
@@ -24,14 +25,12 @@ namespace Taskever.Web.App.Startup
                         ScriptPaths.JQuery_BlockUi,
                         ScriptPaths.JQuery_Cookie,
                         ScriptPaths.JQuery_Uniform,
+                        ScriptPaths.JQuery_Mousewheel,
+                        ScriptPaths.JQuery_mCustomScrollbar,
                         ScriptPaths.SignalR,
                         ScriptPaths.Morris,
                         ScriptPaths.Morris_Raphael,
                         ScriptPaths.JQuery_Sparkline,
-                        ScriptPaths.JQuery_Color,
-                        ScriptPaths.JQuery_Jcrop,
-                        ScriptPaths.JQuery_Mousewheel,
-                        ScriptPaths.JQuery_mCustomScrollbar,
                         ScriptPaths.JsTree,
                         ScriptPaths.Bootstrap_Switch,
                         ScriptPaths.SpinJs,
@@ -109,7 +108,6 @@ namespace Taskever.Web.App.Startup
                     .Include(StylePaths.Bootstrap_DateRangePicker)
                     .Include(StylePaths.Bootstrap_Select)
                     .Include(StylePaths.Bootstrap_Switch)
-                    .Include(StylePaths.JQuery_Jcrop)
                     .Include(StylePaths.JQuery_mCustomScrollbar)
                     .ForceOrdered()
                 );

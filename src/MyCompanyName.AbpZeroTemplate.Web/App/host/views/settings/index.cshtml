@@ -25,47 +25,6 @@
                     </div>
                 </uib-tab>
 
-                <uib-tab heading="@L("TenantManagement")">
-                    <div>
-                        <h4>@L("FormBasedRegistration")</h4>
-                        <div class="md-checkbox-list">
-                            <div class="md-checkbox">
-                                <input id="Setting_AllowSelfRegistration" class="md-check" type="checkbox" name="AllowSelfRegistration" ng-model="vm.settings.tenantManagement.allowSelfRegistration">
-                                <label for="Setting_AllowSelfRegistration">
-                                    <span class="inc"></span>
-                                    <span class="check"></span>
-                                    <span class="box"></span>
-                                    @L("AllowTenantsToRegisterThemselves")
-                                </label>
-                                <span class="help-block">@L("AllowTenantsToRegisterThemselves_Hint")</span>
-                            </div>
-                            <div class="md-checkbox" ng-show="vm.settings.tenantManagement.allowSelfRegistration">
-                                <input id="Setting_IsNewRegisteredTenantActiveByDefault" class="md-check" type="checkbox" name="IsNewRegisteredTenantActiveByDefault" ng-model="vm.settings.tenantManagement.isNewRegisteredTenantActiveByDefault">
-                                <label for="Setting_IsNewRegisteredTenantActiveByDefault">
-                                    <span class="inc"></span>
-                                    <span class="check"></span>
-                                    <span class="box"></span>
-                                    @L("NewRegisteredTenantsIsActiveByDefault")
-                                </label>
-                                <span class="help-block">@L("NewRegisteredTenantsIsActiveByDefault_Hint")</span>
-                            </div>
-                            <div class="md-checkbox" ng-show="vm.settings.tenantManagement.allowSelfRegistration">
-                                <input id="Setting_UseCaptchaOnRegistration" class="md-check" type="checkbox" name="UseCaptchaOnRegistration" ng-model="vm.settings.tenantManagement.useCaptchaOnRegistration">
-                                <label for="Setting_UseCaptchaOnRegistration">
-                                    <span class="inc"></span>
-                                    <span class="check"></span>
-                                    <span class="box"></span>
-                                    @L("UseCaptchaOnRegistration")
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form-group form-md-line-input form-md-floating-label no-hint">
-                            <select id="TenantEditionSelectionCombobox" class="form-control edited" ng-options="vm.getEditionValue(item) as item.displayText for item in vm.editions" ng-model="vm.settings.tenantManagement.defaultEditionId"></select>
-                            <label for="TenantEditionSelectionCombobox">@L("Edition")</label>
-                        </div>
-                    </div>
-                </uib-tab>
-
                 <uib-tab heading="@L("UserManagement")">
                     <div class="md-checkbox-list">
                         <div class="md-checkbox">
@@ -135,19 +94,6 @@
                     <div class="form-group form-md-line-input form-md-floating-label no-hint" ng-show="!vm.settings.email.smtpUseDefaultCredentials">
                         <input type="password" name="SmtpPassword" class="form-control" ng-class="{'edited':vm.settings.email.smtpPassword}" ng-model="vm.settings.email.smtpPassword" maxlength="128">
                         <label>@L("Password")</label>
-                    </div>
-
-                    <hr />
-
-                    <h4>@L("TestEmailSettingsHeader")</h4>
-
-                    <div class="row">
-                        <div class="form-group form-md-line-input has-info form-md-floating-label col-md-4">
-                            <input type="text" class="form-control input-sm" ng-model="vm.testEmailAddress">
-                        </div>
-                        <div class="form-group form-md-line-input col-md-2">
-                            <button class="btn green-haze" type="button" ng-click="vm.sendTestEmail()">@L("SendTestEmail")</button>
-                        </div>
                     </div>
                 </uib-tab>
             </uib-tabset>

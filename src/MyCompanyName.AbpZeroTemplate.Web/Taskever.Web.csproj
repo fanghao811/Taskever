@@ -316,7 +316,6 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css" />
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
-    <Content Include="App\common\directives\enterKey.js" />
     <Content Include="App\common\services\appUserNotificationHelper.js" />
     <Content Include="App\common\views\auditLogs\detailModal.css">
       <DependentUpon>detailModal.less</DependentUpon>
@@ -557,9 +556,6 @@
     <Content Include="App\common\views\users\createOrEditModal.js" />
     <Content Include="App\common\views\users\index.js" />
     <Content Include="App\common\views\users\permissionsModal.js" />
-    <Content Include="App\common\directives\autoFocus.js" />
-    <Content Include="App\common\directives\busyIf.js" />
-    <Content Include="App\common\directives\buttonBusy.js" />
     <Content Include="App\common\filters\momentjs-filters.js" />
     <Content Include="App\common\services\appSession.js" />
     <Content Include="App\common\views\welcome\index.js" />

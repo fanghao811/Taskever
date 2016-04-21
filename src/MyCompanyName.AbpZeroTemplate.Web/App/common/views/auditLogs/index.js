@@ -84,14 +84,15 @@
                         minWidth: 200
                     },
                     {
+                        //name: app.localize('Duration'),
                         name: app.localize('Duration'),
                         field: 'executionDuration',
-                        width: 80,
+                        width: 120,
                         cellTemplate:
                             '<div class=\"ui-grid-cell-contents\">' +
-                                app.localize('Xms', '{{COL_FIELD CUSTOM_FILTERS}}') +
+                                app.localize('Xms', '{{COL_FIELD}}') +
                                 '</div>'
-                    },
+                                },
                     {
                         name: app.localize('IpAddress'),
                         field: 'clientIpAddress',

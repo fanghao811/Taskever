@@ -16,28 +16,45 @@ namespace Taskever.Web.App.Startup
         public override void SetNavigation(INavigationProviderContext context)
         {
             context.Manager.MainMenu
-                .AddItem(new MenuItemDefinition(
+                .AddItem(new MenuItemDefinition(//租户管理
                     PageNames.App.Host.Tenants,
                     L("Tenants"),
                     url: "host.tenants",
                     icon: "icon-globe",
                     requiredPermissionName: AppPermissions.Pages_Tenants
                     )
-                ).AddItem(new MenuItemDefinition(
+                ).AddItem(new MenuItemDefinition(//版本编辑
                     PageNames.App.Host.Editions,
                     L("Editions"),
                     url: "host.editions",
                     icon: "icon-grid",
                     requiredPermissionName: AppPermissions.Pages_Editions
                     )
-                ).AddItem(new MenuItemDefinition(
+                ).AddItem(new MenuItemDefinition(//工作台面板
                     PageNames.App.Tenant.Dashboard,
                     L("Dashboard"),
                     url: "tenant.dashboard",
                     icon: "icon-home",
                     requiredPermissionName: AppPermissions.Pages_Tenant_Dashboard
                     )
-                ).AddItem(new MenuItemDefinition(
+                ).AddItem(new MenuItemDefinition(//人事管理
+                    PageNames.App.Common.HumanResources,
+                    L("HumanResource"),
+                    icon: "fa fa-home"
+                    ).AddItem(new MenuItemDefinition(
+                        PageNames.App.Common.People,
+                        L("People"),
+                        url:"people",
+                        icon:"fa fa-home"
+                        )
+                    )                      
+                ).AddItem(new MenuItemDefinition(//SignalR测试
+                    PageNames.App.Common.ChatHub,
+                    L("chatHub"),
+                    url: "chatHub",
+                    icon: "fa fa-commenting"
+                    )
+                ).AddItem(new MenuItemDefinition(//系统管理
                     PageNames.App.Common.Administration,
                     L("Administration"),
                     icon: "icon-wrench"
@@ -77,14 +94,6 @@ namespace Taskever.Web.App.Startup
                         requiredPermissionName: AppPermissions.Pages_Administration_AuditLogs
                         )
                     ).AddItem(new MenuItemDefinition(
-                        PageNames.App.Host.Maintenance,
-                        L("Maintenance"),
-                        url: "host.maintenance",
-                        icon: "icon-wrench",
-                        requiredPermissionName: AppPermissions.Pages_Administration_Host_Maintenance
-                        )
-                    )
-                    .AddItem(new MenuItemDefinition(
                         PageNames.App.Host.Settings,
                         L("Settings"),
                         url: "host.settings",

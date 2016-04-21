@@ -122,6 +122,22 @@ appModule.config([
             templateUrl: '~/App/common/views/notifications/index.cshtml'
         });
 
+
+        //chatHub
+
+        $stateProvider.state('chatHub', {
+            url: '/chatHub',
+            templateUrl: '~/App/common/views/chatHub/index.cshtml',
+            menu: 'HumanResources.People'
+        });
+
+        //HumanResources
+
+        $stateProvider.state('people', {
+            url: '/people',
+            templateUrl: '~/App/common/views/HR/people/index.cshtml'
+        });
+
         //HOST routes
 
         $stateProvider.state('host', {
@@ -133,7 +149,7 @@ appModule.config([
         if (abp.auth.hasPermission('Pages.Tenants')) {
             $urlRouterProvider.otherwise("/host/tenants"); //Entrance page for the host
             $stateProvider.state('host.tenants', {
-                url: '/tenants?filterText',
+                url: '/tenants',
                 templateUrl: '~/App/host/views/tenants/index.cshtml',
                 menu: 'Tenants'
             });
@@ -144,14 +160,6 @@ appModule.config([
                 url: '/editions',
                 templateUrl: '~/App/host/views/editions/index.cshtml',
                 menu: 'Editions'
-            });
-        }
-
-        if (abp.auth.hasPermission('Pages.Administration.Host.Maintenance')) {
-            $stateProvider.state('host.maintenance', {
-                url: '/maintenance',
-                templateUrl: '~/App/host/views/maintenance/index.cshtml',
-                menu: 'Administration.Maintenance'
             });
         }
 
@@ -190,16 +198,9 @@ appModule.config([
     }
 ]);
 
-appModule.run(["$rootScope", "settings", "$state", 'i18nService', function ($rootScope, settings, $state, i18nService) {
+appModule.run(["$rootScope", "settings", "$state", function ($rootScope, settings, $state) {
     $rootScope.$state = $state;
     $rootScope.$settings = settings;
-
-    //Set Ui-Grid language
-    if (i18nService.get(abp.localization.currentCulture.name)) {
-        i18nService.setCurrentLang(abp.localization.currentCulture.name);
-    } else {
-        i18nService.setCurrentLang("en");
-    }
 
     $rootScope.safeApply = function (fn) {
         var phase = this.$root.$$phase;

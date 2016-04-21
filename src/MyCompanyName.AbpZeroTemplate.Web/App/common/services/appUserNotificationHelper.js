@@ -35,9 +35,7 @@
                     switch (userNotification.notification.notificationName) {
                         case 'App.NewUserRegistered':
                             return '#/users?filterText=' + userNotification.notification.data.properties.emailAddress;
-                        case 'App.NewTenantRegistered':
-                            return '#/host/tenants?filterText=' + userNotification.notification.data.properties.tenancyName;
-                            //Add your custom notification names to navigate to a URL when user clicks to a notification.
+                        //Add your custom notification names to navigate to a URL when user clicks to a notification.
                     }
 
                     //No url for this notification

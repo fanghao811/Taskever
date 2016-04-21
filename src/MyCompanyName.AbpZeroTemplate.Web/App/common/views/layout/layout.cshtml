@@ -22,7 +22,7 @@
 
     <link rel="shortcut icon" href="~/favicon.ico" />
 
-    <link href="~/Content/fonts-open-sans.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
 
     @Styles.Render("~/Bundles/App/libs/css" + (CultureHelper.IsRtl ? "RTL" : ""))
     <link id="ng_load_plugins_before" />
@@ -97,6 +97,8 @@
     <!-- SignalR scripts -->
     <script src="~/signalr/hubs"></script>
     @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
+
+
 
     @Scripts.Render("~/Bundles/App/metronic/js")
     @Scripts.Render("~/Bundles/Common/js")
