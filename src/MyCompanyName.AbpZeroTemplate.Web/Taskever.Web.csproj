@@ -1068,6 +1068,11 @@
     <Content Include="libs\json2\json2.min.js" />
     <Content Include="libs\jstree\themes\default\32px_line.png" />
     <Content Include="libs\jstree\themes\default\32px_original.png" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\jquery.mCustomScrollbar.css" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\jquery.mCustomScrollbar.js" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\jquery.mCustomScrollbar.min.css" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\mCSB_buttons.png" />
     <Content Include="libs\morris\examples\area-as-line.html" />
     <Content Include="libs\morris\examples\area.html" />
     <Content Include="libs\morris\examples\bar-colors.html" />
@@ -1977,6 +1982,8 @@
     <Content Include="App\common\views\users\loginAttemptsModal.less" />
     <Content Include="Areas\Mpa\Views\Users\_LoginAttemptsModal.cshtml" />
     <Content Include="Areas\Mpa\Views\Users\_LoginAttemptsModal.less" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\.bower.json" />
+    <Content Include="libs\malihu-custom-scrollbar-plugin\bower.json" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -2724,6 +2731,7 @@
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />
+    <Content Include="Scripts\jquery.mousewheel.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />

@@ -24,6 +24,8 @@ namespace Taskever.Web.Bundling
         public const string JQuery_Bootstrap_Switch = "~/libs/bootstrap-switch/js/bootstrap-switch.min.js";
         public const string JQuery_Color = "~/libs/jcrop/js/jquery.color.js";
         public const string JQuery_Jcrop = "~/libs/jcrop/js/jquery.Jcrop.min.js";
+        public const string JQuery_Mousewheel = "~/Scripts/jquery.mousewheel.min.js";
+        public const string JQuery_mCustomScrollbar = "~/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js";
 
         public const string Bootstrap = "~/libs/bootstrap/js/bootstrap.min.js";
         public const string Bootstrap_Hover_Dropdown = "~/libs/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js";

@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <localizationDictionary culture="zh-CN">
-  <texts>
+  <texts><!--增加新项后需要重新编译运行-->
     <text name="HomePage" value="主页" />
     <text name="AboutUs" value="关于我们" />
-    <text name="Administration" value="管理" />
+    <text name="Administration" value="系统管理" />
+    <text name="OrganizationUnits" value="组织机构" />   
     <text name="Roles" value="角色" />
     <text name="Users" value="用户" />
     <text name="InvalidFormMessage" value="部分输入信息不符合要求，请检查并改正." />
@@ -147,10 +148,10 @@
     <text name="ExportToExcel" value="导出到Excel" />
     <text name="ChangeProfilePicture" value="修改头像" />
     <text name="TenantName_Regex_Description" value="租户名称必须由2个以上字母、数字、-、_组成,以字母开头" />
-    <text name="ProfilePicture_Change_Info" value="只能选择1mb内的JPG/JPEG/PNG图片." />
+    <text name="ProfilePicture_Change_Info" value="只能选择30k内的JPG/JPEG图片." />
     <text name="ProfilePicture_Change_Error" value="头像修改错误." />
-    <text name="ProfilePicture_Warn_SizeLimit" value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." />
-    <text name="ProfilePicture_Warn_FileType" value="只能选择1mb内的JPG/JPEG图片，请重新选择头像文件." />
+    <text name="ProfilePicture_Warn_SizeLimit" value="只能选择30k内的JPG/JPEG图片，请重新选择头像文件." />
+    <text name="ProfilePicture_Warn_FileType" value="只能选择30k内的JPG/JPEG图片，请重新选择头像文件." />
     <text name="Dashboard" value="工作台" />
     <text name="DashboardHeaderInfo" value="分析与报告" />
     <text name="GoToApplication" value="登录系统" />
@@ -280,5 +281,21 @@
     <text name="LookingForMpaVersion" value="查找多页面应用版本号" />
     <text name="LookingForSpaVersion" value="查找单页面应用版本号" />
     <text name="ThisLanguageAlreadyExists" value="这种语言已经存在!" />
+    <!--2016-3-17 organization tree-->
+    <text name="OrganizationTree" value="组织机构树" />
+    <text name="AddRootUnit" value="增加根节点" />
+    <text name="Members" value="用户列表" />
+    <text name="AddMember" value="增加用户" />
+    <text name="SelectAnOrganizationUnitToSeeMembers" value="选中查看用户列表" />
+
+    <text name="NotificationSettings" value="通知设置" />
+    <text name="NotificationTypes" value="通知类型" />
+    <text name="HeroDegreeUp" value="英雄升级" />
+    <text name="impleMessage" value="简单测试消息" />
+    <text name="WelcomeToTheApplication" value="登入欢迎语" />
+    <text name="ReceiveNotifications_Definition" value="是否开启通知消息接收" />
+    <!--2016-4-5 organization tree-->
+    <text name="HumanResource" value="人事管理" /> 
+    <text name="People" value="人员信息" /> 
   </texts>
 </localizationDictionary>

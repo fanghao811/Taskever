@@ -19,5 +19,6 @@ namespace Taskever.Web.Bundling
         public const string Bootstrap_Switch = "~/libs/bootstrap-switch/css/bootstrap-switch.min.css";
         public const string JQuery_jTable_Theme = "~/libs/jquery-jtable/themes/metro/blue/jtable.min.css";
         public const string JQuery_Jcrop = "~/libs/jcrop/css/jquery.Jcrop.min.css";
+        public const string JQuery_mCustomScrollbar = "~/libs/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css";
     }
 }
