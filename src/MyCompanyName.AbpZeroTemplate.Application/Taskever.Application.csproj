@@ -121,6 +121,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="People\Dtos\CreateOrUpdatePersonInput.cs" />
+    <Compile Include="People\Dtos\DelPersonInput.cs" />
+    <Compile Include="People\Dtos\GetAllPeopleOutput.cs" />
+    <Compile Include="People\Dtos\GetPeopleInput.cs" />
+    <Compile Include="People\Dtos\PersonEditDto.cs" />
+    <Compile Include="People\Dtos\PersonListDto.cs" />
+    <Compile Include="People\IPersonAppService.cs" />
+    <Compile Include="People\PersonAppService.cs" />
     <Compile Include="TaskeverApplicationModule.cs" />
     <Compile Include="TaskeverAppServiceBase.cs" />
     <Compile Include="AppConsts.cs" />

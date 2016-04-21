@@ -92,6 +92,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="People\Emun\Gender.cs" />
+    <Compile Include="People\Emun\PhoneNumberType.cs" />
+    <Compile Include="People\IPersonRepository.cs" />
+    <Compile Include="People\Person.cs" />
+    <Compile Include="People\PersonPhone.cs" />
     <Compile Include="TaskeverConsts.cs" />
     <Compile Include="TaskeverCoreModule.cs" />
     <Compile Include="TaskeverDomainServiceBase.cs" />

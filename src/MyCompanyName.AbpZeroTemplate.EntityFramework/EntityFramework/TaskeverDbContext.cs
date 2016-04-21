@@ -5,6 +5,7 @@ using Taskever.Authorization.Roles;
 using Taskever.Authorization.Users;
 using Taskever.MultiTenancy;
 using Taskever.Storage;
+using Taskever.People;
 
 namespace Taskever.EntityFramework
 {
@@ -13,6 +14,8 @@ namespace Taskever.EntityFramework
         /* Define an IDbSet for each entity of the application */
 
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
+        public virtual IDbSet<Person> People { get; set; }
+        public virtual IDbSet<PersonPhone> PersonPhones { get; set; }
 
         /* Setting "Default" to base class helps us when working migration commands on Package Manager Console.
          * But it may cause problems when working Migrate.exe of EF. ABP works either way.         * 

@@ -265,6 +265,10 @@
     <Compile Include="Migrations\201603101127455_Upgrated_To_Module_Zero_0_8_3.Designer.cs">
       <DependentUpon>201603101127455_Upgrated_To_Module_Zero_0_8_3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201604210731347_Added_model_person.cs" />
+    <Compile Include="Migrations\201604210731347_Added_model_person.Designer.cs">
+      <DependentUpon>201604210731347_Added_model_person.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TaskeverDataModule.cs" />
     <Compile Include="Migrations\Seed\DefaultEditionCreator.cs" />
@@ -395,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201603101127455_Upgrated_To_Module_Zero_0_8_3.resx">
       <DependentUpon>201603101127455_Upgrated_To_Module_Zero_0_8_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604210731347_Added_model_person.resx">
+      <DependentUpon>201604210731347_Added_model_person.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
