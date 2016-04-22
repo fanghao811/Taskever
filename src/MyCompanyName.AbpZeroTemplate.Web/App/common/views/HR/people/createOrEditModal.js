@@ -7,7 +7,13 @@
             vm.saving = false;
             vm.loading = false;
 
-            vm.person = null;
+            vm.person = {
+                id:0,
+                name: '',
+                birthDate: '1987-08-11',
+                gender: null,
+                nationalIDNumber: ''
+            };
 
             //Methords
             vm.save = function () {//TODO: 新增人员

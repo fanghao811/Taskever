@@ -1,12 +1,12 @@
-﻿(function () {
-    'use strict';
-    
+(function () {
+    angular.module('app')
+
         // =========================================================================
         // MALIHU SCROLL
         // =========================================================================
 
-        //On Custom Class --mCustomScorall directive
-    appModule.directive('cOverflow', ['scrollService', function (scrollService) {
+        //On Custom Class
+        .directive('cOverflow', ['scrollService', function (scrollService) {
             return {
                 restrict: 'C',
                 link: function (scope, element) {
@@ -17,6 +17,32 @@
                 }
             }
         }])
+
+        // =========================================================================
+        // WAVES
+        // =========================================================================
+
+        // For .btn classes
+        .directive('btn', function () {
+            return {
+                restrict: 'C',
+                link: function (scope, element) {
+                    if (element.hasClass('btn-icon') || element.hasClass('btn-float')) {
+                        Waves.attach(element, ['waves-circle']);
+                    }
+
+                    else if (element.hasClass('btn-light')) {
+                        Waves.attach(element, ['waves-light']);
+                    }
+
+                    else {
+                        Waves.attach(element);
+                    }
+
+                    Waves.init();
+                }
+            }
+        })
 
 
         // =========================================================================
@@ -38,103 +64,23 @@
         // =========================================================================
 
         .directive('enterKey', [
-        function () {
-            return function (scope, element, attrs) {
-                element.bind("keydown keypress", function (event) {
-                    if (event.which === 13) {
-                        scope.$apply(function () {
-                            scope.$eval(attrs.enterKey);
-                        });
+            function () {
+                return function (scope, element, attrs) {
+                    element.bind("keydown keypress", function (event) {
+                        if (event.which === 13) {
+                            scope.$apply(function () {
+                                scope.$eval(attrs.enterKey);
+                            });
 
-                        event.preventDefault();
-                    }
-                });
-            };
-        }])
-
-
-        // =========================================================================
-        // ButtonBusy
-        // =========================================================================
-
-        .directive('buttonBusy', function () {
-            return {
-                restrict: 'A',
-                scope: {
-                    buttonBusy: '='
-                },
-                link: function ($scope, element, attrs) {
-
-                    var disabledBefore = false;
-                    var $button = $(element);
-                    var $buttonInnerSpan = $button.find('span');
-                    var buttonOriginalText = null;
-
-                    var $icon = $button.find('i');
-                    var iconOriginalClasses = null;
-
-                    $scope.$watch('buttonBusy', function () {
-                        if ($scope.buttonBusy) {
-                            //disable button
-                            $button.attr('disabled', 'disabled');
-                            //change icon
-                            if ($icon.length) {
-                                iconOriginalClasses = $icon.attr('class');
-                                $icon.removeClass();
-                                $icon.addClass('fa fa-spin fa-spinner');
-                            }
-                            //change text
-                            if (attrs.busyText && $buttonInnerSpan.length) {
-                                buttonOriginalText = $buttonInnerSpan.html();
-                                $buttonInnerSpan.html(attrs.busyText);
-                            }
-
-                            disabledBefore = true;
-                        } else {
-                            if (!disabledBefore) {
-                                return;
-                            }
-
-                            //enable button
-                            $button.removeAttr('disabled');
-                            //restore icon
-                            if ($icon.length && iconOriginalClasses) {
-                                $icon.removeClass();
-                                $icon.addClass(iconOriginalClasses);
-                            }
-                            //restore text
-                            if ($buttonInnerSpan.length && buttonOriginalText) {
-                                $buttonInnerSpan.html(buttonOriginalText);
-                            }
+                            event.preventDefault();
                         }
                     });
-                }
-            };
-        })
-
-
-        // =========================================================================
-        // BusyIf
-        // =========================================================================
-
-        .directive('busyIf', [
-            function () {
-                return {
-                    restrict: 'A',
-                    scope: {
-                        busyIf: "="
-                    },
-                    link: function (scope, element, attrs) {
-                        scope.$watch('busyIf', function () {
-                            if (scope.busyIf) {
-                                abp.ui.setBusy($(element));
-                            } else {
-                                abp.ui.clearBusy($(element));
-                            }
-                        });
-                    }
                 };
             }
         ])
+
+
+
+
 
 })();

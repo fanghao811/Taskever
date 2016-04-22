@@ -8,7 +8,7 @@ General reset
 /* Set default body */
 body {
   color: #333333;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans","Microsoft YaHei","Î¢ÈíÑÅºÚ", sans-serif;
   padding: 0px !important;
   margin: 0px !important;
   direction: "ltr";
@@ -912,7 +912,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans","Microsoft YaHei";
   font-weight: 300; }
 
 h1 {
@@ -1034,7 +1034,7 @@ Utilities
   display: none !important; }
 
 .primary-font {
-  font-family: "Open Sans", sans-serif !important; }
+  font-family: "Open Sans","Microsoft YaHei" !important; }
 
 .bold {
   font-weight: 700 !important; }
@@ -5612,7 +5612,7 @@ Charts and statistics
   overflow: hidden;
   height: 300px;
   width: 100%;
-  font-family: "Open Sans", sans-serif !important;
+  font-family: "Open Sans","Microsoft YaHei" !important;
   font-size: 14px; }
 
 /***
@@ -7102,7 +7102,7 @@ Customized Bootstrap Labels
   font-weight: 300;
   padding: 3px 6px 3px 6px;
   color: #fff;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans","Microsoft YaHei"; }
   .label.label-sm {
     font-size: 13px;
     padding: 2px 5px 2px 5px; }
@@ -7571,7 +7571,7 @@ body[ng-controller] .modal {
   border-radius: 2px;
   border: 0; }
   .modal .modal-content .modal-title {
-    font-weight: 400; }
+    font-weight: 500; }
   .modal .modal-content .modal-footer {
     border: 0; }
 
@@ -13271,7 +13271,7 @@ Light Table
     font-weight: 600;
     font-size: 13px;
     color: #93a2a9;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans","Microsoft YaHei";
     border: 0;
     border-bottom: 1px solid #F2F5F8; }
   .table.table-light > tbody > tr:last-child > td {
@@ -19706,6 +19706,7 @@ Custom color buttons
 .border-right-grey-mint {
   border-right-color: #525e64 !important; }
 
+
 .bg-red {
   background: #e7505a !important; }
 
@@ -20450,3 +20451,14 @@ Color library demo
     border-top: 1px solid #eee;
     padding: 10px 10px;
     text-align: center; }
+
+/***
+Add 2016-4-21 
+***/
+.bg-teal {
+    background-color: #009688 !important;
+}
+
+.modal-header h4{
+    color: #FFF !important;
+}

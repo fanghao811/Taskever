@@ -316,7 +316,13 @@
     <Content Include="Abp\Framework\styles\abp.mixings.css" />
     <Content Include="Abp\Framework\styles\abp.mixings.min.css" />
     <Content Include="Abp\Framework\styles\utils\ie10fix.css" />
+    <Content Include="App\common\directives\form.js" />
+    <Content Include="App\common\directives\template.js" />
+    <Content Include="App\common\directives\ui.js" />
+    <Content Include="App\common\filters\mapGender-filters.js" />
+    <Content Include="App\common\services\appNotifyService.js" />
     <Content Include="App\common\services\appUserNotificationHelper.js" />
+    <Content Include="App\common\services\services.js" />
     <Content Include="App\common\views\auditLogs\detailModal.css">
       <DependentUpon>detailModal.less</DependentUpon>
     </Content>
