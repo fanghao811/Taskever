@@ -1,5 +1,5 @@
 (function () {
-    angular.module('app')
+
 
 
     // =========================================================================
@@ -8,7 +8,7 @@
 
     //Add blue animated border and remove with condition when focus and blur
 
-    .directive('fgLine', function () {
+    appModule.directive('fgLine', function () {
         return {
             restrict: 'C',
             link: function (scope, element) {

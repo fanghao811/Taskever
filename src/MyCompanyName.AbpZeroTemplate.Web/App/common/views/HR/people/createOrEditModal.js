@@ -6,22 +6,45 @@
 
             vm.saving = false;
             vm.loading = false;
+            //4 - 23
+            vm.open = true;
 
             vm.person = {
-                id:0,
-                name: '',
-                birthDate: '1987-08-11',
+                id:null,
+                name:'',
+                birthDate:'',
                 gender: null,
-                nationalIDNumber: ''
+                nationalIDNumber:''
+            };
+
+            // =========================================================================
+            // Datepicker set 
+            // =========================================================================
+            $scope.today = function () {
+                $scope.dt = new Date();
+            };
+            $scope.today();
+
+            $scope.open = function ($event, opened) {
+                $event.preventDefault();
+                $event.stopPropagation();
+                $scope[opened] = true;
+            };
+
+            $scope.dateOptions = {
+                formatYear: 'yy',
+                startingDay: 1
             };
 
             //Methords
             vm.save = function () {//TODO: 新增人员
                 vm.saving = true;
-                personService.createOrUpdatePerson(vm.person)
+                personService.createOrUpdatePerson({
+                    person:vm.person
+                })
                 .success(function () {
                     abp.notify.info(app.localize('SavedSuccessfully'));
-                    $modalInstance.close();
+                    $uibModalInstance.close();
                 }).finally(function () {
                     vm.saving = false;
                 });

@@ -1,11 +1,11 @@
 (function () {
-    angular.module('app')
+
 
     // =========================================================================
     // LAYOUT
     // =========================================================================
 
-    .directive('changeLayout', function () {
+    appModule.directive('changeLayout', function () {
 
         return {
             restrict: 'A',
