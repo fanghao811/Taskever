@@ -1,0 +1,146 @@
+﻿<!-- BEGIN PAGE HEAD-->
+<div class="page-head">
+    <!-- BEGIN PAGE TITLE -->
+    <div class="page-title">
+        <h1>
+            New User Profile | Account
+            <small>user account page</small>
+        </h1>
+    </div>
+    <!-- END PAGE TITLE -->
+</div>
+<!-- END PAGE HEAD-->
+<!-- BEGIN PAGE BREADCRUMB -->
+<ul class="page-breadcrumb breadcrumb">
+    <li>
+        <a href="index.html">员工管理</a>
+        <i class="fa fa-circle"></i>
+    </li>
+    <li>
+        <span class="active">员工信息</span>
+    </li>
+</ul>
+<!-- END PAGE BREADCRUMB -->
+<!-- BEGIN PAGE BASE CONTENT -->
+<div class="row">
+    <div class="col-md-12">
+        <!-- BEGIN PROFILE SIDEBAR -->
+        <div class="profile-sidebar">
+            <!-- PORTLET MAIN -->
+            <div class="portlet light profile-sidebar-portlet bordered">
+                <!-- SIDEBAR USERPIC -->
+                <div class="profile-userpic">
+                    <img src="/Profile/GetProfilePicture?t=635972743631930822" class="img-responsive" alt="">
+                </div>
+                <!-- END SIDEBAR USERPIC -->
+                <!-- SIDEBAR USER TITLE -->
+                <div class="profile-usertitle">
+                    <div class="profile-usertitle-name"> Marcus Doe </div>
+                    <div class="profile-usertitle-job"> Developer </div>
+                </div>
+                <!-- END SIDEBAR USER TITLE -->
+                <!-- SIDEBAR BUTTONS -->
+                <div class="profile-userbuttons">
+                    <button type="button" class="btn btn-circle green btn-sm">Follow</button>
+                    <button type="button" class="btn btn-circle red btn-sm">Message</button>
+                </div>
+                <!-- END SIDEBAR BUTTONS -->
+                <!-- SIDEBAR MENU -->
+                <div class="profile-usermenu">
+                    <ul class="nav">
+                        <li>
+                            <a href="page_user_profile_1.html">
+                                <i class="icon-home"></i> Overview
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="page_user_profile_1_account.html">
+                                <i class="icon-settings"></i> Account Settings
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page_user_profile_1_help.html">
+                                <i class="icon-info"></i> Help
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END MENU -->
+            </div>
+            <!-- END PORTLET MAIN -->
+            <!-- PORTLET MAIN -->
+            <div class="portlet light bordered">
+                <!-- STAT -->
+                <div class="row list-separated profile-stat">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="uppercase profile-stat-title"> 37 </div>
+                        <div class="uppercase profile-stat-text"> Projects </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="uppercase profile-stat-title"> 51 </div>
+                        <div class="uppercase profile-stat-text"> Tasks </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <div class="uppercase profile-stat-title"> 61 </div>
+                        <div class="uppercase profile-stat-text"> Uploads </div>
+                    </div>
+                </div>
+                <!-- END STAT -->
+                <div>
+                    <h4 class="profile-desc-title">About Marcus Doe</h4>
+                    <span class="profile-desc-text"> Lorem ipsum dolor sit amet diam nonummy nibh dolore. </span>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-globe"></i>
+                        <a href="http://www.keenthemes.com">www.keenthemes.com</a>
+                    </div>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-twitter"></i>
+                        <a href="http://www.twitter.com/keenthemes/">@@keenthemes</a>
+                    </div>
+                    <div class="margin-top-20 profile-desc-link">
+                        <i class="fa fa-facebook"></i>
+                        <a href="http://www.facebook.com/keenthemes/">keenthemes</a>
+                    </div>
+                </div>
+            </div>
+            <!-- END PORTLET MAIN -->
+        </div>
+        <!-- END PROFILE SIDEBAR -->
+        <!-- BEGIN PROFILE CONTENT -->
+        <div class="profile-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="portlet light bordered">
+                        <div class="portlet-title tabbable-line">
+                            <div class="caption caption-md">
+                                <i class="icon-globe theme-font hide"></i>
+                                <span class="caption-subject font-blue-madison bold uppercase">Profile Account</span>
+                            </div>
+                            <ul class="nav nav-tabs">
+                                <li class="active">
+                                    <a data-ui-sref="profile.profile-about" data-toggle="tab">基本信息</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_2" data-toggle="tab">任务列表</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_3" data-toggle="tab">时间轴</a>
+                                </li>
+                                <li>
+                                    <a href="#tab_1_4" data-toggle="tab">自定义设置</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="portlet-body">
+                            <div class="tab-content">
+                                <data ui-view></data>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END PROFILE CONTENT -->
+    </div>
+</div>
+<!-- END PAGE BASE CONTENT -->

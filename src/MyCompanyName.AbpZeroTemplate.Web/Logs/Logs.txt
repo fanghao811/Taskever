@@ -5709,3 +5709,305 @@ WARN  2016-04-25 10:32:57,990 [33   ] Abp.Logging.LogHelper                    -
 WARN  2016-04-25 10:32:57,991 [33   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
 WARN  2016-04-25 10:32:57,992 [33   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
 WARN  2016-04-25 10:32:57,994 [33   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-04-26 11:15:32,048 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-26 11:16:03,290 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-26 11:16:03,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,382 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 11:16:03,420 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-26 11:16:03,869 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 11:16:03,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 11:16:03,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 11:16:03,869 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 11:16:16,978 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-26 11:16:16,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-26 11:16:16,984 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-26 11:16:17,032 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-26 11:16:17,096 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-04-26 11:16:17,181 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-26 11:16:18,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 31 classes defines auto mapping attributes
+DEBUG 2016-04-26 11:16:18,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-26 11:16:18,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-26 11:16:18,411 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-26 11:16:18,413 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-26 11:16:18,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-26 11:16:18,414 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-26 11:16:18,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-26 11:16:18,417 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-26 11:16:18,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-26 11:16:18,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-04-26 11:16:18,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-26 11:16:18,421 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-04-26 11:16:18,422 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-26 11:16:18,424 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-26 11:16:18,426 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-26 11:16:18,428 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-26 11:16:18,430 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-26 11:16:18,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-26 11:16:18,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-26 11:16:18,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-04-26 11:16:18,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-04-26 11:16:18,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-26 11:16:18,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-26 11:16:18,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-26 11:16:18,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-26 11:16:18,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-26 11:16:18,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-26 11:16:18,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-26 11:16:18,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-26 11:16:18,443 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-26 11:16:18,444 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-26 11:16:18,451 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-26 11:16:18,451 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-26 11:16:18,452 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-26 11:16:18,453 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-26 11:16:18,454 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-26 11:16:18,454 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-26 11:16:18,455 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-26 11:16:18,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-26 11:16:18,456 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-26 11:16:18,457 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-26 11:16:18,458 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-26 11:16:18,460 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-26 11:16:18,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-26 11:16:18,461 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-26 11:16:18,462 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-26 11:16:18,463 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-26 11:16:18,464 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-26 11:16:18,464 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-04-26 11:16:18,465 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+WARN  2016-04-26 11:17:01,715 [16   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-04-26 11:17:47,374 [3    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 11:17:51,376 [3    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1f69842-5e6b-4cfa-ac1b-5dec9c664645","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T11:17:51.2538085+08:00","Properties":{}}
+DEBUG 2016-04-26 11:17:51,519 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1f69842-5e6b-4cfa-ac1b-5dec9c664645
+DEBUG 2016-04-26 11:21:01,472 [4    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f1f69842-5e6b-4cfa-ac1b-5dec9c664645
+WARN  2016-04-26 11:21:03,570 [18   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 11:21:06,533 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"735c4260-80fa-497f-b63e-284ba6792845","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T11:21:06.5336826+08:00","Properties":{}}
+DEBUG 2016-04-26 11:21:06,576 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 735c4260-80fa-497f-b63e-284ba6792845
+DEBUG 2016-04-26 13:30:37,905 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 735c4260-80fa-497f-b63e-284ba6792845
+WARN  2016-04-26 13:32:37,703 [5    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 13:32:41,959 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dd857a06-4509-4cce-a425-800f479dfe74","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T13:32:41.9598039+08:00","Properties":{}}
+DEBUG 2016-04-26 13:32:42,045 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dd857a06-4509-4cce-a425-800f479dfe74
+DEBUG 2016-04-26 14:40:16,093 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-04-26 14:40:24,591 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-04-26 14:40:24,611 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,624 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,625 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,626 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,663 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-04-26 14:40:24,669 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-04-26 14:40:25,265 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 14:40:25,265 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 14:40:25,265 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 14:40:25,265 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-04-26 14:40:33,329 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-04-26 14:40:33,355 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-04-26 14:40:33,356 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-04-26 14:40:33,405 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-04-26 14:40:33,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-04-26 14:40:33,616 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-04-26 14:40:35,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 31 classes defines auto mapping attributes
+DEBUG 2016-04-26 14:40:35,846 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-04-26 14:40:35,880 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-04-26 14:40:35,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-04-26 14:40:35,883 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-04-26 14:40:35,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-04-26 14:40:35,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-04-26 14:40:35,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-04-26 14:40:35,898 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-04-26 14:40:35,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-04-26 14:40:35,903 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-04-26 14:40:35,904 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-04-26 14:40:35,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-04-26 14:40:35,908 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-04-26 14:40:35,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-04-26 14:40:35,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-04-26 14:40:35,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-04-26 14:40:35,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-04-26 14:40:35,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-04-26 14:40:35,918 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-04-26 14:40:35,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-04-26 14:40:35,920 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-04-26 14:40:35,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-04-26 14:40:35,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.UserPermissionsEditViewModel
+DEBUG 2016-04-26 14:40:35,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Users.CreateOrEditUserModalViewModel
+DEBUG 2016-04-26 14:40:35,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Roles.CreateOrEditRoleModalViewModel
+DEBUG 2016-04-26 14:40:35,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Profile.MySettingsViewModel
+DEBUG 2016-04-26 14:40:35,927 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Editions.CreateOrEditEditionModalViewModel
+DEBUG 2016-04-26 14:40:35,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Tenants.TenantFeaturesEditViewModel
+DEBUG 2016-04-26 14:40:35,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.OrganizationUnits.EditOrganizationUnitModalViewModel
+DEBUG 2016-04-26 14:40:35,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Areas.Mpa.Models.Languages.CreateOrEditLanguageModalViewModel
+DEBUG 2016-04-26 14:40:35,929 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-04-26 14:40:35,935 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-04-26 14:40:35,936 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-04-26 14:40:35,937 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-04-26 14:40:35,937 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-04-26 14:40:35,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-04-26 14:40:35,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-04-26 14:40:35,939 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-04-26 14:40:35,940 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-04-26 14:40:35,941 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-04-26 14:40:35,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-04-26 14:40:35,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-04-26 14:40:35,943 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-04-26 14:40:35,944 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-04-26 14:40:35,944 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-04-26 14:40:35,945 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-04-26 14:40:35,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-04-26 14:40:35,947 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-04-26 14:40:35,947 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-04-26 14:40:35,948 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+WARN  2016-04-26 14:40:59,858 [16   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-04-26 14:42:13,527 [12   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 14:42:19,134 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"93eea641-cc64-4ce4-a6be-64f2ffeb987e","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T14:42:19.1104133+08:00","Properties":{}}
+DEBUG 2016-04-26 14:42:19,291 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 93eea641-cc64-4ce4-a6be-64f2ffeb987e
+DEBUG 2016-04-26 14:44:47,125 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 93eea641-cc64-4ce4-a6be-64f2ffeb987e
+WARN  2016-04-26 14:44:49,591 [23   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 14:44:52,226 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"60ac5a72-d20a-49df-82c6-2223dc4f6723","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T14:44:52.2268833+08:00","Properties":{}}
+DEBUG 2016-04-26 14:44:52,308 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 60ac5a72-d20a-49df-82c6-2223dc4f6723
+DEBUG 2016-04-26 14:51:02,924 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 60ac5a72-d20a-49df-82c6-2223dc4f6723
+WARN  2016-04-26 14:51:04,936 [5    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 14:51:07,101 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d0b30252-0eba-440e-80ea-4bed5bb29c1a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T14:51:07.1018255+08:00","Properties":{}}
+DEBUG 2016-04-26 14:51:07,200 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d0b30252-0eba-440e-80ea-4bed5bb29c1a
+DEBUG 2016-04-26 15:41:07,875 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d0b30252-0eba-440e-80ea-4bed5bb29c1a
+WARN  2016-04-26 15:41:11,369 [58   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:41:17,705 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"76b30e98-e764-46bd-8767-3ef24158eef6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:41:17.6744829+08:00","Properties":{}}
+DEBUG 2016-04-26 15:41:17,823 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 76b30e98-e764-46bd-8767-3ef24158eef6
+ERROR 2016-04-26 15:42:15,236 [33   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:42:20,111 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 76b30e98-e764-46bd-8767-3ef24158eef6
+WARN  2016-04-26 15:42:23,289 [54   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:42:25,650 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9d3a91c0-7b2d-4151-924e-19c4c61d1779","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:42:25.6503647+08:00","Properties":{}}
+DEBUG 2016-04-26 15:42:25,719 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9d3a91c0-7b2d-4151-924e-19c4c61d1779
+DEBUG 2016-04-26 15:43:35,689 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9d3a91c0-7b2d-4151-924e-19c4c61d1779
+WARN  2016-04-26 15:43:37,710 [3    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:43:45,172 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3633ec18-3398-4686-9268-b2730a0b104d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:43:45.17276+08:00","Properties":{}}
+DEBUG 2016-04-26 15:43:45,184 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3633ec18-3398-4686-9268-b2730a0b104d
+ERROR 2016-04-26 15:43:51,718 [34   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:44:05,369 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3633ec18-3398-4686-9268-b2730a0b104d
+WARN  2016-04-26 15:44:07,300 [54   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:44:09,449 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a22c748c-d14a-4cfd-bb3b-6e26adc3ea2a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:44:09.4490167+08:00","Properties":{}}
+DEBUG 2016-04-26 15:44:09,509 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a22c748c-d14a-4cfd-bb3b-6e26adc3ea2a
+ERROR 2016-04-26 15:45:03,632 [29   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:45:07,240 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a22c748c-d14a-4cfd-bb3b-6e26adc3ea2a
+WARN  2016-04-26 15:45:08,685 [46   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:45:10,686 [63   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2a920034-3f64-4ac0-b0d5-923273af8533","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:45:10.6867527+08:00","Properties":{}}
+DEBUG 2016-04-26 15:45:10,713 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2a920034-3f64-4ac0-b0d5-923273af8533
+ERROR 2016-04-26 15:45:39,840 [61   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:46:02,597 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2a920034-3f64-4ac0-b0d5-923273af8533
+WARN  2016-04-26 15:46:04,044 [40   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:46:06,155 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9616a5ec-b320-4335-bff1-d655a4788899","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:46:06.1559769+08:00","Properties":{}}
+DEBUG 2016-04-26 15:46:06,193 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9616a5ec-b320-4335-bff1-d655a4788899
+DEBUG 2016-04-26 15:46:16,053 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9616a5ec-b320-4335-bff1-d655a4788899
+WARN  2016-04-26 15:46:18,049 [55   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:46:20,044 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0dc37a0d-ebf4-4ca2-a3ce-80320cc9b581","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:46:20.0444973+08:00","Properties":{}}
+DEBUG 2016-04-26 15:46:20,134 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0dc37a0d-ebf4-4ca2-a3ce-80320cc9b581
+ERROR 2016-04-26 15:46:22,880 [29   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/people/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/people/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/people/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/people/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:47:07,818 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0dc37a0d-ebf4-4ca2-a3ce-80320cc9b581
+WARN  2016-04-26 15:47:09,677 [40   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:47:12,337 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"772a7ffa-50c8-4de3-92ac-7c12c1aa0194","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:47:12.3373553+08:00","Properties":{}}
+DEBUG 2016-04-26 15:47:12,436 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 772a7ffa-50c8-4de3-92ac-7c12c1aa0194
+ERROR 2016-04-26 15:47:14,625 [48   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/HR/people/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/people/profile-about.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/HR/people/profile-about.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/HR/people/profile-about.cshtml
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2016-04-26 15:48:40,365 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 772a7ffa-50c8-4de3-92ac-7c12c1aa0194
+WARN  2016-04-26 15:48:46,282 [47   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:48:48,339 [61   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f305b0e7-00ce-4332-81d1-7df460b04175","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:48:48.3396459+08:00","Properties":{}}
+DEBUG 2016-04-26 15:48:48,373 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f305b0e7-00ce-4332-81d1-7df460b04175
+DEBUG 2016-04-26 15:49:15,139 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f305b0e7-00ce-4332-81d1-7df460b04175
+WARN  2016-04-26 15:49:15,840 [52   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-04-26 15:49:17,126 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cc7cdbbb-cfae-40cd-a764-e2011c809248","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2016-04-26T15:49:17.1267894+08:00","Properties":{}}
+DEBUG 2016-04-26 15:49:17,158 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cc7cdbbb-cfae-40cd-a764-e2011c809248

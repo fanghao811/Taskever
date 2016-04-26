@@ -17,6 +17,7 @@ namespace Taskever.Web.Navigation
                 //人事管理
                 public const string HumanResources = "HumanResources";
                 public const string People = "HumanResources.People";
+                public const string Profile = "HumanResources.Profile";
             }
 
             public static class Host

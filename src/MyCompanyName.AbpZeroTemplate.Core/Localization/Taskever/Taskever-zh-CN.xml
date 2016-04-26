@@ -296,6 +296,7 @@
     <text name="ReceiveNotifications_Definition" value="是否开启通知消息接收" />
     <!--2016-4-5 organization tree-->
     <text name="HumanResource" value="人事管理" /> 
-    <text name="People" value="人员信息" /> 
+    <text name="People" value="人员信息" />
+    <text name="ProfileAccount" value="人员简介" />  
   </texts>
 </localizationDictionary>

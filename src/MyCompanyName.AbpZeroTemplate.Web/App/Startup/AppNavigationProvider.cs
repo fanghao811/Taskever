@@ -44,10 +44,16 @@ namespace Taskever.Web.App.Startup
                     ).AddItem(new MenuItemDefinition(
                         PageNames.App.Common.People,
                         L("People"),
-                        url:"people",
-                        icon:"fa fa-home"
+                        url: "people",
+                        icon: "fa fa-home"
                         )
-                    )                      
+                    ).AddItem(new MenuItemDefinition(
+                        PageNames.App.Common.Profile,
+                        L("ProfileAccount"),
+                        url: "profile",
+                        icon: "fa fa-home"
+                        )
+                    )
                 ).AddItem(new MenuItemDefinition(//SignalR测试
                     PageNames.App.Common.ChatHub,
                     L("chatHub"),

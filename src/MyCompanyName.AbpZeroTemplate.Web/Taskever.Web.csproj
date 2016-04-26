@@ -319,7 +319,7 @@
     <Content Include="App\common\directives\form.js" />
     <Content Include="App\common\directives\template.js" />
     <Content Include="App\common\directives\ui.js" />
-    <Content Include="App\common\filters\mapGender-filters.js" />
+    <Content Include="App\common\filters\map-filters.js" />
     <Content Include="App\common\services\appNotifyService.js" />
     <Content Include="App\common\services\appUserNotificationHelper.js" />
     <Content Include="App\common\services\services.js" />
@@ -333,6 +333,7 @@
     <Content Include="App\common\views\common\lookupModal.js" />
     <Content Include="App\common\views\HR\people\createOrEditModal.js" />
     <Content Include="App\common\views\HR\people\index.js" />
+    <Content Include="App\common\views\HR\people\profile.js" />
     <Content Include="App\common\views\languages\editTextModal.js" />
     <Content Include="App\common\views\languages\createOrEditModal.js" />
     <Content Include="App\common\views\layout\header.css">
@@ -1990,6 +1991,8 @@
     <Content Include="libs\malihu-custom-scrollbar-plugin\bower.json" />
     <Content Include="App\common\views\HR\people\createOrEditModal.cshtml" />
     <Content Include="App\common\views\HR\people\index.cshtml" />
+    <Content Include="App\common\views\HR\people\profile-about.cshtml" />
+    <Content Include="App\common\views\HR\people\profile.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

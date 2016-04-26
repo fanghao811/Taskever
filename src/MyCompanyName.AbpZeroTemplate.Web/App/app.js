@@ -138,6 +138,15 @@ appModule.config([
             templateUrl: '~/App/common/views/HR/people/index.cshtml'
         });
 
+        $stateProvider
+            .state('profile', {
+                url: '/profile',
+                templateUrl: '~/App/common/views/HR/people/profile.cshtml'
+            })
+            .state("profile.profile-about", {
+                url: "/profile-about",
+                templateUrl: "~/App/common/views/HR/people/profile-about.cshtml"
+            })
         //HOST routes
 
         $stateProvider.state('host', {
