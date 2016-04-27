@@ -128,20 +128,24 @@ appModule.config([
         $stateProvider.state('chatHub', {
             url: '/chatHub',
             templateUrl: '~/App/common/views/chatHub/index.cshtml',
-            menu: 'HumanResources.People'
+            menu: 'Administration.ChatHub'
         });
 
         //HumanResources
 
         $stateProvider.state('people', {
             url: '/people',
-            templateUrl: '~/App/common/views/HR/people/index.cshtml'
+            templateUrl: '~/App/common/views/HR/people/index.cshtml',
+            menu: 'HumanResources.People'
         });
 
         $stateProvider
             .state('profile', {
-                url: '/profile',
-                templateUrl: '~/App/common/views/HR/people/profile.cshtml'
+                url: '/profile/{personId}',
+                templateUrl: '~/App/common/views/HR/people/profile.cshtml',
+                controller: 'common.views.HR.people.profile',
+                controllerAs:'vm',
+                menu: 'HumanResources.Profile'
             })
             .state("profile.profile-about", {
                 url: "/profile-about",

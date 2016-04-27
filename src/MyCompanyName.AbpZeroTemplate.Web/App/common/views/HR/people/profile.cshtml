@@ -13,11 +13,11 @@
 <!-- BEGIN PAGE BREADCRUMB -->
 <ul class="page-breadcrumb breadcrumb">
     <li>
-        <a href="index.html">员工管理</a>
+        <a data-ui-sref="people">员工管理</a>
         <i class="fa fa-circle"></i>
     </li>
     <li>
-        <span class="active">员工信息</span>
+        <span class="active">员工信息:{{vm.person}}</span>
     </li>
 </ul>
 <!-- END PAGE BREADCRUMB -->
@@ -36,31 +36,31 @@
                 <!-- SIDEBAR USER TITLE -->
                 <div class="profile-usertitle">
                     <div class="profile-usertitle-name"> Marcus Doe </div>
-                    <div class="profile-usertitle-job"> Developer </div>
+                    <div class="profile-usertitle-job"> 开发人员 </div>
                 </div>
                 <!-- END SIDEBAR USER TITLE -->
                 <!-- SIDEBAR BUTTONS -->
                 <div class="profile-userbuttons">
-                    <button type="button" class="btn btn-circle green btn-sm">Follow</button>
-                    <button type="button" class="btn btn-circle red btn-sm">Message</button>
+                    <button type="button" class="btn btn-circle green btn-sm">加为好友</button>
+                    <button type="button" class="btn btn-circle red btn-sm">发送消息</button>
                 </div>
                 <!-- END SIDEBAR BUTTONS -->
                 <!-- SIDEBAR MENU -->
                 <div class="profile-usermenu">
                     <ul class="nav">
-                        <li>
+                        <li class="active">
                             <a href="page_user_profile_1.html">
-                                <i class="icon-home"></i> Overview
+                                <i class="icon-home"></i> 个人简介
                             </a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="page_user_profile_1_account.html">
-                                <i class="icon-settings"></i> Account Settings
+                                <i class="icon-settings"></i> 自定义设置
                             </a>
                         </li>
                         <li>
                             <a href="page_user_profile_1_help.html">
-                                <i class="icon-info"></i> Help
+                                <i class="icon-info"></i> 帮助
                             </a>
                         </li>
                     </ul>
@@ -121,13 +121,13 @@
                                     <a data-ui-sref="profile.profile-about" data-toggle="tab">基本信息</a>
                                 </li>
                                 <li>
-                                    <a href="#tab_1_2" data-toggle="tab">任务列表</a>
+                                    <a data-ui-sref="profile.profile-about" data-toggle="tab">任务列表</a>
                                 </li>
                                 <li>
-                                    <a href="#tab_1_3" data-toggle="tab">时间轴</a>
+                                    <a data-ui-sref="profile.profile-about" data-toggle="tab">时间轴</a>
                                 </li>
                                 <li>
-                                    <a href="#tab_1_4" data-toggle="tab">自定义设置</a>
+                                    <a data-ui-sref="profile.profile-about" data-toggle="tab">自定义设置</a>
                                 </li>
                             </ul>
                         </div>

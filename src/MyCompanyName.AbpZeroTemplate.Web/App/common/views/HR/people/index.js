@@ -1,8 +1,8 @@
 ﻿(function () {
     var controllerId = 'common.views.HR.people.index';
     appModule.controller(controllerId, [
-        '$scope', '$stateParams', '$uibModal', 'uiGridConstants', 'abp.services.app.person',
-        function ($scope, $stateParams, $uibModal, uiGridConstants, personService) {
+        '$scope','$state', '$stateParams', '$uibModal', 'uiGridConstants', 'abp.services.app.person',
+        function ($scope,$state, $stateParams, $uibModal, uiGridConstants, personService) {
             var vm = this;
 
             $scope.$on('$viewContentLoaded', function () {
@@ -39,6 +39,16 @@
                 appScopeProvider: vm,
                 columnDefs: [
                       {
+                          name: 'Profile',
+                          enableSorting: false,
+                          width: 50,
+                          headerCellTemplate: '<span></span>',
+                          cellTemplate:
+                              '<div class=\"ui-grid-cell-contents text-center\">' +
+                                  '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.showDetails(row.entity)"><i class="fa fa-search"></i></button>' +
+                                  '</div>'
+                      },
+                      {
                           field: 'id',
                           displayName: 'Id',
                           enableSorting: false,
@@ -53,7 +63,7 @@
                           field: 'gender',
                           displayName: '性别',
                           width: 90,
-                          cellFilter:'mapGender'
+                          cellFilter: 'mapGender'
 
                       },
                       {
@@ -157,6 +167,11 @@
                 });
             }
 
+            vm.showDetails = function (person) {
+                $state.go('profile.profile-about', { personId: person.id });
+            };
+
+            //Init
             vm.getPeople();
 
         }
