@@ -1,42 +1,24 @@
 ﻿(function () {
     var controllerId = 'common.views.HR.people.profile';
-    appModule.controller(controllerId, ['$scope', '$state', '$stateParams', 'abp.services.app.person',
-            function ($scope, $state, $stateParams, personService) {
-
-                //Get Profile Information from profileService Service
+    appModule.controller(controllerId, ['$rootScope', '$scope', '$stateParams', 'abp.services.app.person',
+    function ($rootScope, $scope, $state, $stateParams, personService) {
                 var vm = this;
-                vm.saving = false;
-                vm.loading = false;
+
                 vm.person = {};
 
                 //TODO:test passing data between pages
                 var personId = $stateParams.personId;
 
+                $rootScope.$on('$stateChangeSuccess',
+                function (event, toState, toParams, fromState, fromParams) {
+                    vm.currentMenuName = fromState.menu;
+                    //console.log('currentMenuName:' + vm.currentMenuName);
+                    //console.log(toParams);
+                    //console.log(fromState);
+                });
 
-
-                vm.items = [{ id: 1, name: 'male' }, { id: 2, name: 'female' }];//gender options
-
-                //Edit
-                vm.editSummary = 0;
-                vm.editInfo = 0;
-                vm.editContact = 0;
-
-
-                vm.submit = function (item, message) {
-                    if (item === 'profileSummary') {
-                        vm.editSummary = 0;
-                    }
-
-                    if (item === 'profileInfo') {
-                        vm.editInfo = 0;
-                    }
-
-                    if (item === 'profileContact') {
-                        vm.editContact = 0;
-                    }
-                };
-
-                function init(){
+                //Initial
+                function init() {
                     vm.loading = true;
                     personService.getPersonForEdit({
                         id: personId
@@ -45,6 +27,7 @@
                         vm.loading = false;
                     });
                 }
+
                 init();
 
             }]);

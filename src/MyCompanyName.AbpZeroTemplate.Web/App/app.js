@@ -141,16 +141,25 @@ appModule.config([
 
         $stateProvider
             .state('profile', {
-                url: '/profile/{personId}',
+                url: '/profile/{personId:[0-9]}',
                 templateUrl: '~/App/common/views/HR/people/profile.cshtml',
                 controller: 'common.views.HR.people.profile',
-                controllerAs:'vm',
+                controllerAs: 'vm',
                 menu: 'HumanResources.Profile'
             })
-            .state("profile.profile-about", {
-                url: "/profile-about",
-                templateUrl: "~/App/common/views/HR/people/profile-about.cshtml"
-            })
+            .state("profile.info", {
+                url: "/info/:subTitle",
+                templateUrl: function ($stateParams) {
+                    return '~/App/common/views/HR/people/profile-' + $stateParams.subTitle + '.cshtml'
+                },
+                controllerProvider: function($stateParams) {
+                    var ctrlName = 'common.views.HR.people.profile-' + $stateParams.subTitle;
+                    return ctrlName;
+                },
+                controllerAs: 'vm',
+                menu: 'HumanResources.Profile.about'
+            });
+
         //HOST routes
 
         $stateProvider.state('host', {

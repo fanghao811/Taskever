@@ -333,6 +333,7 @@
     <Content Include="App\common\views\common\lookupModal.js" />
     <Content Include="App\common\views\HR\people\createOrEditModal.js" />
     <Content Include="App\common\views\HR\people\index.js" />
+    <Content Include="App\common\views\HR\people\profile-about.js" />
     <Content Include="App\common\views\HR\people\profile.js" />
     <Content Include="App\common\views\languages\editTextModal.js" />
     <Content Include="App\common\views\languages\createOrEditModal.js" />
@@ -1993,6 +1994,8 @@
     <Content Include="App\common\views\HR\people\index.cshtml" />
     <Content Include="App\common\views\HR\people\profile-about.cshtml" />
     <Content Include="App\common\views\HR\people\profile.cshtml" />
+    <Content Include="App\common\views\HR\people\profile-help.cshtml" />
+    <Content Include="App\common\views\HR\people\profile-settings.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
