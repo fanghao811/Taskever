@@ -47,12 +47,6 @@ namespace Taskever.Web.App.Startup
                         url: "people",
                         icon: "fa fa-home"
                         )
-                    ).AddItem(new MenuItemDefinition(
-                        PageNames.App.Common.Profile,
-                        L("ProfileAccount"),
-                        url: "profile",
-                        icon: "fa fa-home"
-                        )
                     )
                 ).AddItem(new MenuItemDefinition(//SignalR测试
                     PageNames.App.Common.ChatHub,

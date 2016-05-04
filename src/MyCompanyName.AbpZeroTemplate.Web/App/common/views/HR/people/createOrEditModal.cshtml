@@ -38,10 +38,10 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group form-md-line-input has-success form-md-floating-label">
+                        <div class="form-group form-md-line-input form-md-floating-label">
                             <div class="input-icon">
                                 <input type="text" class="form-control" id="Name" name="Name" ng-model="vm.person.name" ng-required="true">
-                                <label for="form_control_1">真实姓名</label>
+                                <label for="Name">真实姓名</label>
                                 <i class="fa fa-user"></i>
                             </div>
                         </div>
@@ -54,7 +54,7 @@
                                        uib-datepicker-popup="yyyy/MM/dd" show-weeks="false"
                                        is-open="opened" min-date="1930/01/01" datepicker-options="dateOptions"
                                        ng-required="true" close-text="关闭"/>
-                                <label for="form_control_1">出生日期</label>
+                                <label for="BirthDate">出生日期</label>
                                 <i class="fa fa-calendar"></i>
                             </div>
                         </div>
@@ -68,7 +68,7 @@
                                id="NationalIDNumber"
                                ng-model="vm.person.nationalIDNumber"
                                ng-required="true" minlength=10>
-                        <label for="form_control_1">身份证号码</label>
+                        <label for="NationalIDNumber">身份证号码</label>
                         <i class="fa fa-bell-o"></i>
                     </div>
                 </div>

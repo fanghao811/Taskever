@@ -41,8 +41,7 @@
                 vm.saving = true;
                 personService.createOrUpdatePerson({
                     person:vm.person
-                })
-                .success(function () {
+                }).success(function () {
                     abp.notify.info(app.localize('SavedSuccessfully'));
                     $uibModalInstance.close();
                 }).finally(function () {

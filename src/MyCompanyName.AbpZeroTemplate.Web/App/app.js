@@ -140,24 +140,26 @@ appModule.config([
         });
 
         $stateProvider
-            .state('profile', {
+            .state('profile', {//员工管理父页
                 url: '/profile/{personId:[0-9]}',
                 templateUrl: '~/App/common/views/HR/people/profile.cshtml',
                 controller: 'common.views.HR.people.profile',
                 controllerAs: 'vm',
                 menu: 'HumanResources.Profile'
             })
-            .state("profile.info", {
+            .state("profile.info", {//员工管理子页
                 url: "/info/:subTitle",
                 templateUrl: function ($stateParams) {
                     return '~/App/common/views/HR/people/profile-' + $stateParams.subTitle + '.cshtml'
                 },
-                controllerProvider: function($stateParams) {
+                controllerProvider: function ($stateParams) {
                     var ctrlName = 'common.views.HR.people.profile-' + $stateParams.subTitle;
                     return ctrlName;
                 },
                 controllerAs: 'vm',
-                menu: 'HumanResources.Profile.about'
+                menu: function ($stateParams) {
+                    return 'HumanResources.Profile.' + $stateParams.subTitle;
+                }
             });
 
         //HOST routes
@@ -223,6 +225,13 @@ appModule.config([
 appModule.run(["$rootScope", "settings", "$state", function ($rootScope, settings, $state) {
     $rootScope.$state = $state;
     $rootScope.$settings = settings;
+
+
+    /* 切换状态后，更新面包屑导航 */
+    $rootScope.$on('$stateChangeSuccess',
+      function (event, toState, toParams, fromState, fromParams) {      
+          $rootScope.currentMenuName = toState.menu;
+      });
 
     $rootScope.safeApply = function (fn) {
         var phase = this.$root.$$phase;

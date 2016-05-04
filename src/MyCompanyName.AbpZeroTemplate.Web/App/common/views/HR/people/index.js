@@ -168,7 +168,7 @@
             }
 
             vm.showDetails = function (person) {
-                $state.go('profile', { personId: person.id });
+                $state.go('profile.info', { personId: person.id,subTitle:'about' });
             };
 
             //Init

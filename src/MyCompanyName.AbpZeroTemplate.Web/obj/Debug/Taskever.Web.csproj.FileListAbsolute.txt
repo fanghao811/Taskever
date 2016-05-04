@@ -496,3 +496,8 @@ D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hant\Microsoft.Spat
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.Web\obj\Debug\Taskever.Web.csprojResolveAssemblyReference.cache
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.Web\obj\Debug\Taskever.Web.dll
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.Web\obj\Debug\Taskever.Web.pdb
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hans\System.Web.Helpers.resources.dll
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hans\System.Web.Razor.resources.dll
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hans\System.Web.WebPages.resources.dll
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.Web\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll

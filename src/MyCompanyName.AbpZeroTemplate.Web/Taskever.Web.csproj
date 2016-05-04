@@ -333,6 +333,8 @@
     <Content Include="App\common\views\common\lookupModal.js" />
     <Content Include="App\common\views\HR\people\createOrEditModal.js" />
     <Content Include="App\common\views\HR\people\index.js" />
+    <Content Include="App\common\views\HR\people\profile-settings.js" />
+    <Content Include="App\common\views\HR\people\profile-help.js" />
     <Content Include="App\common\views\HR\people\profile-about.js" />
     <Content Include="App\common\views\HR\people\profile.js" />
     <Content Include="App\common\views\languages\editTextModal.js" />
@@ -1813,6 +1815,8 @@
     <Content Include="Scripts\angular-messages.js" />
     <Content Include="Scripts\angular-messages.min.js" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-parse-ext.js" />
+    <Content Include="Scripts\angular-parse-ext.min.js" />
     <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\angular-route.js" />
@@ -1912,20 +1916,6 @@
     <Content Include="Areas\Mpa\Views\Notifications\Index.cshtml" />
     <Content Include="App\common\views\notifications\index.less" />
     <Content Include="Areas\Mpa\Views\Notifications\Index.less" />
-    <Content Include="Scripts\angular.js" />
-    <Content Include="Scripts\angular.min.js" />
-    <Content Include="Scripts\errors.json" />
-    <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-touch.min.js.map" />
-    <Content Include="Scripts\angular-sanitize.min.js.map" />
-    <Content Include="Scripts\angular-route.min.js.map" />
-    <Content Include="Scripts\angular-resource.min.js.map" />
-    <Content Include="Scripts\angular-messages.min.js.map" />
-    <Content Include="Scripts\angular-message-format.min.js.map" />
-    <Content Include="Scripts\angular-loader.min.js.map" />
-    <Content Include="Scripts\angular-cookies.min.js.map" />
-    <Content Include="Scripts\angular-aria.min.js.map" />
-    <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="fonts\open-sans\59ZRklaO5bWGqF5A9baEERJtnKITppOI_IvcXXDNrsc.woff2" />
     <Content Include="fonts\open-sans\cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2" />
     <Content Include="fonts\open-sans\DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2" />
@@ -1996,6 +1986,21 @@
     <Content Include="App\common\views\HR\people\profile.cshtml" />
     <Content Include="App\common\views\HR\people\profile-help.cshtml" />
     <Content Include="App\common\views\HR\people\profile-settings.cshtml" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\errors.json" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="Scripts\angular-touch.min.js.map" />
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
+    <Content Include="Scripts\angular-parse-ext.min.js.map" />
+    <Content Include="Scripts\angular-messages.min.js.map" />
+    <Content Include="Scripts\angular-message-format.min.js.map" />
+    <Content Include="Scripts\angular-loader.min.js.map" />
+    <Content Include="Scripts\angular-cookies.min.js.map" />
+    <Content Include="Scripts\angular-aria.min.js.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -3045,10 +3050,10 @@
     </Content>
     <None Include="Properties\PublishProfiles\FileSystem_Release.pubxml" />
     <Content Include="Views\Account\TenantSelection.cshtml" />
-    <Content Include="Scripts\version.json" />
     <Content Include="Views\TenantRegistration\Index.cshtml" />
     <Content Include="Views\TenantRegistration\RegisterResult.cshtml" />
     <Content Include="Scripts\underscore.min.map" />
+    <Content Include="Scripts\version.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
