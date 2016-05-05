@@ -1,6 +1,8 @@
 ﻿<!-- BEGIN FORM-->
 <uib-tabset class="tab-container tabbable-line">
+    <!--Tab1 个人信息-->
     <uib-tab heading="个人信息">
+        <!--浏览状态-->
         <form class="form-horizontal" role="form" data-ng-if="vm.editInfo === 0">
             <div class="form-body">
 
@@ -166,8 +168,9 @@
         </form>
 
         <!--编辑状态-->
-        <form role="form" id="personCreateOrEditForm" data-ng-if="vm.editInfo === 1">
+        <form role="form" name="personCreateOrEditForm" data-ng-if="vm.editInfo === 1">
             <div class="form-body" style="min-height:500px">
+                <span class="font-blue bold">基本信息</span>
                 <div class="row">
                     <div class="col-md-6">
                         <!--真是姓名-->
@@ -242,38 +245,10 @@
                 </button>
             </div>
         </form>
-
-
     </uib-tab>
+    <!--Tab2 工作信息-->
     <uib-tab heading="工作信息">
         工作详情....
     </uib-tab>
 </uib-tabset>
 <!-- END FORM-->
-@*<div class="form-group form-md-radios">
-        <label>性别</label>
-        <div class="md-radio-inline">
-            <div class="md-radio">
-                <input type="radio" class="md-radiobtn"
-                       id="radio1"
-                       name="Gender"
-                       value="1" ng-model="vm.person.gender" checked="">
-                <label for="radio1">
-                    <span class="inc"></span>
-                    <span class="check"></span>
-                    <span class="box"></span>男
-                </label>
-            </div>
-            <div class="md-radio">
-                <input type="radio" class="md-radiobtn"
-                       id="radio2"
-                       name="Gender"
-                       value="2" ng-model="vm.person.gender">
-                <label for="radio2">
-                    <span class="inc"></span>
-                    <span class="check"></span>
-                    <span class="box"></span> 女
-                </label>
-            </div>
-        </div>
-    </div>*@

@@ -12,7 +12,7 @@ namespace Taskever.People.Dtos
         {
             if (string.IsNullOrEmpty(Sorting))
             {
-                Sorting = "Name";
+                Sorting = "Id";
             }
         }
     }

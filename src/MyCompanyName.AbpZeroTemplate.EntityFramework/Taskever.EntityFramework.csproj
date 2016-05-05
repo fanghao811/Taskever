@@ -269,6 +269,10 @@
     <Compile Include="Migrations\201604210731347_Added_model_person.Designer.cs">
       <DependentUpon>201604210731347_Added_model_person.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605050730505_maxLegenthForPersonModel.cs" />
+    <Compile Include="Migrations\201605050730505_maxLegenthForPersonModel.Designer.cs">
+      <DependentUpon>201605050730505_maxLegenthForPersonModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TaskeverDataModule.cs" />
     <Compile Include="Migrations\Seed\DefaultEditionCreator.cs" />
@@ -402,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201604210731347_Added_model_person.resx">
       <DependentUpon>201604210731347_Added_model_person.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605050730505_maxLegenthForPersonModel.resx">
+      <DependentUpon>201605050730505_maxLegenthForPersonModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

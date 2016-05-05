@@ -4,7 +4,7 @@ using Taskever.People.Emun;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using System.ComponentModel.DataAnnotations;
 
 namespace Taskever.People
 {
@@ -15,6 +15,10 @@ namespace Taskever.People
     [Table("Person", Schema = "Person")]
     public class Person : FullAuditedEntity
     {
+        public const int MaxNameLength = 32;
+        public const int MaxNationalIDNumber = 32;
+
+
         public Person()
         {
             PhoneList = new HashSet<PersonPhone>();
@@ -27,7 +31,13 @@ namespace Taskever.People
 
         public DateTime? BirthDate { get; set; }
         public Gender Gender { get; set; }
+
+        [Required]
+        [MaxLength(MaxNameLength)]
         public string Name { get; set; }
+
+        [Required]
+        [MaxLength(MaxNationalIDNumber)]
         public string NationalIDNumber { get; set; }
 
         public virtual ICollection<PersonPhone> PhoneList { get; set; }

@@ -1,8 +1,8 @@
 ﻿(function () {
     var controllerId = 'common.views.HR.people.index';
     appModule.controller(controllerId, [
-        '$scope','$state', '$stateParams', '$uibModal', 'uiGridConstants', 'abp.services.app.person',
-        function ($scope,$state, $stateParams, $uibModal, uiGridConstants, personService) {
+        '$scope', '$state', '$stateParams', '$uibModal', 'uiGridConstants', 'abp.services.app.person',
+        function ($scope, $state, $stateParams, $uibModal, uiGridConstants, personService) {
             var vm = this;
 
             $scope.$on('$viewContentLoaded', function () {
@@ -75,6 +75,16 @@
                       {
                           field: 'nationalIDNumber',
                           displayName: '身份证号码'
+                      },
+                      {
+                          name: 'Profile.delete',
+                          enableSorting: false,
+                          width: 50,
+                          headerCellTemplate: '<span></span>',
+                          cellTemplate:
+                          '<div class=\"ui-grid-cell-contents text-center\">' +
+                              '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.deletePerson(row.entity)"><i class="fa fa-trash"></i></button>' +
+                              '</div>'
                       }
                 ],
                 onRegisterApi: function (gridApi) {
@@ -138,15 +148,21 @@
             };
             //6.4 Delete person
             vm.deletePerson = function (person) {
-                if (!person.id) {
-                    abp.notify.error('所选人员无效，删除失败！');
-                    return;
-                }
-                personService.deletePerson({ PersonId: person.id })
-                    .success(function () {
-                        vm.getPeople();
-                        abp.notify.info('人员:' + person.name + '已删除！');
-                    })
+                abp.message.confirm(
+                    app.localize('AreYouSureToDeletePerson', person.name),
+                    function (isConfirmed) {
+                        if (isConfirmed) {
+                            if (!person.id) {
+                                abp.notify.error('所选人员无效，删除失败！');
+                                return;
+                            }
+                            personService.deletePerson({ PersonId: person.id })
+                           .success(function () {
+                               vm.getPeople();
+                               abp.notify.info('人员:' + person.name + '已删除！');
+                           });
+                        }
+                    });
             };
 
             //6.5 Open CreateOrEdit Modal
@@ -168,7 +184,7 @@
             }
 
             vm.showDetails = function (person) {
-                $state.go('profile.info', { personId: person.id,subTitle:'about' });
+                $state.go('profile.info', { personId: person.id, subTitle: 'about' });
             };
 
             //Init

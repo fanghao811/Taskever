@@ -239,3 +239,4 @@ D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Task
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.dll
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.pdb
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.Added_model_person.resources
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.maxLegenthForPersonModel.resources
