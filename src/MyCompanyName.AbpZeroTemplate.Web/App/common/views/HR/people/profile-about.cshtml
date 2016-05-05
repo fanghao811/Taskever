@@ -8,9 +8,7 @@
                     基本信息
                     <a href="javascript:;" class="btn btn-xs red pull-right"
                        tooltip-placement="top" uib-tooltip="编辑"
-                       @*data-ng-click="vm.editInfo=1"*@
-                       data-ng-click="vm.person.birthDate='1987-08-11'"
-                       >
+                       data-ng-click="vm.editInfo=1">
                         <i class="fa fa-edit"></i>
                     </a>
                 </span>
@@ -168,10 +166,11 @@
         </form>
 
         <!--编辑状态-->
-        <form role="form" data-ng-if="vm.editInfo === 0">
+        <form role="form" id="personCreateOrEditForm" data-ng-if="vm.editInfo === 1">
             <div class="form-body" style="min-height:500px">
                 <div class="row">
-                    <div class="col-md-6"><!--真是姓名-->
+                    <div class="col-md-6">
+                        <!--真是姓名-->
                         <div class="form-group form-md-line-input form-md-floating-label">
                             <div class="input-icon">
                                 <input type="text" class="form-control"
@@ -184,18 +183,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6"><!--性别-->
+                    <div class="col-md-6">
+                        <!--性别-->
                         <div class="form-group form-md-line-input form-md-floating-label">
                             <select class="form-control"
                                     id="Gender"
                                     ng-model="vm.person.gender"
                                     ng-class="{'edited':vm.person.gender}"
-                                    ng-options="g.value as g.gender for g in vm.genders">
-                            </select>
+                                    ng-options="g.value as g.gender for g in vm.genders"></select>
                             <label>性别</label>
                         </div>
                     </div>
-                    <div class="col-md-6"><!--出生日期-->
+                    <div class="col-md-6">
+                        <!--出生日期-->
                         <div class="form-group form-md-line-input form-md-floating-label">
                             <div class="input-icon">
                                 <input ng-click="vm.open($event)" type="text" class="form-control"
@@ -208,14 +208,15 @@
                                        datepicker-options="vm.dateOptions"
                                        current-text="今天"
                                        clear-text="清除"
-                                       close-text="关闭" 
-                                       ng-required="true"/>
+                                       close-text="关闭"
+                                       ng-required="true" />
                                 <label>出生日期 {{vm.person.birthDate}}</label>
                                 <i class="fa fa-calendar"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6"><!--身份证号码-->
+                    <div class="col-md-6">
+                        <!--身份证号码-->
                         <div class="form-group form-md-line-input form-md-floating-label">
                             <div class="input-icon">
                                 <input type="text" class="form-control"
@@ -229,14 +230,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="form-actions noborder">
-                    <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.editInfo=0">@L("Cancel")</button>
-                    <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")"
-                            class="btn btn-primary blue" data-ng-click="vm.editInfo=0"
-                            ng-disabled="personCreateOrEditForm.$invalid">
-                        <i class="fa fa-save"></i> <span>@L("Save")</span>
-                    </button>
-                </div>
+            </div>
+            <div class="form-actions noborder">
+                <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.editInfo=0">@L("Cancel")</button>
+                <button type="submit" button-busy="vm.saving"
+                        busy-text="@L("SavingWithThreeDot")"
+                        class="btn btn-primary blue"
+                        ng-disabled="personCreateOrEditForm.$invalid"
+                        data-ng-click="vm.submit()">
+                    <i class="fa fa-save"></i> <span>@L("Save")</span>
+                </button>
             </div>
         </form>
 
@@ -244,41 +247,6 @@
     </uib-tab>
     <uib-tab heading="工作信息">
         工作详情....
-        <pre>Selected date is: <em>{{vm.dt}}</em></pre>
-
-        <h4>Popup</h4>
-        <div class="row">
-            <div class="col-md-6">
-                <p class="input-group">
-                    <input type="text" class="form-control" 
-                           uib-datepicker-popup="{{format}}" 
-                           ng-model="vm.dt"
-                           is-open="vm.popup1.opened" 
-                           datepicker-options="vm.dateOptions" 
-                           ng-required="true" 
-                           close-text="Close" />
-                    <span class="input-group-btn">
-                        <button type="button" class="btn btn-default" ng-click="vm.open1()"><i class="fa fa-calendar"></i></button>
-                    </span>
-                </p>
-            </div>
-
-            <div class="col-md-6">
-                <p class="input-group">
-                    <input type="text" class="form-control"
-                           uib-datepicker-popup
-                           ng-model="vm.dt"      
-                           is-open="vm.popup2.opened"
-                           datepicker-options="vm.dateOptions"
-                           ng-required="true"
-                           close-text="Close" />
-                    <span class="input-group-btn">
-                        <button type="button" class="btn btn-default" ng-click="vm.open2()"><i class="fa fa-calendar"></i></button>
-                    </span>
-                </p>
-            </div>
-        </div>
-
     </uib-tab>
 </uib-tabset>
 <!-- END FORM-->

@@ -25,7 +25,7 @@
             var requestParams = {
                 skipCount: 0,
                 maxResultCount: app.consts.grid.defaultPageSize,
-                sorting: null
+                sorting: 'id'
             };
 
             //4.设置gridOptions 

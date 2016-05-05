@@ -36,8 +36,8 @@
                 vm.today();
 
                 vm.open = function ($event) {
-                    //$event.preventDefault();
-                    //$event.stopPropagation();
+                    $event.preventDefault();
+                    $event.stopPropagation();
                     vm.opened = true;
                 };
 
@@ -45,35 +45,19 @@
                     formatYear: 'yyyy',
                     startingDay: 1
                 };
-                vm.formats = ['dd-MMMM-yyyy', 'yyyy/MM/dd', 'dd.MM.yyyy', 'shortDate'];
-                vm.format = vm.formats[2];
-                vm.pt = '1987-08-12T00:00:00.000Z';
 
-                vm.popup1 = {
-                    opened: false
-                };
-
-                vm.popup2 = {
-                    opened: false
-                };
-
-                vm.open1 = function () {
-                    vm.popup1.opened = true;
-                };
-
-                vm.open2 = function () {
-                    vm.popup2.opened = true;
-                };
 
                 //Edit
                 vm.editInfo = 0;
                 vm.submit = function () {
+                    vm.saving = false;
                     personService.createOrUpdatePerson({
                         person: vm.person
                     }).success(function () {
                         abp.notify.info(app.localize('SavedSuccessfully'));
                     }).finally(function () {
                         vm.editInfo = 0;
+                        vm.saving = false;
                     });
                 };
 
