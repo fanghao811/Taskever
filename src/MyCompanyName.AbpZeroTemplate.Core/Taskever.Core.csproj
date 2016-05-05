@@ -94,6 +94,7 @@
   <ItemGroup>
     <Compile Include="People\Emun\Gender.cs" />
     <Compile Include="People\Emun\PhoneNumberType.cs" />
+    <Compile Include="People\IPersonPhoneRepository .cs" />
     <Compile Include="People\IPersonRepository.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="People\PersonPhone.cs" />

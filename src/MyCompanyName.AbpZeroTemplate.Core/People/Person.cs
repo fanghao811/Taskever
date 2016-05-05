@@ -19,26 +19,26 @@ namespace Taskever.People
         public const int MaxNationalIDNumber = 32;
 
 
-        public Person()
-        {
-            PhoneList = new HashSet<PersonPhone>();
-        }
+        //public Person()
+        //{
+        //    PhoneList = new HashSet<PersonPhone>();
+        //}
 
-        public Person(string name, Gender gender, DateTime? birthDate, string nationalIDNumber)
-        {
-            PhoneList = new HashSet<PersonPhone>();
-        }
+        //public Person(string name, Gender gender, DateTime? birthDate, string nationalIDNumber)
+        //{
+        //    PhoneList = new HashSet<PersonPhone>();
+        //}
 
-        public DateTime? BirthDate { get; set; }
-        public Gender Gender { get; set; }
+        public virtual DateTime? BirthDate { get; set; }
+        public virtual Gender Gender { get; set; }
 
         [Required]
         [MaxLength(MaxNameLength)]
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
         [Required]
         [MaxLength(MaxNationalIDNumber)]
-        public string NationalIDNumber { get; set; }
+        public virtual string NationalIDNumber { get; set; }
 
         public virtual ICollection<PersonPhone> PhoneList { get; set; }
     }

@@ -273,7 +273,20 @@
     <Compile Include="Migrations\201605050730505_maxLegenthForPersonModel.Designer.cs">
       <DependentUpon>201605050730505_maxLegenthForPersonModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605050746003_modified_PersonPhone.cs" />
+    <Compile Include="Migrations\201605050746003_modified_PersonPhone.Designer.cs">
+      <DependentUpon>201605050746003_modified_PersonPhone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605050910512_personphone.cs" />
+    <Compile Include="Migrations\201605050910512_personphone.Designer.cs">
+      <DependentUpon>201605050910512_personphone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605050924128_personphone5-5.cs" />
+    <Compile Include="Migrations\201605050924128_personphone5-5.Designer.cs">
+      <DependentUpon>201605050924128_personphone5-5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\Seed\DefaultPersonAndPhoneCreator.cs" />
     <Compile Include="TaskeverDataModule.cs" />
     <Compile Include="Migrations\Seed\DefaultEditionCreator.cs" />
     <Compile Include="Migrations\Seed\DefaultLanguagesCreator.cs" />
@@ -409,6 +422,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605050730505_maxLegenthForPersonModel.resx">
       <DependentUpon>201605050730505_maxLegenthForPersonModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605050746003_modified_PersonPhone.resx">
+      <DependentUpon>201605050746003_modified_PersonPhone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605050910512_personphone.resx">
+      <DependentUpon>201605050910512_personphone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605050924128_personphone5-5.resx">
+      <DependentUpon>201605050924128_personphone5-5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

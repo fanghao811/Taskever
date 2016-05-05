@@ -17,11 +17,13 @@ namespace Taskever.People
     public class PersonAppService : TaskeverAppServiceBase, IPersonAppService //Optionally, you can derive from ApplicationService as we did for TaskAppService class.
     {
         private readonly IRepository<Person> _personRepository;
+        private readonly IRepository<PersonPhone,long> _personPhoneRepository;
 
         //ABP provides that we can directly inject IRepository<Person> (without creating any repository class)
-        public PersonAppService(IRepository<Person> personRepository)
+        public PersonAppService(IRepository<Person> personRepository, IRepository<PersonPhone, long> personPhoneRepository)
         {
             _personRepository = personRepository;
+            _personPhoneRepository = personPhoneRepository;
         }
 
         public PersonEditDto GetPersonForEdit(NullableIdInput input)
@@ -49,6 +51,7 @@ namespace Taskever.People
         {
             var query = _personRepository
                 .GetAll()
+                .Include(p=>p.PhoneList)
                 .WhereIf(
                  !input.Filter.IsNullOrWhiteSpace(),
                   p =>
@@ -122,6 +125,25 @@ namespace Taskever.People
 
             //Delete entity with standard Delete method of repositories.
             _personRepository.Delete(person);
+        }
+
+        //Add PersonPhone
+        public async Task<PhoneInPersonListDto> AddPhone(AddPhoneInput input)
+        {
+            var person = _personRepository.Get(input.PersonId);
+
+            var phone = input.MapTo<PersonPhone>();
+            person.PhoneList.Add(phone);
+
+            await CurrentUnitOfWork.SaveChangesAsync();
+
+            return phone.MapTo<PhoneInPersonListDto>();
+        }
+
+        //Delete PersonPhone
+        public async Task DeletePhone(IdInput<long> input)
+        {
+            await _personPhoneRepository.DeleteAsync(input.Id);
         }
 
 

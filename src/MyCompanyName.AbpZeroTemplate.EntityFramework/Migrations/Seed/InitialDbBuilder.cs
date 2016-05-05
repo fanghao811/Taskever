@@ -20,7 +20,7 @@ namespace Taskever.Migrations.Seed
             new DefaultLanguagesCreator(_context).Create();
             new DefaultTenantRoleAndUserCreator(_context).Create();
             new DefaultSettingsCreator(_context).Create();
-
+            new DefaultPersonAndPhoneCreator(_context).Create();
             _context.SaveChanges();
         }
     }

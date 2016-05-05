@@ -240,3 +240,6 @@ D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Task
 D:\Git\Taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.pdb
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.Added_model_person.resources
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.maxLegenthForPersonModel.resources
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.modified_PersonPhone.resources
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone.resources
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone55.resources

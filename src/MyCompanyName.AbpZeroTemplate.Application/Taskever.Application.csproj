@@ -121,6 +121,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="People\Dtos\AddPhoneInput.cs" />
     <Compile Include="People\Dtos\CreateOrUpdatePersonInput.cs" />
     <Compile Include="People\Dtos\DelPersonInput.cs" />
     <Compile Include="People\Dtos\GetAllPeopleOutput.cs" />
