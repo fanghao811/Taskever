@@ -11,6 +11,8 @@ using System.Threading.Tasks;
 using System.Data.Entity;
 using System.Linq;
 using System.Linq.Dynamic;
+using Taskever.People.Emun;
+using Taskever.Dto;
 
 namespace Taskever.People
 {
@@ -42,6 +44,17 @@ namespace Taskever.People
             output = person != null
                 ? person.MapTo<PersonEditDto>()
                 : new PersonEditDto();
+            var typelist = new List<EnumDto>();
+
+            foreach (var val in Enum.GetValues(typeof(PhoneNumberType)))
+            {
+                var enumDto = new EnumDto();
+                var name = Enum.GetName(typeof(PhoneNumberType), val);
+                enumDto.Name = name;
+                enumDto.Id = (int)val;
+                typelist.Add(enumDto);
+            }
+            output.PhoneTypeList = typelist;
 
             return output; //todo:改进 CreateorEditPerson.js 2016-3-29
         }

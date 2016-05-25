@@ -10,7 +10,7 @@
                     基本信息
                     <a href="javascript:;" class="btn btn-xs red pull-right"
                        tooltip-placement="top" uib-tooltip="编辑"
-                       data-ng-click="vm.editInfo=1">
+                       data-ng-click="vm.editInfo = 1">
                         <i class="fa fa-edit"></i>
                     </a>
                 </span>
@@ -61,55 +61,17 @@
 
                 <span class="font-blue bold">联系方式</span>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6" ng-repeat="phone in vm.person.phoneList">
                         <div class="form-group">
-                            <label class="control-label col-md-3">Address:</label>
+                            <label class="control-label col-md-3">{{vm.getPhoneTypeAsString(phone.phoneNumberType)}}:</label>
                             <div class="col-md-9">
-                                <p class="form-control-static"> #24 Sun Park Avenue, Rolton Str </p>
+                                <p class="form-control-static"> {{phone.phoneNumber}}</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="control-label col-md-3">City:</label>
-                            <div class="col-md-9">
-                                <p class="form-control-static"> New York </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/span-->
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="control-label col-md-3">State:</label>
-                            <div class="col-md-9">
-                                <p class="form-control-static"> New York </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/span-->
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="control-label col-md-3">Post Code:</label>
-                            <div class="col-md-9">
-                                <p class="form-control-static"> 457890 </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/span-->
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="control-label col-md-3">Country:</label>
-                            <div class="col-md-9">
-                                <p class="form-control-static"> USA </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!--/span-->
-                </div>
+
+
                 <!--/row-->
 
                 <span class="font-blue bold">地址</span>
@@ -229,6 +191,48 @@
                                        ng-required="true" minlength=10>
                                 <label for="NationalIDNumber">身份证号码</label>
                                 <i class="fa fa-bell-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span class="font-blue bold">联系方式</span>
+                <div class="row">
+                    <div class="col-md-6" ng-repeat="phone in vm.person.phoneList">
+                        <div class="form-group form-md-line-input form-md-floating-label">
+                            <div class="input-group left-addon">
+                                <span class="input-group-addon">
+                                    <i class="fa fa-user"></i>
+                                </span>
+                                <input type="text" class="form-control"
+                                       ng-model="phone.phoneNumber"
+                                       ng-class="{'edited':phone.phoneNumber}"
+                                       ng-required="true">
+                                <label>{{vm.getPhoneTypeAsString(phone.phoneNumberType)}}</label>
+
+                                <span class="input-group-btn btn-right">
+                                    <button class="btn btn-icon-only red" type="button"
+                                            data-ng-click="vm.deletePhone(phone)">
+                                        <i class="fa fa-trash"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!--Adding 电话号码-->
+                        <div class="form-group form-md-line-input has-info">
+                            <div class="input-group">
+                                <select class="form-control " 
+                                        ng-model="vm.newPhone.phoneNumberType"
+                                        ng-options="type.id as type.name for type in vm.person.phoneTypeList">
+                                </select>
+                                <div class="input-group-control">
+                                    <input type="text" class="form-control"
+                                           ng-model="vm.newPhone.phoneNumber">
+                                </div>
+                                <span class="input-group-btn btn-right">
+                                    <button class="btn" type="button" ng-click="vm.addPhone(vm.newPhone)">添加</button>
+                                </span>
                             </div>
                         </div>
                     </div>

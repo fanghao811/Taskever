@@ -65,14 +65,435 @@
         <div data-ng-include="'~/App/common/views/layout/sidebar.cshtml'" data-ng-controller="common.views.layout.sidebar as vm" class="page-sidebar-wrapper"></div>
         <div class="page-content-wrapper">
             <div class="page-content">
-                <div ui-view class="fade-in-up">
+                <!-- uiView:  --><div ui-view="" class="fade-in-up ng-scope"><!-- uiView:  --><div ui-view="" class="fade-in-up ng-scope"><div ng-controller="tenant.views.dashboard.index as vm" class="ng-scope">
+    <div class="row margin-bottom-5">
+        <div class="col-xs-6">
+            <div class="page-head">
+                <div class="page-title">
+                    <h1>工作 &nbsp;<small>分析与报告</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 text-right">
+
+        </div>
+    </div>
+
+    <div class="note note-info note-bordered">
+        <h3>欢迎使用ASP.NET Zero启动项目!<span class="close" data-close="note"></span></h3>
+        <p>
+            
+      在这个演示系统，您可以使用左边的菜单功能，测试和了解以下模块的全部功能：用户管理、角色管理、系统设置。
+      主面板(Dashboard)页面只是用于演示目的，文本和数据没有什么含义(所有数据都是硬编码在浏览器客户端程序；
+      其中的MEMBER ACTIVITY图表，向服务器端请求简单随机数据用于展示，当您点击刷新按钮时，可以看到变化。)
+    
+        </p>
+        <br>
+        <h4>查找多页面应用版本号</h4>
+        <p>
+            <a href="/Mpa">
+                
+      查看本示例:基于<strong>多页面应用</strong>版本，基于ASP.NET MVC和<strong>jQuery</strong>.
+      
+            </a>
+        </p>
+    </div>
+
+    <div class="row margin-top-10">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat2">
+                <div class="display">
+                    <div class="number">
+                        <h3 class="font-green-sharp">
+                            7800<small class="font-green-sharp">$</small>
+                        </h3>
+                        <small>TOTAL PROFIT</small>
+                    </div>
+                    <div class="icon">
+                        <i class="icon-pie-chart"></i>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <div class="progress">
+                        <span style="width: 76%;" class="progress-bar progress-bar-success green-sharp">
+                            <span class="sr-only">76% progress</span>
+                        </span>
+                    </div>
+                    <div class="status">
+                        <div class="status-title">
+                            progress
+                        </div>
+                        <div class="status-number">
+                            76%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat2">
+                <div class="display">
+                    <div class="number">
+                        <h3 class="font-red-haze">1349</h3>
+                        <small>NEW FEEDBACKS</small>
+                    </div>
+                    <div class="icon">
+                        <i class="icon-like"></i>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <div class="progress">
+                        <span style="width: 85%;" class="progress-bar progress-bar-success red-haze">
+                            <span class="sr-only">85% change</span>
+                        </span>
+                    </div>
+                    <div class="status">
+                        <div class="status-title">
+                            change
+                        </div>
+                        <div class="status-number">
+                            85%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat2">
+                <div class="display">
+                    <div class="number">
+                        <h3 class="font-blue-sharp">567</h3>
+                        <small>NEW ORDERS</small>
+                    </div>
+                    <div class="icon">
+                        <i class="icon-basket"></i>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <div class="progress">
+                        <span style="width: 45%;" class="progress-bar progress-bar-success blue-sharp">
+                            <span class="sr-only">45% grow</span>
+                        </span>
+                    </div>
+                    <div class="status">
+                        <div class="status-title">
+                            grow
+                        </div>
+                        <div class="status-number">
+                            45%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="dashboard-stat2">
+                <div class="display">
+                    <div class="number">
+                        <h3 class="font-purple-soft">276</h3>
+                        <small>NEW USERS</small>
+                    </div>
+                    <div class="icon">
+                        <i class="icon-user"></i>
+                    </div>
+                </div>
+                <div class="progress-info">
+                    <div class="progress">
+                        <span style="width: 57%;" class="progress-bar progress-bar-success purple-soft">
+                            <span class="sr-only">56% change</span>
+                        </span>
+                    </div>
+                    <div class="status">
+                        <div class="status-title">
+                            change
+                        </div>
+                        <div class="status-number">
+                            57%
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div data-ng-include="'~/App/common/views/layout/footer.cshtml'" data-ng-controller="common.views.layout.footer as vm" class="page-footer">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet light ">
+                <div class="portlet-title">
+                    <div class="caption caption-md">
+                        <i class="icon-bar-chart font-green-haze hide"></i>
+                        <span class="caption-subject font-green-haze bold uppercase">Sales Summary</span>
+                        <span class="caption-helper hide">weekly stats...</span>
+                    </div>
+                    <div class="actions">
+                        <div class="btn-group btn-group-devided" data-toggle="buttons">
+                            <label class="btn btn-transparent grey-salsa btn-circle btn-sm active">
+                                <input type="radio" name="options" class="toggle" id="option1">Today
+                            </label>
+                            <label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Week
+                            </label>
+                            <label class="btn btn-transparent grey-salsa btn-circle btn-sm">
+                                <input type="radio" name="options" class="toggle" id="option2">Month
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row list-separated">
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="font-grey-mint font-sm">
+                                Total Sales
+                            </div>
+                            <div class="uppercase font-hg font-red-flamingo">
+                                13,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="font-grey-mint font-sm">
+                                Revenue
+                            </div>
+                            <div class="uppercase font-hg font-green-haze">
+                                4,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="font-grey-mint font-sm">
+                                Expenses
+                            </div>
+                            <div class="uppercase font-hg font-purple">
+                                11,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-6">
+                            <div class="font-grey-mint font-sm">
+                                Growth
+                            </div>
+                            <div class="uppercase font-hg font-blue-sharp">
+                                9,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-separated list-inline-xs hide">
+                        <li>
+                            <div class="font-grey-mint font-sm">
+                                Total Sales
+                            </div>
+                            <div class="uppercase font-hg font-red-flamingo">
+                                13,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </li>
+                        <li>
+                        </li>
+                        <li class="border">
+                            <div class="font-grey-mint font-sm">
+                                Revenue
+                            </div>
+                            <div class="uppercase font-hg font-green-haze">
+                                4,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <div class="font-grey-mint font-sm">
+                                Expenses
+                            </div>
+                            <div class="uppercase font-hg font-purple">
+                                11,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </li>
+                        <li class="divider">
+                        </li>
+                        <li>
+                            <div class="font-grey-mint font-sm">
+                                Growth
+                            </div>
+                            <div class="uppercase font-hg font-blue-sharp">
+                                9,760 <span class="font-lg font-grey-mint">$</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div id="sales_statistics" class="portlet-body-morris-fit morris-chart" style="height: 260px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="260" version="1.1" width="549" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.1.2</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><path fill="none" stroke="none" d="M0,260H549" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="none" d="M0,195H549" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="none" d="M0,130H549" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="none" d="M0,65H549" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="none" stroke="none" d="M0,0H549" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><path fill="#e3f5f3" stroke="none" d="M0,104C34.5,106.16666666666666,103.5,115.91666666666666,138,112.66666666666666C172.5,109.41666666666666,241.5,76.91074681238615,276,78C310.125,79.07741347905282,378.375,124.04166666666666,412.5,121.33333333333331C446.625,118.62499999999997,514.875,72.58333333333331,549,56.333333333333314L549,260L0,260Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#92e9dc" d="M0,104C34.5,106.16666666666666,103.5,115.91666666666666,138,112.66666666666666C172.5,109.41666666666666,241.5,76.91074681238615,276,78C310.125,79.07741347905282,378.375,124.04166666666666,412.5,121.33333333333331C446.625,118.62499999999997,514.875,72.58333333333331,549,56.333333333333314" stroke-width="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="0" cy="104" r="0" fill="#92e9dc" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="138" cy="112.66666666666666" r="0" fill="#92e9dc" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="276" cy="78" r="0" fill="#92e9dc" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="412.5" cy="121.33333333333331" r="0" fill="#92e9dc" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="549" cy="56.333333333333314" r="0" fill="#92e9dc" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#59aea2" stroke="none" d="M0,138.66666666666666C34.5,145.16666666666666,103.5,166.83333333333331,138,164.66666666666666C172.5,162.5,241.5,122.42258652094716,276,121.33333333333331C310.125,120.25591985428049,378.375,155.45833333333334,412.5,156C446.625,156.54166666666666,514.875,133.25,549,125.66666666666666L549,260L0,260Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#399a8c" d="M0,138.66666666666666C34.5,145.16666666666666,103.5,166.83333333333331,138,164.66666666666666C172.5,162.5,241.5,122.42258652094716,276,121.33333333333331C310.125,120.25591985428049,378.375,155.45833333333334,412.5,156C446.625,156.54166666666666,514.875,133.25,549,125.66666666666666" stroke-width="0" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="0" cy="138.66666666666666" r="0" fill="#399a8c" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="138" cy="164.66666666666666" r="0" fill="#399a8c" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="276" cy="121.33333333333331" r="0" fill="#399a8c" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="412.5" cy="156" r="0" fill="#399a8c" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="549" cy="125.66666666666666" r="0" fill="#399a8c" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg>
+                    <div class="morris-hover morris-default-style" style="left: 92px; top: 69px; display: none;"><div class="morris-hover-row-label">2011 Q2</div><div class="morris-hover-point" style="color: #399a8c">
+  Sales:
+  1,100
+</div><div class="morris-hover-point" style="color: #92e9dc">
+  Profit:
+  600
+</div></div></div>
+                </div>
+            </div>
+            <!-- END PORTLET-->
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+            <!-- BEGIN PORTLET-->
+            <div class="portlet light ">
+                <div class="portlet-title">
+                    <div class="caption caption-md">
+                        <i class="icon-bar-chart font-green-haze hide"></i>
+                        <span class="caption-subject font-green-haze bold uppercase">Member Activity</span>
+                        <span class="caption-helper hide">weekly stats...</span>
+                    </div>
+                    <div class="actions">
+                        <button class="btn btn-success btn-rounded" ng-click="vm.getMemberActivity()"><i class="fa fa-refresh"></i> Refresh</button>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div class="row number-stats margin-bottom-30">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="stat-left">
+                                <div class="stat-chart">
+                                    <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
+                                    <div id="totalMembersChart"><canvas width="90" height="45" style="display: inline-block; width: 90px; height: 45px; vertical-align: top;"></canvas></div>
+                                </div>
+                                <div class="stat-number">
+                                    <div class="title">
+                                        Total
+                                    </div>
+                                    <div class="number">
+                                        2460
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <div class="stat-right">
+                                <div class="stat-chart">
+                                    <!-- do not line break "sparkline_bar" div. sparkline chart has an issue when the container div has line break -->
+                                    <div id="newMembersChart"><canvas width="90" height="45" style="display: inline-block; width: 90px; height: 45px; vertical-align: top;"></canvas></div>
+                                </div>
+                                <div class="stat-number">
+                                    <div class="title">
+                                        New
+                                    </div>
+                                    <div class="number">
+                                        719
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="table-scrollable table-scrollable-borderless">
+                        <table class="table table-hover table-light">
+                            <thead>
+                                <tr class="uppercase">
+                                    <th colspan="2">
+                                        MEMBER
+                                    </th>
+                                    <th>
+                                        Earnings
+                                    </th>
+                                    <th>
+                                        CASES
+                                    </th>
+                                    <th>
+                                        CLOSED
+                                    </th>
+                                    <th>
+                                        RATE
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody><tr>
+                                <td class="fit">
+                                    <img class="user-pic" src="/metronic/assets/admin/layout4/img/avatar4.jpg">
+                                </td>
+                                <td>
+                                    <a href="javascript:;" class="primary-link">Brain</a>
+                                </td>
+                                <td>
+                                    $345
+                                </td>
+                                <td>
+                                    45
+                                </td>
+                                <td>
+                                    124
+                                </td>
+                                <td>
+                                    <span class="bold font-green-haze">80%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fit">
+                                    <img class="user-pic" src="/metronic/assets/admin/layout4/img/avatar5.jpg">
+                                </td>
+                                <td>
+                                    <a href="javascript:;" class="primary-link">Nick</a>
+                                </td>
+                                <td>
+                                    $560
+                                </td>
+                                <td>
+                                    12
+                                </td>
+                                <td>
+                                    24
+                                </td>
+                                <td>
+                                    <span class="bold font-green-haze">67%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fit">
+                                    <img class="user-pic" src="/metronic/assets/admin/layout4/img/avatar6.jpg">
+                                </td>
+                                <td>
+                                    <a href="javascript:;" class="primary-link">Tim</a>
+                                </td>
+                                <td>
+                                    $1,345
+                                </td>
+                                <td>
+                                    450
+                                </td>
+                                <td>
+                                    46
+                                </td>
+                                <td>
+                                    <span class="bold font-green-haze">98%</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="fit">
+                                    <img class="user-pic" src="/metronic/assets/admin/layout4/img/avatar7.jpg">
+                                </td>
+                                <td>
+                                    <a href="javascript:;" class="primary-link">Tom</a>
+                                </td>
+                                <td>
+                                    $645
+                                </td>
+                                <td>
+                                    50
+                                </td>
+                                <td>
+                                    89
+                                </td>
+                                <td>
+                                    <span class="bold font-green-haze">58%</span>
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </div>
+                </div>
+            </div>
+            <!-- END PORTLET-->
+        </div>
     </div>
+</div></div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    @*<div data-ng-include="'~/App/common/views/layout/footer.cshtml'"
+          data-ng-controller="common.views.layout.footer as vm" class="page-footer">
+    </div>*@
 
     <!--[if lt IE 9]>
         <script src="~/libs/respond/respond.min.js"></script>

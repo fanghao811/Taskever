@@ -11,7 +11,15 @@
                     name: '',
                     birthDate: null,
                     gender: null,
-                    nationalIDNumber: ''
+                    nationalIDNumber: '',
+                    phoneList: [],
+                    phoneTypeList:[]
+                };
+
+                vm.newPhone = {
+                    personId: null,
+                    phoneNumberType: 1,
+                    phoneNumber: ''
                 };
 
                 vm.genders = [{
@@ -22,6 +30,23 @@
                     gender: '女',
                     value: 2,
                 }];
+
+                vm.getPhoneTypeAsString = function (typeAsNumber) {
+                    switch (typeAsNumber) {
+                        case 1:
+                            return '手机';
+                        case 2:
+                            return '座机';
+                        case 3:
+                            return '宅电';
+                        case 4:
+                            return '公司';
+                        case 5:
+                            return '传真';
+                        default:
+                            return '?';
+                    }
+                };
 
 
                 //TODO:test passing data between pages
@@ -44,6 +69,37 @@
                 vm.dateOptions = {
                     formatYear: 'yyyy',
                     startingDay: 1
+                };
+
+
+                // =========================================================================
+                // PersonPhone 
+                // =========================================================================
+
+                vm.deletePhone = function (phone) {
+                    personService.deletePhone({
+                        id: phone.id
+                    }).success(function () {
+                        abp.notify.success(app.localize('SuccessfullyDeleted'));
+                        vm.person.phoneList = _.without(vm.person.phoneList, phone);
+                    });
+                };
+
+                vm.addPhone = function (phone) {
+                    if (!phone || !phone.phoneNumberType || !phone.phoneNumber) {
+                        abp.message.warn('Please select a phone type and enter a number!');
+                        return;
+                    }
+
+                    phone.personId = vm.person.id;
+
+                    personService.addPhone(phone)
+                        .success(function (result) {
+                            abp.notify.success(app.localize('SavedSuccessfully'));
+                            vm.person.phoneList.push(result);
+                            phone.phoneNumberType = 1;
+                            phone.phoneNumber = '';
+                        });
                 };
 
 

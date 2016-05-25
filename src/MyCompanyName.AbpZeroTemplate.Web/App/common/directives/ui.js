@@ -1,21 +1,21 @@
 (function () {
 
-        // =========================================================================
-        // MALIHU SCROLL
-        // =========================================================================
+    // =========================================================================
+    // MALIHU SCROLL
+    // =========================================================================
 
-        //On Custom Class
+    //On Custom Class
     appModule.directive('cOverflow', ['scrollService', function (scrollService) {
-            return {
-                restrict: 'C',
-                link: function (scope, element) {
+        return {
+            restrict: 'C',
+            link: function (scope, element) {
 
-                    if (!$('html').hasClass('ismobile')) {
-                        scrollService.malihuScroll(element, 'minimal-dark', 'y');
-                    }
+                if (!$('html').hasClass('ismobile')) {
+                    scrollService.malihuScroll(element, 'minimal-dark', 'y');
                 }
             }
-        }])
+        }
+    }])
 
 
 
@@ -62,7 +62,7 @@
             var dateFilter = $filter('date');
             return {
                 require: 'ngModel',
-                link: function(scope, elm, attrs, ctrl) {
+                link: function (scope, elm, attrs, ctrl) {
 
                     function formatter(value) {
                         return dateFilter(value, 'yyyy-MM-dd'); //format
@@ -78,6 +78,4 @@
                 }
             };
         }]);
-
-
 })();

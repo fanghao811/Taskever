@@ -18,17 +18,6 @@ namespace Taskever.People
         public const int MaxNameLength = 32;
         public const int MaxNationalIDNumber = 32;
 
-
-        //public Person()
-        //{
-        //    PhoneList = new HashSet<PersonPhone>();
-        //}
-
-        //public Person(string name, Gender gender, DateTime? birthDate, string nationalIDNumber)
-        //{
-        //    PhoneList = new HashSet<PersonPhone>();
-        //}
-
         public virtual DateTime? BirthDate { get; set; }
         public virtual Gender Gender { get; set; }
 

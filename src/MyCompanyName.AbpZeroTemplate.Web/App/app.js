@@ -35,7 +35,7 @@ App.setAssetsPath(abp.appPath + 'metronic/assets/');
 appModule.factory('settings', ['$rootScope', function ($rootScope) {
     var settings = {
         layout: {
-            pageSidebarClosed: false, // sidebar menu state
+            pageSidebarClosed: true, // sidebar menu state
             pageContentWhite: true, // set page content layout
             pageBodySolid: false, // solid body color state
             pageAutoScrollOnLoad: 1000 // auto scroll to top on page load
@@ -145,7 +145,8 @@ appModule.config([
                 templateUrl: '~/App/common/views/HR/people/profile.cshtml',
                 controller: 'common.views.HR.people.profile',
                 controllerAs: 'vm',
-                menu: 'HumanResources.Profile'
+                menu: 'HumanResources.Profile',
+                'abstract': true //5-24
             })
             .state("profile.info", {//员工管理子页
                 url: "/info/:subTitle",
@@ -161,6 +162,27 @@ appModule.config([
                     return 'HumanResources.Profile.' + $stateParams.subTitle;
                 }
             });
+
+        //Products
+        $stateProvider
+            .state('product', {
+                'abstract': true,
+                url: "/product",
+                template: '<div ui-view class="fade-in-up"></div>'
+            })
+            .state('product.detail', {
+                url: '/detail',
+                templateUrl: '~/App/common/views/products/product_detail.cshtml',
+                menu: '设备信息'
+            })
+            .state('product.edit', {
+                url: '/edit',
+                templateUrl: '~/App/common/views/products/product_edit.cshtml',
+                menu: '设备编辑'
+            });
+
+
+
 
         //HOST routes
 
@@ -229,7 +251,7 @@ appModule.run(["$rootScope", "settings", "$state", function ($rootScope, setting
 
     /* 切换状态后，更新面包屑导航 */
     $rootScope.$on('$stateChangeSuccess',
-      function (event, toState, toParams, fromState, fromParams) {      
+      function (event, toState, toParams, fromState, fromParams) {
           $rootScope.currentMenuName = toState.menu;
       });
 
