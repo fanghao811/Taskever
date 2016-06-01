@@ -297,6 +297,16 @@
     <!--2016-4-5 organization tree-->
     <text name="HumanResource" value="人事管理" /> 
     <text name="People" value="员工列表" />
-    <text name="ProfileAccount" value="个人信息" />  
+    <text name="ProfileAccount" value="个人信息" />
+
+    <!--2016-4-5 Tasks -->
+    <text name="Task" value="工单管理" />
+    <text name="MyTask" value="我的工单" />
+  
+    <!--2016-4-5 Products -->
+    <text name="ProductManage" value="设备管理" />
+    <text name="ProductList" value="设备列表" />
+    <text name="Locations" value="地点管理" />
+
   </texts>
 </localizationDictionary>

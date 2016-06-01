@@ -1,10 +1,10 @@
-﻿using Abp.Domain.Entities;
-using Abp.Domain.Entities.Auditing;
+﻿using Abp.Domain.Entities.Auditing;
 using Taskever.People.Emun;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Taskever.Tasks;
 
 namespace Taskever.People
 {
@@ -30,5 +30,13 @@ namespace Taskever.People
         public virtual string NationalIDNumber { get; set; }
 
         public virtual ICollection<PersonPhone> PhoneList { get; set; }
+
+        //public virtual ICollection<TaskOrder> MemberTasks { get; set; }
+
+        //[InverseProperty("CrewLeader")]
+        //public ICollection<TaskOrder> LeaderTasks { get; set; }
+
+        //[InverseProperty("Requester")]
+        //public ICollection<TaskOrder> RequestTasks { get; set; }
     }
 }

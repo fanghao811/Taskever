@@ -149,6 +149,11 @@
     <Compile Include="Storage\DbBinaryObjectManager.cs" />
     <Compile Include="Storage\IBinaryObjectManager.cs" />
     <Compile Include="Storage\BinaryObject.cs" />
+    <Compile Include="Tasks\Enum\TaskState.cs" />
+    <Compile Include="Tasks\Enum\TaskType.cs" />
+    <Compile Include="Tasks\Enum\TaskPriority.cs" />
+    <Compile Include="Tasks\ITaskOrderRepository.cs" />
+    <Compile Include="Tasks\TaskOrder.cs" />
     <Compile Include="Web\IWebUrlService.cs" />
     <Compile Include="Web\WebUrlService.cs" />
   </ItemGroup>

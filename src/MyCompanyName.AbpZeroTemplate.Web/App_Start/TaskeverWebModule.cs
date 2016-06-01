@@ -15,7 +15,7 @@ using Castle.MicroKernel.Registration;
 using Hangfire;
 using Microsoft.Owin.Security;
 using Taskever.Web.App.Startup;
-using Taskever.Web.Areas.Mpa.Startup;
+//using Taskever.Web.Areas.Mpa.Startup;
 using Taskever.Web.Bundling;
 using Taskever.Web.Navigation;
 using Taskever.Web.Routing;
@@ -45,7 +45,7 @@ namespace Taskever.Web
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<AppNavigationProvider>();
             Configuration.Navigation.Providers.Add<FrontEndNavigationProvider>();
-            Configuration.Navigation.Providers.Add<MpaNavigationProvider>();
+            //Configuration.Navigation.Providers.Add<MpaNavigationProvider>(); Mpa 1
 
             //Uncomment these lines to use HangFire as background job manager.
             //Configuration.BackgroundJobs.UseHangfire(configuration =>
@@ -69,7 +69,7 @@ namespace Taskever.Web
                 );
 
             //Areas
-            AreaRegistration.RegisterAllAreas();
+            //AreaRegistration.RegisterAllAreas();
 
             //Routes
             RouteConfig.RegisterRoutes(RouteTable.Routes);
@@ -79,7 +79,7 @@ namespace Taskever.Web
             CommonBundleConfig.RegisterBundles(BundleTable.Bundles);
             AppBundleConfig.RegisterBundles(BundleTable.Bundles);
             FrontEndBundleConfig.RegisterBundles(BundleTable.Bundles);
-            MpaBundleConfig.RegisterBundles(BundleTable.Bundles);
+            //MpaBundleConfig.RegisterBundles(BundleTable.Bundles); Mpa2
         }
 
         public override void PostInitialize()

@@ -37,6 +37,23 @@ namespace Taskever.Web.App.Startup
                     icon: "icon-home",
                     requiredPermissionName: AppPermissions.Pages_Tenant_Dashboard
                     )
+                ).AddItem(new MenuItemDefinition(//工单管理
+                    PageNames.App.Common.Task,
+                    L("MyTask"),
+                    url: "tasks",
+                    icon: "fa fa-home"
+                    )
+                ).AddItem(new MenuItemDefinition(//设备管理
+                    PageNames.App.Common.Product,
+                    L("ProductManage"),
+                    icon: "fa fa-home"
+                    ).AddItem(new MenuItemDefinition(
+                        PageNames.App.Common.Product_list,
+                        L("ProductList"),
+                        url: "product.edited",
+                        icon: "fa fa-grid"
+                        )
+                    )
                 ).AddItem(new MenuItemDefinition(//人事管理
                     PageNames.App.Common.HumanResources,
                     L("HumanResource"),

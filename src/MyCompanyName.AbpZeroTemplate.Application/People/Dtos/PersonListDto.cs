@@ -1,7 +1,6 @@
 ﻿using Abp.AutoMapper;
 using Taskever.People.Emun;
 using System;
-using System.Collections.ObjectModel;
 using Abp.Application.Services.Dto;
 using Abp.Domain.Entities.Auditing;
 using System.Collections.Generic;

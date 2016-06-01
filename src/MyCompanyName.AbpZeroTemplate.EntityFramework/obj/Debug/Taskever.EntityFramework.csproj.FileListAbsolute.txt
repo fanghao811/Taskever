@@ -243,3 +243,4 @@ D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Task
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.modified_PersonPhone.resources
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone.resources
 D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone55.resources
+D:\Git\taskever\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.Added_TaskOrder_Entities.resources

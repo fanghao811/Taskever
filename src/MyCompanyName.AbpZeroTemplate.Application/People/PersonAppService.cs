@@ -103,7 +103,7 @@ namespace Taskever.People
         //[AbpAuthorize("Administration.PersonManagement.CreatePerson")]
         public async Task CreatePerson(CreateOrUpdatePersonInput input)
         {
-            Person person = new Person
+          Person person = new Person
             {
                 Name = input.person.Name,
                 Gender = input.person.Gender,
@@ -116,7 +116,7 @@ namespace Taskever.People
 
         public async Task UpdatePerson(CreateOrUpdatePersonInput input)
         {
-            Debug.Assert(input.person.Id != null, "input.User.Id should be set.");
+            Debug.Assert(input.person.Id != null, "input.Person.Id should be set.");
 
             var person = await _personRepository.GetAsync(input.person.Id.Value);
             person.Name = input.person.Name;

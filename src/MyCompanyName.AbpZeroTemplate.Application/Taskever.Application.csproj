@@ -257,6 +257,13 @@
     <Compile Include="Sessions\Dto\UserLoginInfoDto.cs" />
     <Compile Include="Sessions\ISessionAppService.cs" />
     <Compile Include="Sessions\SessionAppService.cs" />
+    <Compile Include="Tasks\Dtos\GetTasksInput.cs" />
+    <Compile Include="Tasks\Dtos\GetTasksOutput.cs" />
+    <Compile Include="Tasks\Dtos\CreateOrUpdateTaskInput.cs" />
+    <Compile Include="Tasks\Dtos\UpdateTaskInput.cs" />
+    <Compile Include="Tasks\Dtos\TaskDto.cs" />
+    <Compile Include="Tasks\TaskOrderAppService.cs" />
+    <Compile Include="Tasks\ITaskOrderAppService.cs" />
     <Compile Include="Tenants\Dashboard\Dto\GetMemberActivityOutput.cs" />
     <Compile Include="Tenants\Dashboard\ITenantDashboardAppService.cs" />
     <Compile Include="Tenants\Dashboard\TenantDashboardAppService.cs" />

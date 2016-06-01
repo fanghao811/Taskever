@@ -14,6 +14,12 @@ namespace Taskever.Web.Navigation
                 public const string OrganizationUnits = "Administration.OrganizationUnits";
                 public const string Languages = "Administration.Languages";
                 public const string ChatHub = "Administration.ChatHub";
+                //工单管理
+                public const string Task = "Task";
+                public const string Task_List = "Task.List";
+                //设备管理
+                public const string Product = "Product";
+                public const string Product_list = "Product.List";
                 //人事管理
                 public const string HumanResources = "HumanResources";
                 public const string People = "HumanResources.People";

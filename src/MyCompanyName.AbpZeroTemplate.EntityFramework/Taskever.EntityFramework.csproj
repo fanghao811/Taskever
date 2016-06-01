@@ -285,6 +285,10 @@
     <Compile Include="Migrations\201605050924128_personphone5-5.Designer.cs">
       <DependentUpon>201605050924128_personphone5-5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605310326510_Added_TaskOrder_Entities.cs" />
+    <Compile Include="Migrations\201605310326510_Added_TaskOrder_Entities.Designer.cs">
+      <DependentUpon>201605310326510_Added_TaskOrder_Entities.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seed\DefaultPersonAndPhoneCreator.cs" />
     <Compile Include="TaskeverDataModule.cs" />
@@ -431,6 +435,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605050924128_personphone5-5.resx">
       <DependentUpon>201605050924128_personphone5-5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605310326510_Added_TaskOrder_Entities.resx">
+      <DependentUpon>201605310326510_Added_TaskOrder_Entities.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

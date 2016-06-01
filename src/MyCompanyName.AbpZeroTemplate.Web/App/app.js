@@ -163,6 +163,26 @@ appModule.config([
                 }
             });
 
+
+        //Tasks
+        $stateProvider
+            .state('tasks', {
+                url: '/tasks',
+                templateUrl: '~/App/common/views/tasks/index.cshtml',
+                menu: 'Task.Detail'
+            })
+            .state('taskDetail', {
+                url: '/taskDetail',
+                templateUrl: '~/App/common/views/tasks/task_detail.cshtml',
+                menu: 'Task.Detail'
+            })
+            .state('taskEdited', {
+                url: '/taskEdited',
+                templateUrl: '~/App/common/views/tasks/task_edited.cshtml',
+                menu: 'Task.Edited'
+            });
+
+
         //Products
         $stateProvider
             .state('product', {
@@ -173,12 +193,12 @@ appModule.config([
             .state('product.detail', {
                 url: '/detail',
                 templateUrl: '~/App/common/views/products/product_detail.cshtml',
-                menu: '设备信息'
+                menu: 'Product.Detail'
             })
-            .state('product.edit', {
-                url: '/edit',
-                templateUrl: '~/App/common/views/products/product_edit.cshtml',
-                menu: '设备编辑'
+            .state('product.edited', {
+                url: '/edited',
+                templateUrl: '~/App/common/views/products/product_edited.cshtml',
+                menu: 'Product.Edited'
             });
 
 

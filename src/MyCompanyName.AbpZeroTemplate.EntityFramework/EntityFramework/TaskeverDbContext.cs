@@ -6,6 +6,7 @@ using Taskever.Authorization.Users;
 using Taskever.MultiTenancy;
 using Taskever.Storage;
 using Taskever.People;
+using Taskever.Tasks;
 
 namespace Taskever.EntityFramework
 {
@@ -14,6 +15,7 @@ namespace Taskever.EntityFramework
         /* Define an IDbSet for each entity of the application */
 
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
+        public virtual IDbSet<TaskOrder> TaskOrders { get; set; }
         public virtual IDbSet<Person> People { get; set; }
         public virtual IDbSet<PersonPhone> PersonPhones { get; set; }
 
@@ -42,5 +44,29 @@ namespace Taskever.EntityFramework
         {
 
         }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<TaskOrder>()
+            //    .HasRequired(t => t.Requester).WithRequiredPrincipal()         
+            //    .WillCascadeOnDelete(false);
+            //modelBuilder.Entity<TaskOrder>()
+            //    .HasRequired(t => t.CrewLeader).WithRequiredPrincipal()
+            //    .WillCascadeOnDelete(false);
+
+            modelBuilder.Entity<TaskOrder>()
+                .HasMany(t => t.Members)
+                .WithMany()
+                .Map(m =>
+                {
+                    m.ToTable("TaskMember", "Tasks");
+                    m.MapLeftKey("TaskOrderID");
+                    m.MapRightKey("UserID");
+                }
+            );
+            //modelBuilder.Entity<TaskOrder>().HasRequired(t =>t.CrewLeader);
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 }
