@@ -2,7 +2,7 @@
 abp1.9.0
 
 ###Vm.organizatinTree
-* [$Tree](/tree/)
+* [$Tree](/OrganizationUnit/)
 * <A HREF="#ROP_ARM">ROP_ARM</A>
 * setUnitCount
 * refreshUnitCount
