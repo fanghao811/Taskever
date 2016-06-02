@@ -4,7 +4,7 @@
 使用OrganizationUnit实现层次模型：Location（物理位置）
 
 ####Vm.organizatinTree 
-* [$Tree](/#tree)
+* [$Tree](#tree)
 * [$setUnitCount](/#setUnitCount)
 * [$refreshUnitCount](/#refreshUnitCount)
 * [$selectedOu](/#selectedOu)
