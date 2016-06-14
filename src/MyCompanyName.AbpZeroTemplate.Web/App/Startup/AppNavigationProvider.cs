@@ -40,7 +40,7 @@ namespace Taskever.Web.App.Startup
                 ).AddItem(new MenuItemDefinition(//工单管理
                     PageNames.App.Common.Task,
                     L("MyTask"),
-                    url: "tasks",
+                    url: "task",
                     icon: "fa fa-home"
                     )
                 ).AddItem(new MenuItemDefinition(//设备管理
@@ -75,7 +75,19 @@ namespace Taskever.Web.App.Startup
                     PageNames.App.Common.Administration,
                     L("Administration"),
                     icon: "icon-wrench"
-                    ).AddItem(new MenuItemDefinition(
+                    ).AddItem(new MenuItemDefinition(//根节点管理
+                        PageNames.App.Common.RootTree,
+                        L("RootTree"),
+                        url: "rootTree",
+                        icon: "icon-layers"
+                        )
+                    ).AddItem(new MenuItemDefinition(//地点管理 Location
+                        PageNames.App.Common.Location,
+                        L("LocationManage"),
+                        url: "location",
+                        icon: "fa fa-user"
+                        )
+                    ).AddItem(new MenuItemDefinition(//组织机构
                         PageNames.App.Common.OrganizationUnits,
                         L("OrganizationUnits"),
                         url: "organizationUnits",

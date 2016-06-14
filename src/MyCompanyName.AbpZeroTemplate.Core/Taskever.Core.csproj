@@ -92,6 +92,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Location\Location.cs" />
     <Compile Include="People\Emun\Gender.cs" />
     <Compile Include="People\Emun\PhoneNumberType.cs" />
     <Compile Include="People\IPersonPhoneRepository .cs" />

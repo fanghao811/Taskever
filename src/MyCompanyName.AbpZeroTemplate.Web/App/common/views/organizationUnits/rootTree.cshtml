@@ -1,0 +1,64 @@
+﻿@using Taskever.Localization
+<div ng-controller="common.views.organizationUnits.rootTree as vm">
+    <div class="row margin-bottom-5">
+        <div class="col-xs-12">
+            <div class="page-head">
+                <div class="page-title">
+                    <h1>
+                        <span>根节点管理</span> <small>各种树</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="portlet light">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <span class="caption-subject bold uppercase">
+                            各种树
+                        </span>
+                    </div>
+                    <div class="actions">
+                        <a ng-if="vm.permissions.manageOrganizationTree" ng-click="vm.organizationTree.addUnit(null)" class="btn btn-circle btn-default">
+                            <i class="fa fa-plus"></i> @L("AddRootUnit")
+                        </a>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <div id="OrganizationUnitEditTree"></div>
+                    <div ng-if="!vm.organizationTree.unitCount" class="text-muted">
+                        @L("NoOrganizationUnitDefinedYet")
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="portlet light">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <span class="caption-subject bold uppercase">
+                            各种树
+                        </span>
+                    </div>
+                    <div class="actions">
+                        <a ng-if="vm.permissions.manageOrganizationTree" ng-click="vm.organizationTree.addUnit(null)" class="btn btn-circle btn-default">
+                            <i class="fa fa-plus"></i> @L("AddRootUnit")
+                        </a>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    @*<div id="OrganizationUnitEditTree"></div>*@
+                    <div ng-if="!vm.organizationTree.unitCount" class="text-muted">
+                        @L("NoOrganizationUnitDefinedYet")
+                    </div>
+                    <div class="text-muted">
+                        Todo:
+                        <p>1.根节点详情，创建时间，人，用途等</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

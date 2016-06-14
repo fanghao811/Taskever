@@ -59,7 +59,9 @@ appModule.config([
     function ($stateProvider, $urlRouterProvider) {
 
         // Default route (overrided below if user has permission)
-        $urlRouterProvider.otherwise("/welcome");
+        //$urlRouterProvider.otherwise("/welcome");
+        $urlRouterProvider.otherwise("/tenant/dashboard");//--设置起始页为Dashboard 160613
+
 
         //Welcome page
         $stateProvider.state('welcome', {
@@ -117,6 +119,13 @@ appModule.config([
             });
         }
 
+        //系统根节点
+        $stateProvider.state('rootTree', {
+            url: '/rootTree',
+            templateUrl: '~/App/common/views/organizationUnits/rootTree.cshtml'
+        });
+
+        //通知消息
         $stateProvider.state('notifications', {
             url: '/notifications',
             templateUrl: '~/App/common/views/notifications/index.cshtml'
@@ -166,10 +175,10 @@ appModule.config([
 
         //Tasks
         $stateProvider
-            .state('tasks', {
-                url: '/tasks',
+            .state('task', {
+                url: '/task',
                 templateUrl: '~/App/common/views/tasks/index.cshtml',
-                menu: 'Task.Detail'
+                menu: 'Task'
             })
             .state('taskDetail', {
                 url: '/taskDetail',
@@ -181,6 +190,13 @@ appModule.config([
                 templateUrl: '~/App/common/views/tasks/task_edited.cshtml',
                 menu: 'Task.Edited'
             });
+
+        $stateProvider
+        .state('location', {
+            url: '/location',
+            templateUrl: '~/App/common/views/locations/index.cshtml',
+            menu: 'Location'
+        });
 
 
         //Products

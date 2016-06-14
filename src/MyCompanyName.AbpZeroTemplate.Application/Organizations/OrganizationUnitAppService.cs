@@ -30,6 +30,52 @@ namespace Taskever.Organizations
             _userOrganizationUnitRepository = userOrganizationUnitRepository;
         }
 
+        //根节点管理
+        public async Task<ListResultOutput<OrganizationUnitDto>> GetRootTree()
+        {
+            var query =
+                from ou in _organizationUnitRepository.GetAll()
+                where ou.ParentId==null //一级子叶:ou.ParentId==null
+                select ou;
+
+            var items = await query.ToListAsync();
+
+            return new ListResultOutput<OrganizationUnitDto>(
+                items.Select(item =>
+                {
+                    var dto = item.MapTo<OrganizationUnitDto>();
+                    return dto;
+
+                }).ToList());
+        }
+
+        //获取子树所有节点
+        public async Task<ListResultOutput<OrganizationUnitDto>> GetOUsIncludingChildren(long id)
+        {
+            var code = _organizationUnitRepository.Get(id).Code;
+
+            var query =
+                from ou in _organizationUnitRepository.GetAll()
+                join ou1 in _organizationUnitRepository.GetAll() on ou.Id equals ou1.ParentId into g
+                where ou.Code.StartsWith(code)
+                select new {
+                    ou,
+                    memberCount = g.Count()
+                };
+
+            var items = await query.ToListAsync();
+
+
+            return new ListResultOutput<OrganizationUnitDto>(
+                items.Select(item =>
+                {
+                    var dto = item.ou.MapTo<OrganizationUnitDto>();
+                    dto.MemberCount = item.memberCount;
+                    return dto;
+
+                }).ToList());
+        }
+
         public async Task<ListResultOutput<OrganizationUnitDto>> GetOrganizationUnits()
         {
             var query =
@@ -38,7 +84,7 @@ namespace Taskever.Organizations
                 select new { ou, memberCount = g.Count() };
 
             var items = await query.ToListAsync();
-            
+
             return new ListResultOutput<OrganizationUnitDto>(
                 items.Select(item =>
                 {
@@ -51,11 +97,11 @@ namespace Taskever.Organizations
         public async Task<PagedResultOutput<OrganizationUnitUserListDto>> GetOrganizationUnitUsers(GetOrganizationUnitUsersInput input)
         {
             var query = from uou in _userOrganizationUnitRepository.GetAll()
-                join ou in _organizationUnitRepository.GetAll() on uou.OrganizationUnitId equals ou.Id
-                join user in UserManager.Users on uou.UserId equals user.Id
-                where uou.OrganizationUnitId == input.Id
-                orderby input.Sorting
-                select new {uou, user};
+                        join ou in _organizationUnitRepository.GetAll() on uou.OrganizationUnitId equals ou.Id
+                        join user in UserManager.Users on uou.UserId equals user.Id
+                        where uou.OrganizationUnitId == input.Id
+                        orderby input.Sorting
+                        select new { uou, user };
 
             var totalCount = await query.CountAsync();
             var items = await query.PageBy(input).ToListAsync();
@@ -74,7 +120,7 @@ namespace Taskever.Organizations
         public async Task<OrganizationUnitDto> CreateOrganizationUnit(CreateOrganizationUnitInput input)
         {
             var organizationUnit = new OrganizationUnit(AbpSession.TenantId, input.DisplayName, input.ParentId);
-            
+
             await _organizationUnitManager.CreateAsync(organizationUnit);
             await CurrentUnitOfWork.SaveChangesAsync();
 
@@ -85,7 +131,7 @@ namespace Taskever.Organizations
         public async Task<OrganizationUnitDto> UpdateOrganizationUnit(UpdateOrganizationUnitInput input)
         {
             var organizationUnit = await _organizationUnitRepository.GetAsync(input.Id);
-            
+
             organizationUnit.DisplayName = input.DisplayName;
 
             await _organizationUnitManager.UpdateAsync(organizationUnit);
@@ -97,7 +143,7 @@ namespace Taskever.Organizations
         public async Task<OrganizationUnitDto> MoveOrganizationUnit(MoveOrganizationUnitInput input)
         {
             await _organizationUnitManager.MoveAsync(input.Id, input.NewParentId);
-            
+
             return await CreateOrganizationUnitDto(
                 await _organizationUnitRepository.GetAsync(input.Id)
                 );
@@ -109,6 +155,7 @@ namespace Taskever.Organizations
             await _organizationUnitManager.DeleteAsync(input.Id);
         }
 
+        //userOU 相关
         [AbpAuthorize(AppPermissions.Pages_Administration_OrganizationUnits_ManageMembers)]
         public async Task AddUserToOrganizationUnit(UserToOrganizationUnitInput input)
         {

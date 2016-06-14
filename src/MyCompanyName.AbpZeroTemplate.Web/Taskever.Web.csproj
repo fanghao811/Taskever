@@ -330,6 +330,7 @@
     <Content Include="App\common\views\auditLogs\detailModal.min.css">
       <DependentUpon>detailModal.css</DependentUpon>
     </Content>
+    <Content Include="App\common\views\chatHub\index.js" />
     <Content Include="App\common\views\common\lookupModal.js" />
     <Content Include="App\common\views\HR\people\createOrEditModal.js" />
     <Content Include="App\common\views\HR\people\index.js" />
@@ -351,6 +352,18 @@
     <Content Include="App\common\views\layout\sidebar.min.css">
       <DependentUpon>sidebar.css</DependentUpon>
     </Content>
+    <Content Include="App\common\views\locations\index.cshtml" />
+    <Content Include="App\common\views\locations\index.css">
+      <DependentUpon>index.less</DependentUpon>
+    </Content>
+    <Content Include="App\common\views\locations\index.css.map">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
+    <Content Include="App\common\views\locations\index.js" />
+    <Content Include="App\common\views\locations\index.less" />
+    <Content Include="App\common\views\locations\index.min.css">
+      <DependentUpon>index.css</DependentUpon>
+    </Content>
     <Content Include="App\common\views\notifications\index.css">
       <DependentUpon>index.less</DependentUpon>
     </Content>
@@ -366,6 +379,7 @@
     <Content Include="App\common\views\organizationUnits\index.min.css">
       <DependentUpon>index.css</DependentUpon>
     </Content>
+    <Content Include="App\common\views\organizationUnits\rootTree.js" />
     <Content Include="App\common\views\profile\changePicture.css">
       <DependentUpon>changePicture.less</DependentUpon>
     </Content>
@@ -1885,6 +1899,8 @@
     <Content Include="App\common\views\tasks\task_detail.cshtml" />
     <Content Include="App\common\views\tasks\index.cshtml" />
     <Content Include="App\common\views\tasks\task_edited.cshtml" />
+    <Content Include="App\common\views\chatHub\index.cshtml" />
+    <Content Include="App\common\views\organizationUnits\rootTree.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

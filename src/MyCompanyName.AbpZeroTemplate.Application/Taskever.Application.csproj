@@ -122,6 +122,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\EnumDto.cs" />
+    <Compile Include="Organizations\Dto\GetOrganizationUnitsInput.cs" />
     <Compile Include="People\Dtos\AddPhoneInput.cs" />
     <Compile Include="People\Dtos\CreateOrUpdatePersonInput.cs" />
     <Compile Include="People\Dtos\DelPersonInput.cs" />

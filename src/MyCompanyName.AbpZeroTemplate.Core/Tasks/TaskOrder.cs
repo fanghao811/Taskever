@@ -32,7 +32,7 @@ namespace Taskever.Tasks
         [MaxLength(MaxDescriptionLength)]
         public string Description { get; set; }
 
-        //报修员工 if:存在级联或者重复
+        //报修员工 QA:存在级联或者重复
         [ForeignKey("RequesterId")] 
         public virtual User Requester { get; set; }
         public virtual long? RequesterId { get; set; }

@@ -308,5 +308,12 @@
     <text name="ProductList" value="设备列表" />
     <text name="Locations" value="地点管理" />
 
+    <!--2016-6-2 Location -->
+    <text name="LocationManage" value="地点管理" />
+
+    <!--2016-6-14 RootTree -->
+    <text name="RootTree" value="根节点管理" />
+
+
   </texts>
 </localizationDictionary>

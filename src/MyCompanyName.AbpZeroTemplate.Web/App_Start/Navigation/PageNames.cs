@@ -14,6 +14,10 @@ namespace Taskever.Web.Navigation
                 public const string OrganizationUnits = "Administration.OrganizationUnits";
                 public const string Languages = "Administration.Languages";
                 public const string ChatHub = "Administration.ChatHub";
+                //根节点管理
+                public const string RootTree = "Administration.RootTree";
+                //地点管理
+                public const string Location = "Location";
                 //工单管理
                 public const string Task = "Task";
                 public const string Task_List = "Task.List";

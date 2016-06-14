@@ -7,6 +7,10 @@ namespace Taskever.Organizations
 {
     public interface IOrganizationUnitAppService : IApplicationService
     {
+        Task<ListResultOutput<OrganizationUnitDto>> GetRootTree();
+
+        Task<ListResultOutput<OrganizationUnitDto>> GetOUsIncludingChildren(long id);
+
         Task<ListResultOutput<OrganizationUnitDto>> GetOrganizationUnits();
 
         Task<PagedResultOutput<OrganizationUnitUserListDto>> GetOrganizationUnitUsers(GetOrganizationUnitUsersInput input);
