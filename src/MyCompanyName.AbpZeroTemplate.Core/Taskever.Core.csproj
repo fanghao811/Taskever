@@ -99,6 +99,8 @@
     <Compile Include="People\IPersonRepository.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="People\PersonPhone.cs" />
+    <Compile Include="Product\IProductRepository.cs" />
+    <Compile Include="Product\Product.cs" />
     <Compile Include="TaskeverConsts.cs" />
     <Compile Include="TaskeverCoreModule.cs" />
     <Compile Include="TaskeverDomainServiceBase.cs" />

@@ -7,6 +7,7 @@ using Taskever.MultiTenancy;
 using Taskever.Storage;
 using Taskever.People;
 using Taskever.Tasks;
+using Taskever.Production;
 
 namespace Taskever.EntityFramework
 {
@@ -16,6 +17,7 @@ namespace Taskever.EntityFramework
 
         public virtual IDbSet<BinaryObject> BinaryObjects { get; set; }
         public virtual IDbSet<TaskOrder> TaskOrders { get; set; }
+        public virtual IDbSet<Product> Products { get; set; }
         public virtual IDbSet<Person> People { get; set; }
         public virtual IDbSet<PersonPhone> PersonPhones { get; set; }
 

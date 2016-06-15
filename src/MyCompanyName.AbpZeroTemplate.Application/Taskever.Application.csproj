@@ -132,6 +132,9 @@
     <Compile Include="People\Dtos\PersonListDto.cs" />
     <Compile Include="People\IPersonAppService.cs" />
     <Compile Include="People\PersonAppService.cs" />
+    <Compile Include="Product\Dto\CreateOrUpdateProductInput.cs" />
+    <Compile Include="Product\IProductAppService.cs" />
+    <Compile Include="Product\ProductAppService.cs" />
     <Compile Include="TaskeverApplicationModule.cs" />
     <Compile Include="TaskeverAppServiceBase.cs" />
     <Compile Include="AppConsts.cs" />
@@ -283,6 +286,7 @@
       <Name>Taskever.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
