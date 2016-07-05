@@ -116,7 +116,7 @@
                     vm.organizationTree.openCreateOrEditUnitModal({
                         parentId: parentId
                     }, function (newOu) {
-                        instance.create_node(
+                        instance.create_node(//TreeNode 叶子节点格式
                             parentId ? instance.get_node(parentId) : '#',
                             {
                                 id: newOu.id,
@@ -163,7 +163,7 @@
                 },
 
                 getTreeDataFromServer: function (callback) {
-                    organizationUnitService.getOUsIncludingChildren(15).success(function (result) {
+                    organizationUnitService.getOUsIncludingChildren(1).success(function (result) {
                         var treeData = _.map(result.items, function (item) {
                             return {
                                 id: item.id,

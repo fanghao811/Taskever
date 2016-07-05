@@ -37,10 +37,13 @@ namespace Taskever.Production
 
         public float Price { get; set; }
 
-        //产品编号 R
+        //产品编号 330724
         [Required]
         [MaxLength(MaxProductNumberLength)]
         public string ProductNumber { get; set; }
+
+        //产品型号  HP1606
+        public string ModelNumber { get; set; }
 
         //用途描述 R
         [Required]
@@ -65,6 +68,7 @@ namespace Taskever.Production
         {
             StartDate= DateTime.Now;
             CreationTime = DateTime.Now;
+            DiscontinuedDate = DateTime.Today;
         }
     }
 }

@@ -1,0 +1,207 @@
+﻿<div class="page-head ng-scope">
+    <!-- BEGIN PAGE TITLE -->
+    <div class="page-title">
+        <h1>
+            设备编辑
+            <small>product manage</small>
+        </h1>
+    </div>
+    <!-- END PAGE TITLE -->
+</div>
+<ul class="page-breadcrumb breadcrumb ng-scope">
+    <li>
+        <a data-ui-sref="product">设备管理</a>
+        <i class="fa fa-circle"></i>
+    </li>
+    <li>
+        <span class="active">设备信息</span>
+    </li>
+</ul>
+<div class="row">
+    <div class="col-md-8">
+        <div class="portlet light bordered">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-settings font-red"></i>
+                    <span ng-if="vm.product.modelNumber || vm.product.name"
+                          class="caption-subject font-red sbold">
+                        {{vm.product.modelNumber}} {{vm.product.name}}
+                    </span>
+                    <span ng-hide="vm.product.modelNumber || vm.product.name"
+                          class="caption-subject font-red sbold">
+                        尚未命名
+                    </span>
+                </div>
+                <div class="actions">
+                    <input bs-switch class="make-switch"
+                           ng-model="vm.product.usingFlag"
+                           type="checkbox"
+                           @*switch-active={{vm.isActive}}*@
+                           data-on-text="启用"
+                           data-off-text="停用"
+                           data-on-color="success"
+                           data-off-color="danger"
+                           data-size="small" />
+                </div>
+            </div>
+            <div class="portlet-body form">
+                <form role="form">
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.product.productNumber}"
+                                               ng-model="vm.product.productNumber" />
+                                        <label for="form_control_1">资产编号</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.product.name}"
+                                               ng-model="vm.product.name" />
+                                        <label for="form_control_1">设备名称</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-cny"></i>
+                                        </span>
+                                        <input type="number" class="form-control" ng-class="{'edited':vm.product.price}"
+                                               ng-model="vm.product.price">
+                                        <label for="form_control_1">进货价格</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.product.modelNumber}"
+                                               ng-model="vm.product.modelNumber">
+                                        <label for="form_control_1">型号</label>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.department}"
+                                               ng-model="vm.department">
+                                        <label for="form_control_1">使用科室</label>
+                                        <span class="input-group-btn btn-right">
+                                            <button class="btn green-haze" type="button" 
+                                                    ng-click="vm.openTreeModal(2)">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.product.startDate}"
+                                               ng-model="vm.product.startDate">
+                                        <label for="form_control_1">启用日期</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.category}"
+                                               ng-model="vm.category">
+                                        <label for="form_control_1">设备类型</label>
+                                        <span class="input-group-btn btn-right">
+                                            <button class="btn green-haze" type="button" 
+                                                    ng-click="vm.openTreeModal(3)">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="form-group form-md-line-input has-info form-md-floating-label">
+                                    <div class="input-group left-addon">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-envelope"></i>
+                                        </span>
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.location}"
+                                               ng-model="vm.location">
+                                        <label for="form_control_1">放置地点</label>
+                                        <span class="input-group-btn btn-right">
+                                            <button class="btn green-haze" type="button" 
+                                                    ng-click="vm.openTreeModal(1)">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 margin-top-20">
+                                <div class="form-group form-md-line-input">
+                                    <textarea class="form-control" rows="2" placeholder="Enter more text"
+                                              ng-model="vm.product.description"></textarea>
+                                    <label for="form_control_1">用途描述</label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="form-actions noborder">
+                        <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+                        <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")"
+                                class="btn btn-primary blue" ng-click="vm.save()"
+                                @*ng-disabled="personCreateOrEditForm.$invalid"*@>
+                            <i class="fa fa-save"></i> <span>@L("Save")</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="portlet light bordered" id="blockui_sample_1_portlet_body">
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="icon-bubble font-green-sharp"></i>
+                    <span class="caption-subject font-green-sharp sbold">图片--{{vm.isSelected}}</span>
+                </div>
+                <div class="actions">
+                    @*<a href="javascript:;" class="btn btn-sm green">
+                            <i class="fa fa-plus"></i>
+                        </a>*@
+
+                </div>
+            </div>
+            <div class="portlet-body">
+                <p>{{vm.product}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>

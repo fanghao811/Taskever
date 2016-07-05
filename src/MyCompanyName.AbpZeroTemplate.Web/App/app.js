@@ -133,7 +133,6 @@ appModule.config([
 
 
         //chatHub
-
         $stateProvider.state('chatHub', {
             url: '/chatHub',
             templateUrl: '~/App/common/views/chatHub/index.cshtml',
@@ -141,7 +140,6 @@ appModule.config([
         });
 
         //HumanResources
-
         $stateProvider.state('people', {
             url: '/people',
             templateUrl: '~/App/common/views/HR/people/index.cshtml',
@@ -206,14 +204,16 @@ appModule.config([
                 url: "/product",
                 template: '<div ui-view class="fade-in-up"></div>'
             })
-            .state('product.detail', {
-                url: '/detail',
+            .state('productDetail', {
+                url: '/productDetail',
                 templateUrl: '~/App/common/views/products/product_detail.cshtml',
                 menu: 'Product.Detail'
             })
-            .state('product.edited', {
-                url: '/edited',
-                templateUrl: '~/App/common/views/products/product_edited.cshtml',
+            .state('productEdited', {
+                url: '/productEdited',
+                templateUrl: '~/App/common/views/products/product_ce.cshtml',
+                controller: 'common.views.products.createOrEdit',
+                controllerAs: 'vm',
                 menu: 'Product.Edited'
             });
 

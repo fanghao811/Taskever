@@ -1,0 +1,26 @@
+﻿<div class="modal-header">
+    <h4 class="modal-title">全院位置 <small>{{vm.locationTree.selectedOu}}</small></h4>
+</div>
+<div class="modal-body">
+    <div class="input-inline">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="查询..."  ng-model="vm.locationToSearch">
+            <span class="input-group-btn">
+                <button class="btn btn-success" ng-click="vm.locationTree.searchNode(vm.locationToSearch)"><i class="fa fa-search"></i></button>
+            </span>
+            <span class="input-group-btn">
+                <button class="btn btn-danger" ng-click="vm.locationTree.clearSearch()"><i class="fa fa-remove"></i></button>
+            </span>
+        </div>
+    </div>
+
+    <div id="LocationTree" class="margin-top-15"></div>
+    <div ng-if="!vm.locationTree.unitCount" class="text-muted">
+        @L("NoOrganizationUnitDefinedYet")
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+    <button ng-disabled="!vm.locationTree.selectedOu.id" type="button" class="btn btn-primary blue" ng-click="vm.confirm()"><i class="fa fa-save"></i> <span>确定</span></button>
+</div>
+

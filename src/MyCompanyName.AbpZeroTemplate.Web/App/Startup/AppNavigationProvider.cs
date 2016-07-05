@@ -50,7 +50,7 @@ namespace Taskever.Web.App.Startup
                     ).AddItem(new MenuItemDefinition(
                         PageNames.App.Common.Product_list,
                         L("ProductList"),
-                        url: "product.edited",
+                        url: "productEdited",
                         icon: "fa fa-grid"
                         )
                     )

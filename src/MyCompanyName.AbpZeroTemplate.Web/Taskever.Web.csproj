@@ -352,18 +352,9 @@
     <Content Include="App\common\views\layout\sidebar.min.css">
       <DependentUpon>sidebar.css</DependentUpon>
     </Content>
+    <Content Include="App\common\views\organizationUnits\oUTreeModal.js" />
     <Content Include="App\common\views\locations\index.cshtml" />
-    <Content Include="App\common\views\locations\index.css">
-      <DependentUpon>index.less</DependentUpon>
-    </Content>
-    <Content Include="App\common\views\locations\index.css.map">
-      <DependentUpon>index.css</DependentUpon>
-    </Content>
     <Content Include="App\common\views\locations\index.js" />
-    <Content Include="App\common\views\locations\index.less" />
-    <Content Include="App\common\views\locations\index.min.css">
-      <DependentUpon>index.css</DependentUpon>
-    </Content>
     <Content Include="App\common\views\notifications\index.css">
       <DependentUpon>index.less</DependentUpon>
     </Content>
@@ -380,6 +371,7 @@
       <DependentUpon>index.css</DependentUpon>
     </Content>
     <Content Include="App\common\views\organizationUnits\rootTree.js" />
+    <Content Include="App\common\views\products\product_ce.js" />
     <Content Include="App\common\views\profile\changePicture.css">
       <DependentUpon>changePicture.less</DependentUpon>
     </Content>
@@ -1893,7 +1885,7 @@
     <Content Include="Scripts\angular-aria.min.js.map" />
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="App\common\views\Test-Elements\metronic-Elements.cshtml" />
-    <Content Include="App\common\views\products\product_edited.cshtml" />
+    <Content Include="App\common\views\products\product_ce.cshtml" />
     <Content Include="App\common\views\products\product_detail.cshtml" />
     <Content Include="App\common\views\products\index.cshtml" />
     <Content Include="App\common\views\tasks\task_detail.cshtml" />
@@ -1901,6 +1893,7 @@
     <Content Include="App\common\views\tasks\task_edited.cshtml" />
     <Content Include="App\common\views\chatHub\index.cshtml" />
     <Content Include="App\common\views\organizationUnits\rootTree.cshtml" />
+    <Content Include="App\common\views\organizationUnits\oUTreeModal.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

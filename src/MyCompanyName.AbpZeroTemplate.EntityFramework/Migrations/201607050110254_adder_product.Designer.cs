@@ -7,13 +7,13 @@ namespace Taskever.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class added_entity_product : IMigrationMetadata
+    public sealed partial class adder_product : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(added_entity_product));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(adder_product));
         
         string IMigrationMetadata.Id
         {
-            get { return "201606150237192_added_entity_product"; }
+            get { return "201607050110254_adder_product"; }
         }
         
         string IMigrationMetadata.Source

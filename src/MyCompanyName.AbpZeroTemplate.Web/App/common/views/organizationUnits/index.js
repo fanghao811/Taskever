@@ -195,9 +195,9 @@
                             'sort'
                         ];
 
-                        if (vm.permissions.manageOrganizationTree) {
-                            jsTreePlugins.push('dnd');
-                        }
+                        //if (vm.permissions.manageOrganizationTree) {
+                        //    jsTreePlugins.push('dnd');
+                        //}
 
                         vm.organizationTree.$tree
                             .on('changed.jstree', function (e, data) {

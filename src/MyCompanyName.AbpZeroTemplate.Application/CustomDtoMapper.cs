@@ -1,6 +1,7 @@
 using AutoMapper;
 using Taskever.Authorization.Users;
 using Taskever.Authorization.Users.Dto;
+using Taskever.Production;
 
 namespace Taskever
 {
@@ -30,6 +31,13 @@ namespace Taskever
                 .ForMember(dto => dto.Password, options => options.Ignore())
                 .ReverseMap()
                 .ForMember(user => user.Password, options => options.Ignore());
+
+            Mapper.CreateMap<Product, CreateOrUpdateProductInput>()
+                 //.ForMember(dto => dto.Department, options => options.Ignore())
+                 .ReverseMap()
+                 .ForMember(product => product.Department, options => options.Ignore())
+                 .ForMember(product => product.Location, options => options.Ignore())
+                 .ForMember(product => product.Category, options => options.Ignore());
         }
     }
 }

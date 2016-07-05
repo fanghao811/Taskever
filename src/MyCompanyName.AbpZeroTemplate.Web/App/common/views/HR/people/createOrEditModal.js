@@ -36,7 +36,7 @@
                 startingDay: 1
             };
 
-            //Methords
+            //Methods
             vm.save = function () {//TODO: 新增人员
                 vm.saving = true;
                 personService.createOrUpdatePerson({
@@ -61,7 +61,7 @@
                     vm.person = result.person;
                     vm.loading = false;
                 });
-            }
+            };
 
             init();
         }
