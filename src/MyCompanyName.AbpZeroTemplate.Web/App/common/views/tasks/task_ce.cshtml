@@ -1,0 +1,72 @@
+﻿<!-- BEGIN modal -->
+<div class="portlet light bordered">
+    <div class="portlet-title">
+        <div class="caption font-green-dark">
+            <span class="caption-subject bold uppercase">新增工单 {{vm.taskOrder.type}}</span>
+        </div>
+        <div class="actions">
+            <input bs-switch class="make-switch"
+                   ng-model="vm.type"
+                   type="checkbox"
+                   data-on-text="精确"
+                   data-off-text="模糊"
+                   data-on-color="success"
+                   data-off-color="danger"
+                   data-size="small" />
+        </div>
+    </div>
+    <div class="portlet-body">
+        <form role="form" class="form-horizontal">
+            <div class="form-body">
+                <div class="form-group">
+                    <div class="col-md-8 col-sm-8">
+                        <div class="todo-taskbody-user">
+                            <img class="todo-userpic pull-left" src="{{settings.layoutImgPath}}/avatar6.jpg" width="50px" height="50px">
+                            <span class="todo-username pull-left">nimabb</span>
+                            <button type="button" class="todo-username-btn btn btn-circle btn-default btn-xs">&nbsp;更换&nbsp;</button>
+                        </div>
+                    </div>                   
+                </div>
+                <!-- END TASK HEAD -->
+                <!-- TASK TITLE -->
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control todo-taskbody-tasktitle" placeholder="Task Title...">
+                    </div>
+                </div>
+                <!-- TASK DESC -->
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <textarea class="form-control todo-taskbody-taskdesc" rows="8" placeholder="故障描述..."></textarea>
+                    </div>
+                </div>
+                <!-- END TASK DESC -->
+                <!-- TASK DUE DATE -->
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <div class="input-icon">
+                            <i class="fa fa-calendar"></i>
+                            <input type="text" class="form-control todo-taskbody-due" placeholder="截止日期...">
+                        </div>
+                    </div>
+                </div>
+                <!-- TASK TAGS -->
+                <div class="form-group">
+                    <div class="col-md-12">
+                        <input type="text" class="form-control todo-taskbody-tags" placeholder="标记..." >
+                    </div>
+                </div>
+                <!-- TASK TAGS -->
+            </div>
+            <div class="form-actions noborder">
+                <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+                <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")"
+                        class="btn btn-primary blue" ng-click="vm.save()"
+                        >
+                    <i class="fa fa-save"></i> <span>@L("Save")</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- END modal-->

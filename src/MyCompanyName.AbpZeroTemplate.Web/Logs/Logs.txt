@@ -3114,3 +3114,740 @@ WARN  2016-07-05 10:37:46,739 [14   ] Abp.Logging.LogHelper                    -
 DEBUG 2016-07-05 10:37:46,997 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f3859ab4-5c9a-4a36-859f-c486533a47ba","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T10:37:46.9975135+08:00","Properties":{}}
 DEBUG 2016-07-05 10:37:47,003 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f3859ab4-5c9a-4a36-859f-c486533a47ba
 WARN  2016-07-05 10:37:56,571 [14   ] Abp.Logging.LogHelper                    - Can not find 'NoOrganizationUnitDefinedYet' in localization source 'Taskever'!
+DEBUG 2016-07-05 13:59:29,331 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-05 13:59:31,321 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2016-07-05 13:59:31,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:31,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 13:59:33,979 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2016-07-05 13:59:34,340 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 13:59:34,340 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 13:59:34,340 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 13:59:34,340 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 13:59:38,080 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-05 13:59:38,087 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-05 13:59:38,088 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-05 13:59:38,129 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-05 13:59:38,162 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-07-05 13:59:38,292 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-05 13:59:39,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes defines auto mapping attributes
+DEBUG 2016-07-05 13:59:39,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-05 13:59:39,120 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.CreateOrUpdateTaskInput
+DEBUG 2016-07-05 13:59:39,121 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.TaskDto
+DEBUG 2016-07-05 13:59:39,122 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-05 13:59:39,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-05 13:59:39,124 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-07-05 13:59:39,124 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-05 13:59:39,125 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-07-05 13:59:39,128 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-07-05 13:59:39,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-07-05 13:59:39,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-07-05 13:59:39,131 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-07-05 13:59:39,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-07-05 13:59:39,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-07-05 13:59:39,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-07-05 13:59:39,137 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-07-05 13:59:39,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-07-05 13:59:39,143 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-07-05 13:59:39,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-07-05 13:59:39,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-07-05 13:59:39,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2016-07-05 13:59:39,147 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2016-07-05 13:59:39,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-07-05 13:59:39,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-07-05 13:59:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2016-07-05 13:59:39,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-07-05 13:59:39,153 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-07-05 13:59:39,154 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-07-05 13:59:39,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-07-05 13:59:39,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2016-07-05 13:59:39,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-05 13:59:39,171 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-07-05 13:59:39,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-05 13:59:39,173 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-07-05 13:59:39,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-07-05 13:59:39,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-07-05 13:59:39,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-07-05 13:59:39,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-07-05 13:59:39,177 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-07-05 13:59:39,178 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-07-05 13:59:39,179 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-07-05 13:59:39,180 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-07-05 13:59:39,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-05 13:59:39,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-07-05 13:59:39,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-05 13:59:39,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-07-05 13:59:39,184 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2016-07-05 13:59:39,185 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-07-05 13:59:39,186 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2016-07-05 14:00:08,541 [13   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:06,327 [44   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:08:09,281 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"48043021-93ed-414c-b2cb-912b1eb29133","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T14:08:09.2689147+08:00","Properties":{}}
+WARN  2016-07-05 14:08:09,459 [29   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,459 [29   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,460 [29   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,460 [29   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,461 [29   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,461 [29   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,462 [29   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:09,462 [29   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:08:11,446 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 48043021-93ed-414c-b2cb-912b1eb29133
+DEBUG 2016-07-05 14:08:13,651 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 48043021-93ed-414c-b2cb-912b1eb29133
+WARN  2016-07-05 14:08:16,339 [20   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:08:16,708 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"69fcde29-c9ad-4a88-b7e3-aa9d76b9dd5a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T14:08:16.7086491+08:00","Properties":{}}
+DEBUG 2016-07-05 14:08:16,872 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 69fcde29-c9ad-4a88-b7e3-aa9d76b9dd5a
+WARN  2016-07-05 14:08:17,155 [29   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,156 [29   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,157 [29   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,157 [29   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,158 [29   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,159 [29   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,160 [29   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 14:08:17,160 [29   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:12:49,652 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 69fcde29-c9ad-4a88-b7e3-aa9d76b9dd5a
+WARN  2016-07-05 14:12:50,415 [40   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,830 [37   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,831 [37   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,832 [37   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,833 [37   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,834 [37   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,835 [37   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,836 [37   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 14:12:50,837 [37   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:12:50,937 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"43ca09c8-94c5-4587-af9e-f9e10ecbe44d","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T14:12:50.9374087+08:00","Properties":{}}
+DEBUG 2016-07-05 14:12:50,961 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 43ca09c8-94c5-4587-af9e-f9e10ecbe44d
+DEBUG 2016-07-05 14:23:29,620 [42   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 43ca09c8-94c5-4587-af9e-f9e10ecbe44d
+WARN  2016-07-05 14:23:30,567 [26   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:23:31,093 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7d2ee988-7a69-409a-bad6-ea32ce0c6724","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T14:23:31.0937249+08:00","Properties":{}}
+DEBUG 2016-07-05 14:23:31,103 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7d2ee988-7a69-409a-bad6-ea32ce0c6724
+WARN  2016-07-05 14:23:31,400 [11   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,401 [11   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,402 [11   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,403 [11   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,404 [11   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,405 [11   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,406 [11   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 14:23:31,407 [11   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:24:52,114 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7d2ee988-7a69-409a-bad6-ea32ce0c6724
+WARN  2016-07-05 14:24:52,826 [21   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 14:24:53,477 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8677629-80d2-44ba-a26b-f4c7475223f9","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T14:24:53.4775219+08:00","Properties":{}}
+DEBUG 2016-07-05 14:24:53,493 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b8677629-80d2-44ba-a26b-f4c7475223f9
+WARN  2016-07-05 14:24:55,239 [22   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,240 [22   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,241 [22   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,242 [22   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,242 [22   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,243 [22   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,244 [22   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 14:24:55,244 [22   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:08:30,690 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-05 15:08:34,317 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-07-05 15:08:34,320 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,322 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,323 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:08:34,328 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-07-05 15:08:34,397 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:08:34,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:08:34,397 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:08:34,397 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:08:37,294 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-05 15:08:37,314 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-05 15:08:37,316 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-05 15:08:37,324 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-05 15:08:37,332 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-07-05 15:08:37,426 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-05 15:08:38,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes defines auto mapping attributes
+DEBUG 2016-07-05 15:08:38,336 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.CreateOrUpdateTaskInput
+DEBUG 2016-07-05 15:08:38,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.TaskDto
+DEBUG 2016-07-05 15:08:38,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-05 15:08:38,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-05 15:08:38,376 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-07-05 15:08:38,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-05 15:08:38,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-07-05 15:08:38,382 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-07-05 15:08:38,383 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-07-05 15:08:38,384 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-07-05 15:08:38,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-07-05 15:08:38,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-07-05 15:08:38,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-07-05 15:08:38,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-07-05 15:08:38,395 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-07-05 15:08:38,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-07-05 15:08:38,400 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-07-05 15:08:38,401 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-07-05 15:08:38,402 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-07-05 15:08:38,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2016-07-05 15:08:38,405 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2016-07-05 15:08:38,408 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-07-05 15:08:38,412 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-07-05 15:08:38,413 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2016-07-05 15:08:38,415 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-07-05 15:08:38,418 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-07-05 15:08:38,419 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-07-05 15:08:38,420 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-05 15:08:38,430 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-07-05 15:08:38,431 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2016-07-05 15:08:38,431 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-05 15:08:38,432 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-07-05 15:08:38,433 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-05 15:08:38,434 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-07-05 15:08:38,435 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-07-05 15:08:38,435 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-07-05 15:08:38,437 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-07-05 15:08:38,438 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-07-05 15:08:38,439 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-07-05 15:08:38,440 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-07-05 15:08:38,441 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-07-05 15:08:38,442 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-07-05 15:08:38,443 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-05 15:08:38,443 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-07-05 15:08:38,444 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-05 15:08:38,446 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-07-05 15:08:38,446 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2016-07-05 15:08:38,447 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-07-05 15:08:38,448 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2016-07-05 15:08:52,221 [10   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,280 [10   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,973 [9    ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,974 [9    ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,975 [9    ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,976 [9    ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,976 [9    ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,977 [9    ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,979 [9    ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 15:09:18,979 [9    ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:09:19,946 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0ecd99bf-9769-45c6-9fdf-cbb33de9dc2f","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T15:09:19.9353709+08:00","Properties":{}}
+DEBUG 2016-07-05 15:09:19,988 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0ecd99bf-9769-45c6-9fdf-cbb33de9dc2f
+DEBUG 2016-07-05 15:17:35,406 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-05 15:17:35,406 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-05 15:17:44,928 [11   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-05 15:17:53,967 [11   ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:53,983 [11   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-05 15:17:56,496 [11   ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2016-07-05 15:17:56,572 [11   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:17:56,572 [11   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:17:56,572 [11   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:17:56,572 [11   ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-05 15:17:58,876 [11   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-05 15:17:58,876 [11   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-05 15:17:58,876 [11   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-05 15:17:58,892 [11   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-05 15:17:58,892 [11   ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-07-05 15:17:58,985 [11   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-05 15:17:59,603 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes defines auto mapping attributes
+DEBUG 2016-07-05 15:17:59,603 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-05 15:17:59,603 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.CreateOrUpdateTaskInput
+DEBUG 2016-07-05 15:17:59,603 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.TaskDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-07-05 15:17:59,619 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-07-05 15:17:59,634 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-07-05 15:17:59,650 [11   ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-07-05 15:17:59,665 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-07-05 15:17:59,681 [11   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2016-07-05 15:46:41,192 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0ecd99bf-9769-45c6-9fdf-cbb33de9dc2f
+WARN  2016-07-05 15:46:43,076 [85   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:46:43,974 [67   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3de3df2f-dad7-40fa-9342-a997be871bc7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T15:46:43.954147+08:00","Properties":{}}
+DEBUG 2016-07-05 15:46:44,090 [79   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3de3df2f-dad7-40fa-9342-a997be871bc7
+WARN  2016-07-05 15:46:44,301 [67   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,303 [67   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,304 [67   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,305 [67   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,306 [67   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,308 [67   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,309 [67   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 15:46:44,310 [67   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:48:23,241 [84   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3de3df2f-dad7-40fa-9342-a997be871bc7
+WARN  2016-07-05 15:48:24,028 [75   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,524 [75   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,526 [75   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,527 [75   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,527 [75   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,528 [75   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,529 [75   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,529 [75   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 15:48:24,530 [75   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:48:24,564 [75   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"df16e578-fc40-42f8-8122-c50cbe85ea13","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T15:48:24.5641317+08:00","Properties":{}}
+DEBUG 2016-07-05 15:48:24,732 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: df16e578-fc40-42f8-8122-c50cbe85ea13
+DEBUG 2016-07-05 15:54:23,500 [75   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: df16e578-fc40-42f8-8122-c50cbe85ea13
+WARN  2016-07-05 15:54:24,386 [83   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,830 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,831 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,832 [71   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,833 [71   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,833 [71   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,834 [71   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,835 [71   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 15:54:24,836 [71   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:54:25,124 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9d70be98-c225-422e-b8cb-ebf13e278215","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T15:54:25.1240542+08:00","Properties":{}}
+DEBUG 2016-07-05 15:54:25,188 [83   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9d70be98-c225-422e-b8cb-ebf13e278215
+DEBUG 2016-07-05 15:59:38,864 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9d70be98-c225-422e-b8cb-ebf13e278215
+WARN  2016-07-05 15:59:39,638 [40   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,390 [78   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,391 [78   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,392 [78   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,393 [78   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,394 [78   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,401 [78   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,402 [78   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 15:59:40,403 [78   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 15:59:40,538 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"da28a8d8-3d8b-4112-bf71-82a7e34c6ad5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T15:59:40.5384971+08:00","Properties":{}}
+DEBUG 2016-07-05 15:59:40,655 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: da28a8d8-3d8b-4112-bf71-82a7e34c6ad5
+DEBUG 2016-07-05 16:02:55,267 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: da28a8d8-3d8b-4112-bf71-82a7e34c6ad5
+WARN  2016-07-05 16:02:55,996 [5    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:02:56,557 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"83c6569a-e23e-4517-8382-2cc7afdf7641","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:02:56.5574823+08:00","Properties":{}}
+DEBUG 2016-07-05 16:02:56,581 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 83c6569a-e23e-4517-8382-2cc7afdf7641
+WARN  2016-07-05 16:02:57,343 [5    ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,344 [5    ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,344 [5    ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,345 [5    ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,345 [5    ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,346 [5    ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,346 [5    ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:02:57,347 [5    ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:03:57,534 [73   ] Abp.Logging.LogHelper                    - Can not find 'NoOrganizationUnitDefinedYet' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:14:22,834 [77   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 83c6569a-e23e-4517-8382-2cc7afdf7641
+WARN  2016-07-05 16:14:23,442 [77   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:14:24,520 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b9f94785-8d17-41b6-b32a-f7559410eb08","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:14:24.5209872+08:00","Properties":{}}
+DEBUG 2016-07-05 16:14:24,552 [70   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b9f94785-8d17-41b6-b32a-f7559410eb08
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:14:25,402 [61   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:15:47,214 [77   ] Abp.Logging.LogHelper                    - Can not find 'LoginForUsers' in localization source 'Taskever'!
+WARN  2016-07-05 16:15:47,216 [77   ] Abp.Logging.LogHelper                    - Can not find 'ManagingOrganizationTree' in localization source 'Taskever'!
+WARN  2016-07-05 16:15:47,216 [77   ] Abp.Logging.LogHelper                    - Can not find 'ManagingMembers' in localization source 'Taskever'!
+WARN  2016-07-05 16:17:11,698 [62   ] Abp.Logging.LogHelper                    - Can not find 'LoginForUsers' in localization source 'Taskever'!
+WARN  2016-07-05 16:17:11,700 [62   ] Abp.Logging.LogHelper                    - Can not find 'ManagingOrganizationTree' in localization source 'Taskever'!
+WARN  2016-07-05 16:17:11,700 [62   ] Abp.Logging.LogHelper                    - Can not find 'ManagingMembers' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:23:12,561 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b9f94785-8d17-41b6-b32a-f7559410eb08
+WARN  2016-07-05 16:23:13,117 [31   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,006 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,008 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,009 [71   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,010 [71   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,011 [71   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,012 [71   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,013 [71   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:23:14,014 [71   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:23:14,196 [64   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fade65d3-081c-4471-9ddc-49657c3d3bd3","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:23:14.1964285+08:00","Properties":{}}
+DEBUG 2016-07-05 16:23:14,263 [73   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fade65d3-081c-4471-9ddc-49657c3d3bd3
+DEBUG 2016-07-05 16:31:39,708 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fade65d3-081c-4471-9ddc-49657c3d3bd3
+WARN  2016-07-05 16:31:40,641 [27   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,085 [31   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,112 [31   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,113 [31   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,114 [31   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,114 [31   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,115 [31   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,116 [31   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:31:41,117 [31   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:31:41,170 [78   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c34e7e71-5226-4343-993d-2a0fe0290bd5","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:31:41.1706581+08:00","Properties":{}}
+DEBUG 2016-07-05 16:31:41,321 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c34e7e71-5226-4343-993d-2a0fe0290bd5
+DEBUG 2016-07-05 16:32:00,992 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c34e7e71-5226-4343-993d-2a0fe0290bd5
+WARN  2016-07-05 16:32:01,967 [59   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:32:02,495 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ef4c4821-76ae-4bf5-80ff-bbfdc252b3ba","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:32:02.4958241+08:00","Properties":{}}
+DEBUG 2016-07-05 16:32:02,549 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ef4c4821-76ae-4bf5-80ff-bbfdc252b3ba
+WARN  2016-07-05 16:32:02,590 [31   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,591 [31   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,592 [31   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,592 [31   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,594 [31   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,595 [31   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,596 [31   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:02,597 [31   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:32:08,853 [71   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ef4c4821-76ae-4bf5-80ff-bbfdc252b3ba
+WARN  2016-07-05 16:32:10,053 [25   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:32:10,571 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dbf1d9dc-a851-4b62-a055-04a88c4d02e7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:32:10.5718084+08:00","Properties":{}}
+WARN  2016-07-05 16:32:10,648 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,650 [71   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,651 [71   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,652 [71   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,653 [71   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,654 [71   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,655 [71   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:10,656 [71   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:32:10,717 [66   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dbf1d9dc-a851-4b62-a055-04a88c4d02e7
+DEBUG 2016-07-05 16:32:46,907 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dbf1d9dc-a851-4b62-a055-04a88c4d02e7
+WARN  2016-07-05 16:32:47,829 [27   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,425 [78   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,426 [78   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,426 [78   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,427 [78   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,428 [78   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,429 [78   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,430 [78   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-05 16:32:48,430 [78   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-05 16:32:48,440 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"435e87e8-c4f0-475f-900d-be19aeae7a22","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-05T16:32:48.4406496+08:00","Properties":{}}
+DEBUG 2016-07-05 16:32:48,579 [64   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 435e87e8-c4f0-475f-900d-be19aeae7a22
+WARN  2016-07-05 17:11:46,117 [51   ] Abp.Logging.LogHelper                    - Can not find 'AuditLogImpersonatedOperationInfo' in localization source 'Taskever'!
+WARN  2016-07-05 17:11:46,120 [51   ] Abp.Logging.LogHelper                    - Can not find 'CustomData' in localization source 'Taskever'!
+WARN  2016-07-05 17:11:46,120 [51   ] Abp.Logging.LogHelper                    - Can not find 'None' in localization source 'Taskever'!
+WARN  2016-07-05 17:12:07,397 [71   ] Abp.Logging.LogHelper                    - Can not find 'NoOrganizationUnitDefinedYet' in localization source 'Taskever'!
+WARN  2016-07-05 17:12:07,398 [71   ] Abp.Logging.LogHelper                    - Can not find 'NoOrganizationUnitDefinedYet' in localization source 'Taskever'!
+WARN  2016-07-05 17:12:12,451 [23   ] Abp.Logging.LogHelper                    - Can not find 'NoOrganizationUnitDefinedYet' in localization source 'Taskever'!
+DEBUG 2016-07-06 09:08:27,500 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-06 09:08:38,601 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2016-07-06 09:08:38,605 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,607 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,679 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,680 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,681 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,714 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-06 09:08:38,788 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2016-07-06 09:08:39,102 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-06 09:08:39,102 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-06 09:08:39,102 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-06 09:08:39,102 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-06 09:08:50,566 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-06 09:08:50,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-06 09:08:50,605 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-06 09:08:50,723 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-06 09:08:50,795 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2016-07-06 09:08:50,884 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-06 09:08:53,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 28 classes defines auto mapping attributes
+DEBUG 2016-07-06 09:08:53,298 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.CreateOrUpdateTaskInput
+DEBUG 2016-07-06 09:08:53,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dtos.TaskDto
+DEBUG 2016-07-06 09:08:53,304 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-06 09:08:53,332 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-06 09:08:53,333 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2016-07-06 09:08:53,333 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-06 09:08:53,334 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2016-07-06 09:08:53,338 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2016-07-06 09:08:53,339 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2016-07-06 09:08:53,340 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2016-07-06 09:08:53,341 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2016-07-06 09:08:53,342 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2016-07-06 09:08:53,343 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2016-07-06 09:08:53,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2016-07-06 09:08:53,347 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2016-07-06 09:08:53,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2016-07-06 09:08:53,352 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2016-07-06 09:08:53,353 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2016-07-06 09:08:53,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2016-07-06 09:08:53,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2016-07-06 09:08:53,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2016-07-06 09:08:53,360 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2016-07-06 09:08:53,362 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2016-07-06 09:08:53,363 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2016-07-06 09:08:53,365 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2016-07-06 09:08:53,366 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2016-07-06 09:08:53,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2016-07-06 09:08:53,370 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-06 09:08:53,381 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2016-07-06 09:08:53,382 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2016-07-06 09:08:53,383 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-06 09:08:53,384 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2016-07-06 09:08:53,385 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-06 09:08:53,386 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2016-07-06 09:08:53,388 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2016-07-06 09:08:53,389 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2016-07-06 09:08:53,389 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2016-07-06 09:08:53,390 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2016-07-06 09:08:53,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2016-07-06 09:08:53,392 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2016-07-06 09:08:53,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2016-07-06 09:08:53,394 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2016-07-06 09:08:53,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-06 09:08:53,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2016-07-06 09:08:53,398 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-06 09:08:53,399 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2016-07-06 09:08:53,399 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2016-07-06 09:08:53,400 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2016-07-06 09:08:53,401 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2016-07-06 09:09:55,281 [3    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:28,363 [29   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,087 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,091 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,092 [65   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,094 [65   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,095 [65   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,102 [65   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,105 [65   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 10:39:32,107 [65   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 10:39:33,560 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8fccb908-3182-48dd-a682-b42f1497f0c7","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T10:39:33.5429311+08:00","Properties":{}}
+DEBUG 2016-07-06 10:39:34,689 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8fccb908-3182-48dd-a682-b42f1497f0c7
+DEBUG 2016-07-06 10:56:38,285 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8fccb908-3182-48dd-a682-b42f1497f0c7
+WARN  2016-07-06 10:56:40,005 [55   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,099 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,102 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,103 [65   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,104 [65   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,104 [65   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,105 [65   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,106 [65   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 10:56:41,107 [65   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 10:56:41,514 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21f8eb33-bf4e-42bf-bd06-a63dee9007ef","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T10:56:41.5142675+08:00","Properties":{}}
+DEBUG 2016-07-06 10:56:41,526 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21f8eb33-bf4e-42bf-bd06-a63dee9007ef
+DEBUG 2016-07-06 11:03:08,759 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21f8eb33-bf4e-42bf-bd06-a63dee9007ef
+WARN  2016-07-06 11:03:10,320 [38   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,942 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,944 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,945 [55   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,946 [55   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,946 [55   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,947 [55   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,949 [55   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:03:10,949 [55   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:03:11,053 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"89095e75-011a-4603-898f-81a10c8ecd7c","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:03:11.0533006+08:00","Properties":{}}
+DEBUG 2016-07-06 11:03:11,075 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 89095e75-011a-4603-898f-81a10c8ecd7c
+DEBUG 2016-07-06 11:04:08,053 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 89095e75-011a-4603-898f-81a10c8ecd7c
+WARN  2016-07-06 11:04:09,064 [52   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,726 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,727 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,729 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,731 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,733 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,734 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,734 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:09,735 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:04:09,984 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0b2f02c8-33c0-443b-a175-df765bc01e7d","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:04:09.9840998+08:00","Properties":{}}
+DEBUG 2016-07-06 11:04:10,008 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0b2f02c8-33c0-443b-a175-df765bc01e7d
+DEBUG 2016-07-06 11:04:47,509 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0b2f02c8-33c0-443b-a175-df765bc01e7d
+WARN  2016-07-06 11:04:48,351 [26   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:04:49,403 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"fac8349d-04e4-4a8d-8b6f-9dac728a7b13","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:04:49.4030872+08:00","Properties":{}}
+DEBUG 2016-07-06 11:04:49,544 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: fac8349d-04e4-4a8d-8b6f-9dac728a7b13
+WARN  2016-07-06 11:04:50,116 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,117 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,117 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,118 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,118 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,119 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,119 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:04:50,120 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:06:59,832 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: fac8349d-04e4-4a8d-8b6f-9dac728a7b13
+WARN  2016-07-06 11:07:01,173 [39   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:07:02,001 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1d4d1655-b185-4496-944d-67370ed5b132","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:07:02.001953+08:00","Properties":{}}
+DEBUG 2016-07-06 11:07:02,010 [41   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1d4d1655-b185-4496-944d-67370ed5b132
+WARN  2016-07-06 11:07:09,273 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,274 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,275 [65   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,276 [65   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,276 [65   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,277 [65   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,277 [65   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:09,277 [65   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:07:34,471 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1d4d1655-b185-4496-944d-67370ed5b132
+WARN  2016-07-06 11:07:35,554 [42   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,348 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,349 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,350 [55   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,351 [55   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,351 [55   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,352 [55   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,353 [55   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:07:36,354 [55   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:07:36,687 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3c0cedfb-84f0-43fc-91f7-9de64c7e8fd8","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:07:36.68761+08:00","Properties":{}}
+DEBUG 2016-07-06 11:07:36,742 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3c0cedfb-84f0-43fc-91f7-9de64c7e8fd8
+DEBUG 2016-07-06 11:13:16,335 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3c0cedfb-84f0-43fc-91f7-9de64c7e8fd8
+WARN  2016-07-06 11:13:17,462 [42   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,175 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,178 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,179 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,180 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,181 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,182 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,183 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:13:18,184 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:13:18,417 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c06c30bd-7c44-45f3-a29e-866d0bdf573e","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:13:18.4171496+08:00","Properties":{}}
+DEBUG 2016-07-06 11:13:18,440 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c06c30bd-7c44-45f3-a29e-866d0bdf573e
+DEBUG 2016-07-06 11:14:20,652 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c06c30bd-7c44-45f3-a29e-866d0bdf573e
+WARN  2016-07-06 11:14:21,389 [38   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:14:22,526 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"80ef2f27-cefc-4e3e-98f6-a7ea1a87fe32","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:14:22.5268469+08:00","Properties":{}}
+DEBUG 2016-07-06 11:14:22,626 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 80ef2f27-cefc-4e3e-98f6-a7ea1a87fe32
+WARN  2016-07-06 11:14:22,809 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,809 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,810 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,810 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,811 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,811 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,812 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:14:22,813 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:18:08,974 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 80ef2f27-cefc-4e3e-98f6-a7ea1a87fe32
+WARN  2016-07-06 11:18:10,381 [38   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:18:11,155 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"0f678aff-db88-45ad-bcb7-dc34eb027292","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:18:11.1558192+08:00","Properties":{}}
+DEBUG 2016-07-06 11:18:11,317 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 0f678aff-db88-45ad-bcb7-dc34eb027292
+WARN  2016-07-06 11:18:34,156 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,157 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,158 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,158 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,159 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,160 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,160 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:18:34,161 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:31:01,966 [62   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 0f678aff-db88-45ad-bcb7-dc34eb027292
+WARN  2016-07-06 11:31:03,237 [52   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,670 [53   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,674 [53   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,675 [53   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,676 [53   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,677 [53   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,678 [53   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,678 [53   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:31:03,679 [53   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:31:05,024 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c60d0a64-d01d-47ee-af77-9faf95dd54af","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:31:05.0242731+08:00","Properties":{}}
+DEBUG 2016-07-06 11:31:05,144 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c60d0a64-d01d-47ee-af77-9faf95dd54af
+DEBUG 2016-07-06 11:33:17,631 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: c60d0a64-d01d-47ee-af77-9faf95dd54af
+WARN  2016-07-06 11:33:18,913 [42   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:33:19,706 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"9450dad7-84a8-4db2-b305-7c4b77e8cc47","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:33:19.7069653+08:00","Properties":{}}
+DEBUG 2016-07-06 11:33:19,836 [39   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 9450dad7-84a8-4db2-b305-7c4b77e8cc47
+WARN  2016-07-06 11:33:19,945 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,946 [55   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,946 [55   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,947 [55   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,948 [55   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,949 [55   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,949 [55   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:33:19,949 [55   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:38:26,326 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 9450dad7-84a8-4db2-b305-7c4b77e8cc47
+WARN  2016-07-06 11:38:27,573 [29   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,116 [50   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,117 [50   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,118 [50   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,119 [50   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,120 [50   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,121 [50   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,122 [50   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:38:28,124 [50   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:38:28,618 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e10348ac-8365-4184-a7c1-9f1dd887d94b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:38:28.6185009+08:00","Properties":{}}
+DEBUG 2016-07-06 11:38:28,643 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e10348ac-8365-4184-a7c1-9f1dd887d94b
+DEBUG 2016-07-06 11:43:22,996 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e10348ac-8365-4184-a7c1-9f1dd887d94b
+WARN  2016-07-06 11:43:24,422 [38   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:43:25,291 [53   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3ff2efc2-625c-4eba-9768-e88597dba911","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:43:25.2919405+08:00","Properties":{}}
+DEBUG 2016-07-06 11:43:25,421 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3ff2efc2-625c-4eba-9768-e88597dba911
+WARN  2016-07-06 11:43:27,017 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,018 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,019 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,020 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,020 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,021 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,022 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:43:27,023 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:46:42,098 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3ff2efc2-625c-4eba-9768-e88597dba911
+WARN  2016-07-06 11:46:43,069 [52   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:46:43,813 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"13de4f65-086a-4cee-81ee-527275f3197b","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:46:43.8138764+08:00","Properties":{}}
+DEBUG 2016-07-06 11:46:43,821 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 13de4f65-086a-4cee-81ee-527275f3197b
+WARN  2016-07-06 11:46:44,542 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,543 [56   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,544 [56   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,545 [56   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,546 [56   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,548 [56   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,549 [56   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:46:44,550 [56   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:50:22,214 [65   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 13de4f65-086a-4cee-81ee-527275f3197b
+WARN  2016-07-06 11:50:22,988 [14   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,535 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAllAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,536 [65   ] Abp.Logging.LogHelper                    - Can not find 'SetAsRead' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,537 [65   ] Abp.Logging.LogHelper                    - Can not find 'ThereIsNoNotification' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,539 [65   ] Abp.Logging.LogHelper                    - Can not find 'SeeAllNotifications' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,540 [65   ] Abp.Logging.LogHelper                    - Can not find 'YouCanBackToYourAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,541 [65   ] Abp.Logging.LogHelper                    - Can not find 'BackToMyAccount' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,541 [65   ] Abp.Logging.LogHelper                    - Can not find 'LinkedAccounts' in localization source 'Taskever'!
+WARN  2016-07-06 11:50:23,542 [65   ] Abp.Logging.LogHelper                    - Can not find 'ManageAccounts' in localization source 'Taskever'!
+DEBUG 2016-07-06 11:50:23,589 [55   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"485b0778-6f0f-49e4-a4aa-adf57b70a004","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-06T11:50:23.5891276+08:00","Properties":{}}
+DEBUG 2016-07-06 11:50:23,687 [56   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 485b0778-6f0f-49e4-a4aa-adf57b70a004

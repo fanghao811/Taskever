@@ -171,7 +171,7 @@ appModule.config([
             });
 
 
-        //Tasks
+        //Tasks 工单管理
         $stateProvider
             .state('task', {
                 url: '/task',
@@ -183,12 +183,15 @@ appModule.config([
                 templateUrl: '~/App/common/views/tasks/task_detail.cshtml',
                 menu: 'Task.Detail'
             })
-            .state('taskEdited', {
-                url: '/taskEdited',
-                templateUrl: '~/App/common/views/tasks/task_edited.cshtml',
-                menu: 'Task.Edited'
+            .state('taskCE', {
+                url: '/taskCE',
+                templateUrl: '~/App/common/views/tasks/task_ce.cshtml',
+                controller: 'common.views.tasks.createOrEdit',
+                controllerAs: 'vm', //IMPORTANT:省略此处出错！
+                menu: 'Task.CE'
             });
 
+        //地点树
         $stateProvider
         .state('location', {
             url: '/location',

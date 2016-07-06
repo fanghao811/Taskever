@@ -1,15 +1,14 @@
-﻿
-<!-- BEGIN PAGE BASE CONTENT -->
+﻿<!-- BEGIN PAGE BASE CONTENT -->
 <div class="todo-main-header">
     <h3>工单管理</h3>  
 </div>
-<div class="todo-container">
+<div class="todo-container" ng-controller="common.views.tasks.index as vm">
     <div class="row">
         <div class="col-md-4">
             <ul class="todo-projects-container">
                 <li class="todo-padding-b-0">
                     <div class="todo-head">
-                        <a class="btn btn-square btn-sm red todo-bold pull-right" href="#taskDetail">Add Project</a>
+                        <a class="btn btn-square btn-sm red todo-bold pull-right" href="#/taskCE">新增工单</a>
                         <h3>未开始</h3>
                         <p>4 Waiting Attention</p>
                     </div>
@@ -26,7 +25,7 @@
                     </div>
                 </li>
                 <div class="todo-projects-divider"></div>
-                <li class="todo-projects-item todo-active">
+                <li class="todo-projects-item">
                     <h3 class="todo-blue">Williams Logistics CRM</h3>
                     <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>
                     <div class="todo-project-item-foot">
@@ -163,7 +162,7 @@
                         </p>
                     </div>
                 </li>
-                <li class="todo-projects-divider"></li>
+                <div class="todo-projects-divider"></div>
                 <li class="todo-projects-item todo-active">
                     <h3 class="todo-blue">Williams Logistics CRM</h3>
                     <p>Lorem dolor sit amet ipsum dolor sit consectetuer dolore. Lorem dolor sit amet ipsum dolor sit consectetuer dolore.</p>

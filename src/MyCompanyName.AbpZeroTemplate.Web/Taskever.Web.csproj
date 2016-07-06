@@ -381,6 +381,8 @@
     <Content Include="App\common\views\profile\linkAccountModal.js" />
     <Content Include="App\common\views\profile\linkedAccountsModal.js" />
     <Content Include="App\common\views\notifications\settingsModal.js" />
+    <Content Include="App\common\views\tasks\index.js" />
+    <Content Include="App\common\views\tasks\task_ce.js" />
     <Content Include="App\common\views\users\createOrEditModal.css">
       <DependentUpon>createOrEditModal.less</DependentUpon>
     </Content>
@@ -1894,6 +1896,7 @@
     <Content Include="App\common\views\chatHub\index.cshtml" />
     <Content Include="App\common\views\organizationUnits\rootTree.cshtml" />
     <Content Include="App\common\views\organizationUnits\oUTreeModal.cshtml" />
+    <Content Include="App\common\views\tasks\task_ce.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

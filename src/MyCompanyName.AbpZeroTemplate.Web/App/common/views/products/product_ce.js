@@ -1,7 +1,7 @@
 ﻿(function () {
     appModule.controller('common.views.products.createOrEdit', [
         '$scope','$uibModal', 'abp.services.app.product', '$log',
-      function ($scope, $uibModal,productService,$log) {
+      function ($scope, $uibModal, productService, $log) {
           var vm = this;
           vm.saving = false;
           vm.loading = false;
@@ -106,7 +106,7 @@
 
 
           //function init() {
-          //    if (!productId) {
+          //    if (!productId) {// 如果 productId==null
           //        vm.loading = true;
           //        productService.getProductForEdit({
           //            id: productId
