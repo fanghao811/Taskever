@@ -1,0 +1,59 @@
+﻿<div>
+    <div class="modal-header">
+        <h4 class="modal-title">
+            <span>设备位置</span>
+        </h4>
+    </div>
+    <div class="modal-body" busy-if="vm.loading">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12">
+                <h3>区域</h3>
+                <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                    <li ng-repeat="x in vm.sections" ng-class="{'active':vm.location.section===x}" 
+                        ng-click="vm.changedSection(x)">
+                        <a href="javascript:;">
+                            {{x.displayName}}
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <h3>楼层</h3>
+                <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                    <li ng-repeat="x in vm.floors" ng-class="{'active':vm.location.floor===x}"
+                        ng-click="vm.changedFloor(x)">
+                        <a href="javascript:;">
+                            {{x.displayName}}
+                        </a>
+                    </li>
+                </ul>               
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <h3>科室</h3>
+                <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                    <li ng-repeat="x in vm.departments" ng-class="{'active':vm.location.department===x}"
+                        ng-click="vm.changedDepartment(x)">
+                        <a href="javascript:;">
+                            {{x.displayName}}
+                        </a>
+                    </li>
+                </ul>               
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+                <h3>房间</h3>
+                <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                    <li ng-repeat="x in vm.rooms" ng-class="{'active':vm.location.room===x}"
+                        ng-click="vm.changedRoom(x)">
+                        <a href="javascript:;">
+                            {{x.displayName}}
+                        </a>
+                    </li>
+                </ul>                
+            </div>
+        </div>   
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+        <button ng-disabled="!vm.location.section" type="button" class="btn btn-primary blue" ng-click="vm.save()"><i class="fa fa-save"></i> <span>应用</span></button>
+    </div>
+</div>

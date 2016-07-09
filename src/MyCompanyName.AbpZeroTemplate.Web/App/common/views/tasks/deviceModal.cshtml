@@ -1,0 +1,35 @@
+﻿<div class="modal-body">
+    <uib-tabset class="tab-container tabbable-line">
+        <uib-tab heading="最近报修">
+            <!-- BEGIN PAGE BASE CONTENT -->
+            最近报修...
+            <!-- END PAGE BASE CONTENT -->
+        </uib-tab>
+        <!--Tab2 工作信息-->
+        <uib-tab heading="科室设备">
+            科室设备列表....
+        </uib-tab>
+        <uib-tab heading="全部">
+            <div class="input-inline">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="查询..." ng-model="vm.deviceToSearch">
+                    <span class="input-group-btn">
+                        <button class="btn btn-success" ng-click="vm.deviceTree.searchNode(vm.deviceToSearch)"><i class="fa fa-search"></i></button>
+                    </span>
+                    <span class="input-group-btn" ng-show="vm.deviceToSearch">
+                        <button class="btn btn-danger" ng-click="vm.deviceTree.clearSearch()"><i class="fa fa-remove"></i></button>
+                    </span>
+                </div>
+            </div>
+
+            <div id="deviceTree" class="margin-top-15"></div>
+            <div ng-if="!vm.deviceTree.unitCount" class="text-muted">
+                @L("NoOrganizationUnitDefinedYet")
+            </div>
+        </uib-tab>
+    </uib-tabset>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
+    <button type="button" class="btn btn-primary blue" ng-click="vm.save()"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+</div>

@@ -1,7 +1,23 @@
 ﻿<!-- BEGIN PAGE BASE CONTENT -->
-<div class="todo-main-header">
-    <h3>工单管理</h3>  
+<div class="page-head ng-scope">
+    <!-- BEGIN PAGE TITLE -->
+    <div class="page-title">
+        <h1>
+            工单管理
+            <small>taskOrder manage</small>
+        </h1>
+    </div>
+    <!-- END PAGE TITLE -->
 </div>
+<ul class="page-breadcrumb breadcrumb ng-scope">
+    <li>
+        <a data-ui-sref="product">工单管理</a>
+        <i class="fa fa-circle"></i>
+    </li>
+    <li>
+        <span class="active">全部</span>
+    </li>
+</ul>
 <div class="todo-container" ng-controller="common.views.tasks.index as vm">
     <div class="row">
         <div class="col-md-4">

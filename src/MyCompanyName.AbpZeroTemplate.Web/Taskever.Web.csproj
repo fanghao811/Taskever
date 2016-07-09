@@ -381,7 +381,9 @@
     <Content Include="App\common\views\profile\linkAccountModal.js" />
     <Content Include="App\common\views\profile\linkedAccountsModal.js" />
     <Content Include="App\common\views\notifications\settingsModal.js" />
+    <Content Include="App\common\views\tasks\deviceModal.js" />
     <Content Include="App\common\views\tasks\index.js" />
+    <Content Include="App\common\views\tasks\locationTreeModal.js" />
     <Content Include="App\common\views\tasks\task_ce.js" />
     <Content Include="App\common\views\users\createOrEditModal.css">
       <DependentUpon>createOrEditModal.less</DependentUpon>
@@ -1225,6 +1227,7 @@
     <Content Include="metronic\assets\admin\layout4\img\avatar5.jpg" />
     <Content Include="metronic\assets\admin\layout4\img\avatar6.jpg" />
     <Content Include="metronic\assets\admin\layout4\img\avatar7.jpg" />
+    <Content Include="metronic\assets\admin\layout4\img\devices\HPM1216.jpg" />
     <Content Include="metronic\assets\admin\layout4\img\hor-menu-red-arrow.png" />
     <Content Include="metronic\assets\admin\layout4\img\icon-color-close.png" />
     <Content Include="metronic\assets\admin\layout4\img\icon-color.png" />
@@ -1890,13 +1893,14 @@
     <Content Include="App\common\views\products\product_ce.cshtml" />
     <Content Include="App\common\views\products\product_detail.cshtml" />
     <Content Include="App\common\views\products\index.cshtml" />
-    <Content Include="App\common\views\tasks\task_detail.cshtml" />
+    <Content Include="App\common\views\tasks\locationTreeModal.cshtml" />
     <Content Include="App\common\views\tasks\index.cshtml" />
     <Content Include="App\common\views\tasks\task_edited.cshtml" />
     <Content Include="App\common\views\chatHub\index.cshtml" />
     <Content Include="App\common\views\organizationUnits\rootTree.cshtml" />
     <Content Include="App\common\views\organizationUnits\oUTreeModal.cshtml" />
     <Content Include="App\common\views\tasks\task_ce.cshtml" />
+    <Content Include="App\common\views\tasks\deviceModal.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

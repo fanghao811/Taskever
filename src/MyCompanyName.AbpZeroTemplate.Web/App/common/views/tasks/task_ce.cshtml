@@ -1,72 +1,119 @@
-﻿<!-- BEGIN modal -->
-<div class="portlet light bordered">
+﻿<div class="portlet box blue-hoki">
     <div class="portlet-title">
-        <div class="caption font-green-dark">
-            <span class="caption-subject bold uppercase">新增工单 {{vm.taskOrder.type}}</span>
-        </div>
-        <div class="actions">
-            <input bs-switch class="make-switch"
-                   ng-model="vm.type"
-                   type="checkbox"
-                   data-on-text="精确"
-                   data-off-text="模糊"
-                   data-on-color="success"
-                   data-off-color="danger"
-                   data-size="small" />
+        <div class="caption">
+            <i class="fa fa-sticky-note-o"></i>新建工单
         </div>
     </div>
-    <div class="portlet-body">
-        <form role="form" class="form-horizontal">
+    <div class="portlet-body form">
+        <!-- BEGIN FORM-->
+        <form action="#" class="form-horizontal">
             <div class="form-body">
-                <div class="form-group">
-                    <div class="col-md-8 col-sm-8">
-                        <div class="todo-taskbody-user">
-                            <img class="todo-userpic pull-left" src="{{settings.layoutImgPath}}/avatar6.jpg" width="50px" height="50px">
-                            <span class="todo-username pull-left">nimabb</span>
-                            <button type="button" class="todo-username-btn btn btn-circle btn-default btn-xs">&nbsp;更换&nbsp;</button>
+                <div class="form-actions top">
+                    <img class="todo-userpic pull-left" ng-src="{{settings.layoutImgPath}}/avatar6.jpg" width="50" height="50">
+                    <span class="todo-username pull-left">nimabb&nbsp;&nbsp;&nbsp;<i class="fa fa-phone"></i>&nbsp;8758</span>
+                    <button type="button" class="todo-username-btn btn btn-circle btn-default btn-xs">&nbsp;更换&nbsp;</button>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">设备编号</label>
+                            <div class="col-md-7">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="1.成功：完成后续内容，2.失败：弹窗">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                    </div>                   
-                </div>
-                <!-- END TASK HEAD -->
-                <!-- TASK TITLE -->
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <input type="text" class="form-control todo-taskbody-tasktitle" placeholder="Task Title...">
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">设备名称</label>
+                            <div class="col-md-7">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="1.科室设备库 2.全院 3.常用" 
+                                           ng-model="vm.taskOrder.device.displayName"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" type="button"
+                                                ng-click="vm.openDeviceModal(3)">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">所在位置</label>
+                            <div class="col-md-7">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="设备当前所在位置..."
+                                           ng-model="vm.taskOrder.location"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" type="button"
+                                                ng-click="vm.openTreeModal(1)">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-3 control-label">紧急程度</label>
+                            <div class="col-md-7">
+                                <select class="form-control" ng-init="vm.taskOrder.priority = vm.priorities[0].value"
+                                        ng-options="v.value as v.name for v in vm.priorities"
+                                        ng-model="vm.taskOrder.priority"></select>
+                                <span class="help-block font-blue-hoki"> {{vm.taskOrder.priority|mapPriority}}内响应 </span>
+                            </div>
+                        </div>
+                        <div class="form-group last">
+                            <label class="col-md-3 control-label">问题描述</label>
+                            <div class="col-md-7">
+                                <textarea class="form-control" rows="6" placeholder="TODO:根据设备类型，出现问题选项"></textarea>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <!-- TASK DESC -->
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <textarea class="form-control todo-taskbody-taskdesc" rows="8" placeholder="故障描述..."></textarea>
-                    </div>
-                </div>
-                <!-- END TASK DESC -->
-                <!-- TASK DUE DATE -->
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <div class="input-icon">
-                            <i class="fa fa-calendar"></i>
-                            <input type="text" class="form-control todo-taskbody-due" placeholder="截止日期...">
+                    <div class="col-md-5">
+                        <div class="mt-element-card mt-element-overlay">
+                            <div class="mt-card-item">
+                                <div class="mt-card-avatar mt-overlay-1">
+                                    <img ng-src="{{settings.layoutImgPath}}/devices/HPM1216.jpg" style="height:280px" />
+                                    <div class="mt-overlay">
+                                        <ul class="mt-info">
+                                            <li>
+                                                <a class="btn default btn-outline" href="javascript:;">
+                                                    <i class="icon-magnifier"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="btn default btn-outline" href="javascript:;">
+                                                    <i class="icon-link"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="mt-card-content">
+                                    <h3 class="mt-card-name font-red">激光打印机 HP-1606</h3>
+                                    <p class="mt-card-desc font-grey-mint">信息中心</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- TASK TAGS -->
-                <div class="form-group">
-                    <div class="col-md-12">
-                        <input type="text" class="form-control todo-taskbody-tags" placeholder="标记..." >
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-7">
+                            <button type="button" class="btn default margin-right-20">取消</button>
+                            <button type="submit" class="btn green">提交</button>
+                        </div>
                     </div>
                 </div>
-                <!-- TASK TAGS -->
-            </div>
-            <div class="form-actions noborder">
-                <button ng-disabled="vm.saving" type="button" class="btn btn-default" ng-click="vm.cancel()">@L("Cancel")</button>
-                <button type="submit" button-busy="vm.saving" busy-text="@L("SavingWithThreeDot")"
-                        class="btn btn-primary blue" ng-click="vm.save()"
-                        >
-                    <i class="fa fa-save"></i> <span>@L("Save")</span>
-                </button>
             </div>
         </form>
+        <!-- END FORM-->
     </div>
+
 </div>
-<!-- END modal-->
+
