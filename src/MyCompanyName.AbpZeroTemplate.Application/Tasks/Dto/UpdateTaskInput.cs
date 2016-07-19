@@ -4,7 +4,7 @@ using Abp.Application.Services.Dto;
 using Abp.Runtime.Validation;
 using Taskever.Tasks.Emun;
 
-namespace Taskever.Tasks.Dtos
+namespace Taskever.Tasks.Dto
 {
     public class UpdateTaskInput : IInputDto, ICustomValidate
     {

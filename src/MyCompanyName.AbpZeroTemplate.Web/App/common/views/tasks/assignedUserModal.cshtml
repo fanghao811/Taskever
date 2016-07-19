@@ -1,0 +1,141 @@
+﻿<div class="portlet light bordered">
+    <div class="portlet-title">
+        <div class="caption font-purple-plum">
+            <i class="icon-speech font-purple-plum"></i>
+            <span class="caption-subject bold uppercase"> 指定人员</span>
+        </div>
+        <div class="actions">
+            <button type="button"ty  class="btn red-sunglo btn-sm" ng-click="vm.cancel()">
+                <i class="fa fa-close"></i> 关闭
+            </button>
+        </div>
+    </div>
+    <div class="portlet-body" style="height: auto;">
+        <div id="main" data-toggle="context">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <h3>科室</h3>
+                    <div id="departmentTree" class="margin-top-15"></div>
+                    <div ng-if="!vm.departmentTree.unitCount" class="text-muted">
+                        @L("NoOrganizationUnitDefinedYet")
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <h3>团队成员</h3>
+                    <div class="mt-actions">
+                        <div class="mt-action">
+                            <div class="mt-action-img">
+                                <img ng-src="{{settings.layoutImgPath}}/avatar6.jpg">
+                            </div>
+                            <div class="mt-action-body">
+                                <div class="mt-action-row">
+                                    <div class="mt-action-info ">
+                                        <div class="mt-action-details ">
+                                            <span class="mt-action-author">东大楼</span>
+                                            <p class="mt-action-desc">维修打印机</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-action-datetime ">
+                                        <span class="mt-action-date">3/3</span> 
+                                        <span class="mt-action-dot bg-red"></span>
+                                        <span class="mt=action-time">张三</span>
+                                    </div>
+                                    <div class="mt-action-buttons ">    
+                                            <button type="button" class="btn btn-outline green btn-sm">选择</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-action">
+                            <div class="mt-action-img">
+                                <img ng-src="{{settings.layoutImgPath}}/avatar6.jpg">
+                            </div>
+                            <div class="mt-action-body">
+                                <div class="mt-action-row">
+                                    <div class="mt-action-info ">
+                                        <div class="mt-action-details ">
+                                            <span class="mt-action-author">门诊楼</span>
+                                            <p class="mt-action-desc">维修电脑</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-action-datetime ">
+                                        <span class="mt-action-date">1/3</span>
+                                        <span class="mt-action-dot bg-green"></span>
+                                        <span class="mt=action-time">李四</span>
+                                    </div>
+                                    <div class="mt-action-buttons ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-outline green btn-sm">选择</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-action">
+                            <div class="mt-action-img">
+                                <img ng-src="{{settings.layoutImgPath}}/avatar6.jpg">
+                            </div>
+                            <div class="mt-action-body">
+                                <div class="mt-action-row">
+                                    <div class="mt-action-info ">
+                                        <div class="mt-action-details ">
+                                            <span class="mt-action-author">行政楼</span>
+                                            <p class="mt-action-desc">维修复印机</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-action-datetime ">
+                                        <span class="mt-action-date">2/3</span>
+                                        <span class="mt-action-dot bg-green"></span>
+                                        <span class="mt-action-time">王五</span>
+                                        <span class="mt-action-time">
+                                        <i class="fa fa-phone"></i>
+                                        679805</span>
+                                    </div>
+                                    <div class="mt-action-buttons ">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-outline green btn-sm">选择</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="context-menu2">
+            <ul class="dropdown-menu pull-left" role="menu">
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-user"></i> New User
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-present"></i> New Event
+                        <span class="badge badge-success">4</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-basket"></i> New order
+                    </a>
+                </li>
+                <li class="divider"> </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-flag"></i> Pending Orders
+                        <span class="badge badge-danger">4</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-users"></i> Pending Users
+                        <span class="badge badge-warning">12</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

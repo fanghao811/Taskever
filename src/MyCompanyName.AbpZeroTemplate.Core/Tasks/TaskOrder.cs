@@ -12,24 +12,24 @@ namespace Taskever.Tasks
     [Table("TaskOrder", Schema = "Tasks")]
     public class TaskOrder : Entity<long>, IHasCreationTime
     {
-        public const int MaxNameLength = 30;
-        public const int MaxDescriptionLength = 100;
+        public const int Max30 = 30;
+        public const int Max100 = 100;
         
         [Required]
-        [MaxLength(MaxNameLength)]
+        [MaxLength(Max30)]
         public string DeviceName { get; set; }
 
         //Todo:关联科室
-        [MaxLength(MaxNameLength)]
+        [MaxLength(Max30)]
         public string Department { get; set; }
 
-        //Todo:报修地址
-        [MaxLength(50)]
+        //报修地址
+        [MaxLength(Max100)]
         public string Location { get; set; }
 
         //故障描述
         [Required]
-        [MaxLength(MaxDescriptionLength)]
+        [MaxLength(Max100)]
         public string Description { get; set; }
 
         //报修员工 QA:存在级联或者重复
@@ -60,8 +60,8 @@ namespace Taskever.Tasks
         public TaskOrder()
         {
             Type = TaskType.Others;
-            Priority = TaskPriority.Low;
-            State = TaskState.ToAssigned;
+            Priority = TaskPriority.中;
+            State = TaskState.待分配;
             CreationTime = DateTime.Now;
         }
 

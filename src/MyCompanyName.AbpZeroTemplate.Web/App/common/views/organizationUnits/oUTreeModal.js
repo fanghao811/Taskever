@@ -4,9 +4,9 @@
         function ($scope, $uibModalInstance, organizationUnitService,id,$log) {
             var vm = this;
 
-            //$scope.$on('$viewContentLoaded', function () {
-            //    App.initAjax();
-            //});
+            $scope.$on('$viewContentLoaded', function () {
+                App.initAjax();
+            });
             vm.locationToSearch = '';
 
             vm.locationTree = {

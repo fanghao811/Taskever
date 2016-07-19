@@ -381,10 +381,12 @@
     <Content Include="App\common\views\profile\linkAccountModal.js" />
     <Content Include="App\common\views\profile\linkedAccountsModal.js" />
     <Content Include="App\common\views\notifications\settingsModal.js" />
+    <Content Include="App\common\views\tasks\assignedUserModal.js" />
     <Content Include="App\common\views\tasks\deviceModal.js" />
     <Content Include="App\common\views\tasks\index.js" />
     <Content Include="App\common\views\tasks\locationTreeModal.js" />
     <Content Include="App\common\views\tasks\task_ce.js" />
+    <Content Include="App\common\views\Test-Elements\dyhospital.html" />
     <Content Include="App\common\views\users\createOrEditModal.css">
       <DependentUpon>createOrEditModal.less</DependentUpon>
     </Content>
@@ -1901,6 +1903,7 @@
     <Content Include="App\common\views\organizationUnits\oUTreeModal.cshtml" />
     <Content Include="App\common\views\tasks\task_ce.cshtml" />
     <Content Include="App\common\views\tasks\deviceModal.cshtml" />
+    <Content Include="App\common\views\tasks\assignedUserModal.cshtml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />

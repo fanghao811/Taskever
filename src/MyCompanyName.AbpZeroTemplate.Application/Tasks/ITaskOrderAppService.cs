@@ -1,16 +1,28 @@
 ﻿using Abp.Application.Services;
 using Abp.Application.Services.Dto;
 using System.Threading.Tasks;
-using Taskever.Tasks.Dtos;
+using Taskever.Tasks.Dto;
+
 
 namespace Taskever.Tasks
 {
     public interface ITaskOrderAppService : IApplicationService
     {
-        GetTasksOutput GetTasks(GetTasksInput input);
+        Task<TaskEditDto> GetTaskForEdit(NullableIdInput<long> input);
+
+        Task<ListResultOutput<TaskListDto>> GetTasks();
 
         Task CreateOrUpdateTask(CreateOrUpdateTaskInput input);
 
-        void DeleteTask(IdInput<long> input);
+        Task DeleteTask(IdInput<long> input);
+
+        //role
+        //Task<ListResultOutput<RoleListDto>> GetRoles();
+
+        //Task<GetRoleForEditOutput> GetRoleForEdit(NullableIdInput input);
+
+        //Task CreateOrUpdateRole(CreateOrUpdateRoleInput input);
+
+        //Task DeleteRole(EntityRequestInput input);
     }
 }

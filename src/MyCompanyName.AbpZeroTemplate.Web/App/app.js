@@ -141,6 +141,7 @@ appModule.config([
 
         //HumanResources
         $stateProvider.state('people', {
+            //'abstract': true,
             url: '/people',
             templateUrl: '~/App/common/views/HR/people/index.cshtml',
             menu: 'HumanResources.People'
@@ -176,6 +177,7 @@ appModule.config([
             .state('task', {
                 url: '/task',
                 templateUrl: '~/App/common/views/tasks/index.cshtml',
+                controller: 'common.views.tasks.index as vm',
                 menu: 'Task'
             })
             .state('taskDetail', {
@@ -184,7 +186,7 @@ appModule.config([
                 menu: 'Task.Detail'
             })
             .state('taskCE', {
-                url: '/taskCE',
+                url: '/taskCE/:orderId',
                 templateUrl: '~/App/common/views/tasks/task_ce.cshtml',
                 controller: 'common.views.tasks.createOrEdit',
                 controllerAs: 'vm', //IMPORTANT:省略此处出错！

@@ -2,10 +2,10 @@
 {
     public enum TaskState : byte
     {
-        ToAssigned = 1,
-        ToAccepted = 2,
-        Active = 3,
-        Stop = 4,
-        Complete = 5  
+        待分配 = 1,
+        待接收 = 2,
+        进行中 = 3,
+        暂停 = 4,
+        完成 = 5  
     }
 }

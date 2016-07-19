@@ -28757,7 +28757,7 @@ Add 2016-4-26 profile
 
     .todo-container .todo-projects-container > li {
         list-style: none;
-        padding: 30px 20px;
+        padding: 20px 20px;
     }
 
 .todo-container .todo-projects-divider {
@@ -28855,7 +28855,7 @@ Add 2016-4-26 profile
     }
 
     .todo-container .todo-projects-item > .todo-project-item-foot {
-        font-size: 12px;
+        font-size: 15px;
     }
 
 .todo-container .todo-tasks-item {
@@ -29302,3 +29302,28 @@ div .todo-tasklist-item:hover {
     .todo-task-history > li > .todo-task-history-date {
       width: 100px;
       font-size: 11px; } }
+
+
+  /* my Task 2016-7-12 */
+.todo-project-item-img {
+    width: 40px;
+    float: left;
+}
+
+.todo-project-item-img >img{
+    border-radius: 50% !important;
+}
+.todo-project-item-body {
+    padding-left: 20px;
+    position: relative;
+    overflow: hidden;
+} 
+
+.todo-project-item-body .todo-project-info >h3{
+    font-size: 18px;
+    color: #4e5a64;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+

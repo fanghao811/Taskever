@@ -1,17 +1,15 @@
 ﻿(function () {
-    appModule.controller('common.views.tasks.deviceModal', [
-        '$scope', '$uibModalInstance', 'abp.services.app.organizationUnit', 'id', '$log',
-        function ($scope, $uibModalInstance, organizationUnitService, id, $log) {
+    appModule.controller('common.views.tasks.assignedUserModal', [
+        '$scope', '$uibModalInstance', 'abp.services.app.organizationUnit', 'abp.services.app.user',
+        function ($scope, $uibModalInstance, organizationUnitService, userService) {
             var vm = this;
 
             $scope.$on('$viewContentLoaded', function () {
                 App.initAjax();
             });
-            var rootId = id;
-            vm.deviceToSearch = '';
 
 
-            vm.deviceTree = {
+            vm.departmentTree = {
 
                 $tree: null,
 
@@ -19,12 +17,12 @@
 
                 setUnitCount: function (unitCount) {
                     $scope.safeApply(function () {
-                        vm.deviceTree.unitCount = unitCount;
+                        vm.departmentTree.unitCount = unitCount;
                     });
                 },
 
                 refreshUnitCount: function () {
-                    vm.deviceTree.setUnitCount(vm.deviceTree.$tree.jstree('get_json').length);
+                    vm.departmentTree.setUnitCount(vm.departmentTree.$tree.jstree('get_json').length);
                 },
 
                 selectedOu: {//选择节点
@@ -33,11 +31,11 @@
 
                     set: function (ouInTree) {
                         if (!ouInTree) {
-                            vm.deviceTree.selectedOu.id = null;
-                            vm.deviceTree.selectedOu.displayName = null;
+                            vm.departmentTree.selectedOu.id = null;
+                            vm.departmentTree.selectedOu.displayName = null;
                         } else {
-                            vm.deviceTree.selectedOu.id = ouInTree.id;
-                            vm.deviceTree.selectedOu.displayName = ouInTree.original.displayName;
+                            vm.departmentTree.selectedOu.id = ouInTree.id;
+                            vm.departmentTree.selectedOu.displayName = ouInTree.original.displayName;
                         }
 
                         //vm.members.load();
@@ -45,14 +43,14 @@
                 },
 
                 searchNode: function (v) {
-                    vm.deviceTree.selectedOu.set();
-                    vm.deviceTree.$tree.jstree('search', v, false, true);
+                    vm.departmentTree.selectedOu.set();
+                    vm.departmentTree.$tree.jstree('search', v, false, true);
                 },
 
                 clearSearch: function () {
                     vm.deviceToSearch = '';
-                    vm.deviceTree.selectedOu.set();
-                    vm.deviceTree.$tree.jstree('clear_search');
+                    vm.departmentTree.selectedOu.set();
+                    vm.departmentTree.$tree.jstree('clear_search');
                 },
 
                 generateTextOnTree: function (ou) {
@@ -62,7 +60,7 @@
                         '</span>) <i class="fa fa-caret-down text-muted"></i></span>';
                 },
 
-                getTreeDataFromServer: function (id, callback) {//从服务端获取位置树： deviceTree
+                getTreeDataFromServer: function (id, callback) {//从服务端获取位置树： departmentTree
                     organizationUnitService.getOUsIncludingChildren(id).success(function (result) {
                         var treeData = _.map(result.items, function (item) {
                             return {
@@ -71,7 +69,7 @@
                                 code: item.code,
                                 displayName: item.displayName,
                                 memberCount: item.memberCount,
-                                text: vm.deviceTree.generateTextOnTree(item),
+                                text: vm.departmentTree.generateTextOnTree(item),
                                 state: {
                                     opened: true
                                 }
@@ -83,10 +81,10 @@
                 },
 
                 init: function () {//初始化locatinTree
-                    vm.deviceTree.getTreeDataFromServer(rootId, function (treeData) {
-                        vm.deviceTree.setUnitCount(treeData.length);
+                    vm.departmentTree.getTreeDataFromServer(2, function (treeData) {
+                        vm.departmentTree.setUnitCount(treeData.length);
 
-                        vm.deviceTree.$tree = $('#deviceTree');
+                        vm.departmentTree.$tree = $('#departmentTree');
 
                         var jsTreePlugins = [//jsTree插件加载
                             'types',
@@ -95,7 +93,7 @@
                             'sort'
                         ];
 
-                        vm.deviceTree.$tree
+                        vm.departmentTree.$tree
                         .jstree({
                             'core': {
                                 data: treeData,
@@ -125,10 +123,10 @@
                         .on('changed.jstree', function (e, data) {
                             $scope.safeApply(function () {
                                 if (data.selected.length != 1) {
-                                    vm.deviceTree.selectedOu.set(null);
+                                    vm.departmentTree.selectedOu.set(null);
                                 } else {
                                     var selectedNode = data.instance.get_node(data.selected[0]);
-                                    vm.deviceTree.selectedOu.set(selectedNode);
+                                    vm.departmentTree.selectedOu.set(selectedNode);
                                 }
                             });
 
@@ -138,22 +136,25 @@
 
                            var ouId = $(this).closest('.ou-text').attr('data-ou-id');
                            setTimeout(function () {
-                               vm.deviceTree.$tree.jstree('show_contextmenu', ouId);
+                               vm.departmentTree.$tree.jstree('show_contextmenu', ouId);
                            }, 100);
                        });
                     });
                 }
             };
 
+
+
             vm.save = function () {
-                $uibModalInstance.close(vm.deviceTree.selectedOu.displayName);
+                $uibModalInstance.close();
             };
 
             vm.cancel = function () {
                 $uibModalInstance.dismiss();
             };
 
-            vm.deviceTree.init();
+
+            vm.departmentTree.init();
         }
     ]);
 })();

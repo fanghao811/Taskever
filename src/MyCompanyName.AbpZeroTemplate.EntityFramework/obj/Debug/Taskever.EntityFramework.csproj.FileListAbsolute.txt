@@ -332,3 +332,4 @@ G:\Git\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Enti
 G:\Git\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.dll
 G:\Git\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.pdb
 G:\Git\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.added_product.resources
+G:\Git\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.Entity_taskOrder.resources

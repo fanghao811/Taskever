@@ -16,8 +16,8 @@
 
             vm.sections = [];
             vm.floors = [];
-            vm.departments = {};
-            vm.rooms = {};
+            vm.departments = [];
+            vm.rooms = [];
 
             vm.changedSection = function (x) {
                 vm.location = {};
