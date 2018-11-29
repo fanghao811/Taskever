@@ -33,6 +33,7 @@ namespace Taskever.Migrations.Seed
                                     new PersonPhone {PhoneNumberType = PhoneNumberType.公司, PhoneNumber = "2223342"}
                                     }
                     });
+                _context.SaveChanges();
             }
 
             var asimov = _context.People.FirstOrDefault(p => p.Name == "Isaac");
@@ -50,7 +51,9 @@ namespace Taskever.Migrations.Seed
                                     new PersonPhone {PhoneNumberType = PhoneNumberType.公司, PhoneNumber = "1123345"}
                                     }
                     });
+                _context.SaveChanges();
             }
+
         }
     }
 }

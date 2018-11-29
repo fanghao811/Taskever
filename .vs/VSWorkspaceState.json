@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\MyCompanyName.AbpZeroTemplate.Application\\Organizations",
+    "\\src\\MyCompanyName.AbpZeroTemplate.Application\\Organizations\\Dto",
+    "\\src\\MyCompanyName.AbpZeroTemplate.EntityFramework",
+    "\\src\\MyCompanyName.AbpZeroTemplate.EntityFramework\\Migrations\\Seed",
+    "\\src\\MyCompanyName.AbpZeroTemplate.Web\\App",
+    "\\src\\MyCompanyName.AbpZeroTemplate.Web\\App_Start",
+    "\\src\\MyCompanyName.AbpZeroTemplate.Web\\App_Start\\Navigation"
+  ],
+  "SelectedNode": "\\src\\Taskever.sln",
+  "PreviewInSolutionExplorer": false
+}

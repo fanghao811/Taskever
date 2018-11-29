@@ -314,6 +314,10 @@
     <!--2016-6-14 RootTree -->
     <text name="RootTree" value="根节点管理" />
 
+    <!--2018-11-29 RootTree -->
+    <text name="MaterialManage" value="物料管理" />
+    <text name="MaterialTree" value="物料树形" />
+    <text name="MaterialTable" value="物料表格" />
 
   </texts>
 </localizationDictionary>

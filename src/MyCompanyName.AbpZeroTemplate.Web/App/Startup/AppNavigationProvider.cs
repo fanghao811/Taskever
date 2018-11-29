@@ -43,9 +43,27 @@ namespace Taskever.Web.App.Startup
                     url: "task",
                     icon: "fa fa-home"
                     )
-                ).AddItem(new MenuItemDefinition(//设备管理
+                ).AddItem(new MenuItemDefinition(//地点管理 Location
+                        PageNames.App.Common.Location,
+                        L("LocationManage"),
+                        url: "location",
+                        icon: "fa fa-user"
+                        ).AddItem(new MenuItemDefinition(//物料管理
                     PageNames.App.Common.Product,
-                    L("ProductManage"),
+                    L("MaterialManage"),
+                    icon: "fa fa-home"
+                    ).AddItem(new MenuItemDefinition(
+                        PageNames.App.Common.Product_list,
+                        L("ProductList"),
+                        url: "productEdited",
+                        icon: "fa fa-grid"
+                        )
+                    )
+                )
+                    )
+                .AddItem(new MenuItemDefinition(//物料管理
+                    PageNames.App.Common.Product,
+                    L("MaterialManage"),
                     icon: "fa fa-home"
                     ).AddItem(new MenuItemDefinition(
                         PageNames.App.Common.Product_list,
@@ -80,12 +98,6 @@ namespace Taskever.Web.App.Startup
                         L("RootTree"),
                         url: "rootTree",
                         icon: "icon-layers"
-                        )
-                    ).AddItem(new MenuItemDefinition(//地点管理 Location
-                        PageNames.App.Common.Location,
-                        L("LocationManage"),
-                        url: "location",
-                        icon: "fa fa-user"
                         )
                     ).AddItem(new MenuItemDefinition(//组织机构
                         PageNames.App.Common.OrganizationUnits,
