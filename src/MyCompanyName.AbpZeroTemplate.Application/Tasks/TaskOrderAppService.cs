@@ -72,7 +72,6 @@ namespace Taskever.Tasks
             }
         }
 
-
         public async Task CreateTask(CreateOrUpdateTaskInput input)
         {
             //var crewLeader =await UserManager.GetUserByIdAsync(input.TaskOrder.CrewLeaderId.Value);

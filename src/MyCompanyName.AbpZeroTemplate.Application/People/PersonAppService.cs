@@ -99,7 +99,6 @@ namespace Taskever.People
             }
         }
 
-
         //[AbpAuthorize("Administration.PersonManagement.CreatePerson")]
         public async Task CreatePerson(CreateOrUpdatePersonInput input)
         {

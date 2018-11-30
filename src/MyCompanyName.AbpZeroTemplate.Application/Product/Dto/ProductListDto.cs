@@ -7,6 +7,7 @@ using Taskever.Production.Emun;
 
 namespace Taskever.Production
 {
+    [AutoMapFrom(typeof(Product))]
     public class ProducListDto : EntityDto<long>
     {
         public string Name { get; set; }

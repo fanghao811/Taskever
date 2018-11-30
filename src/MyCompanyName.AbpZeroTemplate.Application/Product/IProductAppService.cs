@@ -15,5 +15,7 @@ namespace Taskever.Production
         //Task DeletePhone(IdInput<long> input);
         //Task<PhoneInPersonListDto> AddPhone(AddPhoneInput input);
         Task<ListResultOutput<ProducListDto>> GetProductsInOu(long organizationUnitId);
+
+        Task<PagedResultOutput<ProducListDto>> GetProductsFOP(GetProductInput input);
     }
 }
