@@ -19,7 +19,7 @@ namespace Taskever.Tasks
         [MaxLength(Max30)]
         public string DeviceName { get; set; }
 
-        //Todo:关联科室
+        //TODO:关联科室
         [MaxLength(Max30)]
         public string Department { get; set; }
 

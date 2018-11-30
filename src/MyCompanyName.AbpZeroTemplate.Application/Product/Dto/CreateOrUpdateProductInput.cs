@@ -1,41 +1,54 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using Abp.Application.Services.Dto;
-using System;
 using Abp.AutoMapper;
+using Taskever.Production.Emun;
 
 namespace Taskever.Production
 {
     [AutoMapFrom(typeof(Product))]
     public class CreateOrUpdateProductInput : IInputDto
     {
-        public long? ProductId { get; set; }
-        public long? DepartmentOuId { get; set; }
-        public long? LocationOuId { get; set; }
+        public const int MaxNameLength = 30;
+        public const int MaxProductNumberLength = 30;
+        public const int MaxDescriptionLength = 100;
+
+        public long? Id { get; set; }
         public long? CategoryOuId { get; set; }
 
-        [Required]
-        [MaxLength(Product.MaxNameLength)]
-        public string Name { get; set; }
-
-        public float Price { get; set; }
-
-        //产品编号 R
-        [Required]
-        [MaxLength(Product.MaxProductNumberLength)]
+        //1.物料编号
         public string ProductNumber { get; set; }
 
-        //用途描述 R
+        //2.物料名称
         [Required]
-        [MaxLength(Product.MaxDescriptionLength)]
+        [MaxLength(MaxNameLength)]
+        public string Name { get; set; }
+
+        //3.简称
+        public string Abbreviation { get; set; }
+
+        //4.助记码
+        public string MnemonicCode { get; set; }
+
+        //6.型号
+        [Required]
+        [MaxLength(MaxProductNumberLength)]
+        public string ModelNumber { get; set; }
+
+        //7.规格
+        public string Specification { get; set; }
+
+        //TODO:8.单位 enum
+        public ProductUnit Unit { get; set; }
+
+        //9.物料描述
+        [Required]
+        [MaxLength(MaxDescriptionLength)]
         public string Description { get; set; }
 
-        //启用状态
-        public bool UsingFlag { get; set; }
+        //10.备注
+        [Required]
+        [MaxLength(MaxDescriptionLength)]
+        public string Comment { get; set; }
 
-        //启用日期
-        public DateTime StartDate { get; set; }
-
-        //报废日期
-        public DateTime DiscontinuedDate { get; set; }
     }
 }

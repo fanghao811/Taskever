@@ -56,7 +56,7 @@ namespace Taskever.People
             }
             output.PhoneTypeList = typelist;
 
-            return output; //todo:改进 CreateorEditPerson.js 2016-3-29
+            return output; //TODO:改进 CreateorEditPerson.js 2016-3-29
         }
 
         //This method uses async pattern that is supported by ASP.NET Boilerplate

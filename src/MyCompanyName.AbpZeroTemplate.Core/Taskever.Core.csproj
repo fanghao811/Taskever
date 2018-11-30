@@ -99,6 +99,7 @@
     <Compile Include="People\IPersonRepository.cs" />
     <Compile Include="People\Person.cs" />
     <Compile Include="People\PersonPhone.cs" />
+    <Compile Include="Product\Enum\ProductUnit.cs" />
     <Compile Include="Product\IProductRepository.cs" />
     <Compile Include="Product\Product.cs" />
     <Compile Include="Product\ProductManager.cs" />

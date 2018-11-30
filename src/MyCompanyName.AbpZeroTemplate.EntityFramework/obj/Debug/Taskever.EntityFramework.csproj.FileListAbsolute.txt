@@ -514,3 +514,4 @@ C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramewor
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.dll
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.pdb
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.add_seed_orgnization.resources
+C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.update_productModel_to_material.resources

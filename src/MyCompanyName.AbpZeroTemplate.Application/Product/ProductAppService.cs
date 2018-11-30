@@ -6,7 +6,6 @@ using System.Data.Entity;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Taskever.Tasks.Dto;
 
 namespace Taskever.Production
 {
@@ -27,7 +26,7 @@ namespace Taskever.Production
         /// <returns></returns>
         public async Task CreateOrUpdateProduct(CreateOrUpdateProductInput input)
         {
-            if (input.ProductId.HasValue)
+            if (input.Id.HasValue)
             {
                 await UpdateProduct(input);
             }
@@ -61,9 +60,9 @@ namespace Taskever.Production
 
         public async Task UpdateProduct(CreateOrUpdateProductInput input)
         {
-            Debug.Assert(input.ProductId != null, "input.Product.Id should be set.");
+            Debug.Assert(input.Id != null, "input.Product.Id should be set.");
 
-            var product = await _productRepository.GetAsync(input.ProductId.Value);
+            var product = await _productRepository.GetAsync(input.Id.Value);
             product.Name = input.Name;
 
             await _productRepository.UpdateAsync(product);
@@ -73,21 +72,22 @@ namespace Taskever.Production
         {
             var query = await _productRepository.GetAll()
                                 .Include(p => p.Category)
-                                .Include(p => p.Department)
-                                .Include(p => p.Location).Where(p=>p.CategoryOuId== organizationUnitId).ToListAsync();
+                                .Where(p=>p.CategoryOuId== organizationUnitId).ToListAsync();
 
             var products = from product in query
                              select new ProducListDto
                              {
                                  Id = product.Id,
-                                 ProductNumber=product.ProductNumber,
+                                 Name = product.Name,
+                                 ProductNumber =product.ProductNumber,
+                                 Abbreviation=product.Abbreviation,
+                                 MnemonicCode=product.ModelNumber,
+                                 ModelNumber=product.ModelNumber,
+                                 Specification= product.Specification,
+                                 Unit= product.Unit,
+                                 Description = product.Description,
 
                                  Category = product.Category.DisplayName,
-                                 Department = product.Department.DisplayName,
-                                 Location = product.Location.DisplayName,
-
-                                 Price =product.Price,
-                                 Description = product.Description
                              };
             return new ListResultOutput<ProducListDto>(products.MapTo<List<ProducListDto>>());
         }

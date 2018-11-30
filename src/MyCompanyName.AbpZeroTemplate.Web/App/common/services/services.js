@@ -34,6 +34,11 @@
                 { name: '进行中', value: 3 },
                 { name: '暂停', value: 4 },
                 { name: '完成', value: 5 }
+            ],
+            product_units: [
+                { name: '件', value: 1 },
+                { name: '个', value: 2 },
+                { name: '台', value: 3 }
             ]
         };
         return factory;
