@@ -133,6 +133,7 @@
     <Compile Include="People\IPersonAppService.cs" />
     <Compile Include="People\PersonAppService.cs" />
     <Compile Include="Product\Dto\CreateOrUpdateProductInput.cs" />
+    <Compile Include="Product\Dto\ProductListDto.cs" />
     <Compile Include="Product\IProductAppService.cs" />
     <Compile Include="Product\ProductAppService.cs" />
     <Compile Include="TaskeverApplicationModule.cs" />

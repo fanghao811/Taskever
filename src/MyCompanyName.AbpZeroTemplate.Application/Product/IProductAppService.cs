@@ -1,4 +1,6 @@
 ﻿using Abp.Application.Services;
+using Abp.Application.Services.Dto;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Taskever.Production
@@ -12,5 +14,6 @@ namespace Taskever.Production
 
         //Task DeletePhone(IdInput<long> input);
         //Task<PhoneInPersonListDto> AddPhone(AddPhoneInput input);
+        Task<ListResultOutput<ProducListDto>> GetProductsInOu(long organizationUnitId);
     }
 }

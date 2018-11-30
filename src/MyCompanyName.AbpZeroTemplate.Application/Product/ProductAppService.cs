@@ -1,8 +1,12 @@
-﻿using Abp.AutoMapper;
+﻿using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
+using Taskever.Tasks.Dto;
 
 namespace Taskever.Production
 {
@@ -65,9 +69,27 @@ namespace Taskever.Production
             await _productRepository.UpdateAsync(product);
         }
 
-        public List<Product> GetProductsInOu(long organizationUnitId)
+        public async Task<ListResultOutput<ProducListDto>>  GetProductsInOu(long organizationUnitId)
         {
-            return _productRepository.GetAllList(p => p.DepartmentOuId == organizationUnitId);
+            var query = await _productRepository.GetAll()
+                                .Include(p => p.Category)
+                                .Include(p => p.Department)
+                                .Include(p => p.Location).Where(p=>p.CategoryOuId== organizationUnitId).ToListAsync();
+
+            var products = from product in query
+                             select new ProducListDto
+                             {
+                                 Id = product.Id,
+                                 ProductNumber=product.ProductNumber,
+
+                                 Category = product.Category.DisplayName,
+                                 Department = product.Department.DisplayName,
+                                 Location = product.Location.DisplayName,
+
+                                 Price =product.Price,
+                                 Description = product.Description
+                             };
+            return new ListResultOutput<ProducListDto>(products.MapTo<List<ProducListDto>>());
         }
 
     }
