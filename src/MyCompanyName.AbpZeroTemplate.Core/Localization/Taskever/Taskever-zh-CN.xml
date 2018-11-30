@@ -318,6 +318,7 @@
     <text name="MaterialManage" value="物料管理" />
     <text name="MaterialTree" value="物料树形" />
     <text name="MaterialTable" value="物料表格" />
-
+    <text name="MaterialCreate" value="物料新增" />
+    
   </texts>
 </localizationDictionary>

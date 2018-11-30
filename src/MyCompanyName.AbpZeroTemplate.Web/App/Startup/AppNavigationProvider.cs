@@ -43,33 +43,27 @@ namespace Taskever.Web.App.Startup
                     url: "task",
                     icon: "fa fa-home"
                     )
-                ).AddItem(new MenuItemDefinition(//地点管理 Location
+                ).AddItem(new MenuItemDefinition(//物料管理
+                    PageNames.App.Common.Product,
+                    L("MaterialManage"),
+                    icon: "fa fa-home"
+                    ).AddItem(new MenuItemDefinition(//物料新增
+                        PageNames.App.Common.Product_list,
+                        L("MaterialCreate"),
+                        url: "productEdited",
+                        icon: "fa fa-commenting"
+                        )
+                    ).AddItem(new MenuItemDefinition(//物料树
                         PageNames.App.Common.Location,
-                        L("LocationManage"),
+                        L("MaterialTree"),
                         url: "location",
                         icon: "fa fa-user"
-                        ).AddItem(new MenuItemDefinition(//物料管理
-                    PageNames.App.Common.Product,
-                    L("MaterialManage"),
-                    icon: "fa fa-home"
-                    ).AddItem(new MenuItemDefinition(
-                        PageNames.App.Common.Product_list,
-                        L("ProductList"),
-                        url: "productEdited",
-                        icon: "fa fa-grid"
                         )
-                    )
-                )
-                    )
-                .AddItem(new MenuItemDefinition(//物料管理
-                    PageNames.App.Common.Product,
-                    L("MaterialManage"),
-                    icon: "fa fa-home"
-                    ).AddItem(new MenuItemDefinition(
-                        PageNames.App.Common.Product_list,
-                        L("ProductList"),
-                        url: "productEdited",
-                        icon: "fa fa-grid"
+                    ).AddItem(new MenuItemDefinition(//物料表格
+                        PageNames.App.Common.Location,
+                        L("MaterialTable"),
+                        url: "auditLogs",
+                        icon: "fa fa-user"
                         )
                     )
                 ).AddItem(new MenuItemDefinition(//人事管理
