@@ -206,13 +206,15 @@ appModule.config([
         $stateProvider
             .state('product', {
                 'abstract': true,
-                url: "/product",
+                url: '/product',
                 template: '<div ui-view class="fade-in-up"></div>'
             })
-            .state('productDetail', {
-                url: '/productDetail',
-                templateUrl: '~/App/common/views/products/product_detail.cshtml',
-                menu: 'Product.Detail'
+            .state('productList', {
+                url: '/productList',
+                templateUrl: '~/App/common/views/products/product_list.cshtml',
+                controller: 'common.views.products.list',
+                controllerAs: 'vm',
+                menu: 'Product.List'
             })
             .state('productEdited', {
                 url: '/productEdited',
@@ -221,9 +223,6 @@ appModule.config([
                 controllerAs: 'vm',
                 menu: 'Product.Edited'
             });
-
-
-
 
         //HOST routes
 

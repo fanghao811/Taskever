@@ -396,7 +396,7 @@
                                     userId: user.id
                                 }).success(function () {
                                     abp.notify.success(app.localize('SuccessfullyRemoved'));
-                                    vm.organizationTree.incrementMemberCount(ouId, -1);
+                                    //vm.organizationTree.incrementMemberCount(ouId, -1);
                                     vm.members.load();
                                 });
                             }
@@ -446,6 +446,9 @@
             }
 
             vm.members.init();
+
+
+
             vm.organizationTree.init();
         }
     ]);

@@ -95,7 +95,7 @@ namespace Taskever.Production
 
                                  Category = product.Category.DisplayName,
                              };
-            return new ListResultOutput<ProducListDto>(products.MapTo<List<ProducListDto>>());
+            return new ListResultOutput<ProducListDto>(products.ToList());
         }
 
         /// <summary>
@@ -106,18 +106,15 @@ namespace Taskever.Production
         //This method uses async pattern that is supported by ASP.NET Boilerplate
         public async Task<PagedResultOutput<ProducListDto>> GetProductsFOP(GetProductInput input)
         {
-            var query = _productRepository.GetAll().WhereIf(
-                 !input.Filter.IsNullOrWhiteSpace(),
-                  p =>p.Name.Contains(input.Filter) ||
-                      p.Abbreviation.Contains(input.Filter)
-                );
+            var query = _productRepository.GetAll()
+                        .Include(p => p.Category)
+                        .WhereIf(!input.Filter.IsNullOrWhiteSpace(),p =>p.Name.Contains(input.Filter) ||p.Abbreviation.Contains(input.Filter));
 
             var productCount = query.Count();
 
             var products = await query
                 .OrderBy(input.Sorting)
-                .PageBy(input)
-                .ToListAsync();
+                .PageBy(input).ToListAsync();
 
             var personListDtos = products.MapTo<List<ProducListDto>>();
 

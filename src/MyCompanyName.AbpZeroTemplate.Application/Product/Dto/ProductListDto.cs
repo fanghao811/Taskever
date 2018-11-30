@@ -1,13 +1,8 @@
 ﻿using Abp.Application.Services.Dto;
-using Abp.AutoMapper;
-using Abp.Domain.Entities.Auditing;
-using System;
-using System.ComponentModel.DataAnnotations;
 using Taskever.Production.Emun;
 
 namespace Taskever.Production
 {
-    [AutoMapFrom(typeof(Product))]
     public class ProducListDto : EntityDto<long>
     {
         public string Name { get; set; }

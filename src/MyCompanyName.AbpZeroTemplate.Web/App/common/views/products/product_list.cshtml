@@ -1,0 +1,29 @@
+﻿@using Taskever.Localization
+<div ng-controller="common.views.products.list as vm">
+    <div class="row margin-bottom-5">
+        <div class="col-xs-6">
+            <div class="page-head">
+                <div class="page-title">
+                    <h1>
+                        <span>物料列表</span> <small>基本信息</small>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 text-right">
+            <button @*ng-if="vm.permissions.create"*@ class="btn btn-primary blue" ng-click="vm.createProduct(0)"><i class="fa fa-plus"></i>新增物料</button>
+            <button u class="btn btn-success green-dark" ng-click="vm.getProduct()"><i class="fa fa-refresh"></i>刷新</button>
+        </div>
+    </div>
+    <div class="portlet light">
+        <div class="portlet-body">
+            <div busy-if="vm.loading">
+                <div ui-grid="vm.productGridOptions" ui-grid-pagination ui-grid-resize-columns></div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        {{vm.products}}
+    </div>
+</div>

@@ -62,7 +62,7 @@ namespace Taskever.Web.App.Startup
                     ).AddItem(new MenuItemDefinition(//物料表格
                         PageNames.App.Common.Location,
                         L("MaterialTable"),
-                        url: "auditLogs",
+                        url: "productList",
                         icon: "fa fa-user"
                         )
                     )

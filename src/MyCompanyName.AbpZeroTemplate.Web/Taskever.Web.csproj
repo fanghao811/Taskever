@@ -23,6 +23,7 @@
     <RestorePackages>true</RestorePackages>
     <UseGlobalApplicationHostFile />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -371,6 +372,7 @@
       <DependentUpon>index.css</DependentUpon>
     </Content>
     <Content Include="App\common\views\organizationUnits\rootTree.js" />
+    <Content Include="App\common\views\products\product_list.js" />
     <Content Include="App\common\views\products\product_ce.js" />
     <Content Include="App\common\views\profile\changePicture.css">
       <DependentUpon>changePicture.less</DependentUpon>
@@ -1894,7 +1896,7 @@
     <Content Include="App\common\views\Test-Elements\metronic-Elements.cshtml" />
     <Content Include="App\common\views\products\product_ce.cshtml" />
     <Content Include="App\common\views\products\product_detail.cshtml" />
-    <Content Include="App\common\views\products\index.cshtml" />
+    <Content Include="App\common\views\products\product_list.cshtml" />
     <Content Include="App\common\views\tasks\locationTreeModal.cshtml" />
     <Content Include="App\common\views\tasks\index.cshtml" />
     <Content Include="App\common\views\tasks\task_edited.cshtml" />

@@ -5,7 +5,7 @@
             <div class="page-head">
                 <div class="page-title">
                     <h1>
-                        <span>@L("LocationManage")</span> <small>全院地点设置</small>
+                        <span>@*@L("LocationManage")*@物料管理</span> <small>物料类型</small>
                     </h1>
                 </div>
             </div>
@@ -17,14 +17,14 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <span class="caption-subject bold uppercase">
-                            @L("LocationManage")
+                            物料管理
                         </span>
                     </div>
-                    <div class="actions">
+                    @*<div class="actions">
                         <a ng-if="vm.permissions.manageOrganizationTree" ng-click="vm.organizationTree.addUnit(null)" class="btn btn-circle btn-default">
                             <i class="fa fa-plus"></i> @L("AddRootUnit")
                         </a>
-                    </div>
+                    </div>*@
                 </div>
                 <div class="portlet-body">
                     <div id="OrganizationUnitEditTree"></div>
@@ -39,13 +39,13 @@
                 <div class="portlet-title">
                     <div class="caption">
                         <span class="caption-subject bold uppercase">
-                            @L("Members")
+                            @*@L("Members")*@物料列表
                             <span ng-if="vm.organizationTree.selectedOu.displayName">: {{vm.organizationTree.selectedOu.displayName}}</span>
                         </span>
                     </div>
                     <div class="actions" ng-if="vm.organizationTree.selectedOu.id">
                         <a ng-if="vm.permissions.manageMembers" ng-click="vm.members.openAddModal()" class="btn btn-circle btn-default">
-                            <i class="fa fa-plus"></i> @L("AddMember")
+                            <i class="fa fa-plus"></i> 增加物料
                         </a>
                     </div>
                 </div>
