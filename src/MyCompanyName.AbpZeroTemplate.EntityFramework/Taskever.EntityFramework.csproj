@@ -289,13 +289,9 @@
     <Compile Include="Migrations\201605310326510_Added_TaskOrder_Entities.Designer.cs">
       <DependentUpon>201605310326510_Added_TaskOrder_Entities.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811291559040_initialtask_2018.cs" />
-    <Compile Include="Migrations\201811291559040_initialtask_2018.Designer.cs">
-      <DependentUpon>201811291559040_initialtask_2018.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201811291613333_add_Seed_Orgnaization_2018.cs" />
-    <Compile Include="Migrations\201811291613333_add_Seed_Orgnaization_2018.Designer.cs">
-      <DependentUpon>201811291613333_add_Seed_Orgnaization_2018.cs</DependentUpon>
+    <Compile Include="Migrations\201811300159184_add_seed_orgnization.cs" />
+    <Compile Include="Migrations\201811300159184_add_seed_orgnization.Designer.cs">
+      <DependentUpon>201811300159184_add_seed_orgnization.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seed\DefaultOrgnizationCreator.cs" />
@@ -448,11 +444,8 @@
     <EmbeddedResource Include="Migrations\201605310326510_Added_TaskOrder_Entities.resx">
       <DependentUpon>201605310326510_Added_TaskOrder_Entities.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811291559040_initialtask_2018.resx">
-      <DependentUpon>201811291559040_initialtask_2018.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811291613333_add_Seed_Orgnaization_2018.resx">
-      <DependentUpon>201811291613333_add_Seed_Orgnaization_2018.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201811300159184_add_seed_orgnization.resx">
+      <DependentUpon>201811300159184_add_seed_orgnization.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

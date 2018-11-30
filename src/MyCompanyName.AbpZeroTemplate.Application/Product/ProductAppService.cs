@@ -1,5 +1,6 @@
 ﻿using Abp.AutoMapper;
 using Abp.Domain.Repositories;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 
@@ -15,6 +16,11 @@ namespace Taskever.Production
             _productRepository = productRepository;
         }
 
+        /// <summary>
+        /// 1.增改
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task CreateOrUpdateProduct(CreateOrUpdateProductInput input)
         {
             if (input.ProductId.HasValue)
@@ -29,6 +35,11 @@ namespace Taskever.Production
 
 
         //[AbpAuthorize("Administration.ProductManagement.CreateProduct")]
+        /// <summary>
+        /// 2.增加
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         public async Task CreateProduct(CreateOrUpdateProductInput input)
         {
             //c product = new Product
@@ -54,6 +65,10 @@ namespace Taskever.Production
             await _productRepository.UpdateAsync(product);
         }
 
+        public List<Product> GetProductsInOu(long organizationUnitId)
+        {
+            return _productRepository.GetAllList(p => p.DepartmentOuId == organizationUnitId);
+        }
 
     }
 }

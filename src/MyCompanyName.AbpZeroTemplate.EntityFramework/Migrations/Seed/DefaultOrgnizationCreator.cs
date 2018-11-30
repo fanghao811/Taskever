@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using Taskever.EntityFramework;
-using System.Collections.Generic;
 using Abp.Organizations;
 
 namespace Taskever.Migrations.Seed
@@ -28,7 +27,7 @@ namespace Taskever.Migrations.Seed
                         Code = "00001",
                         IsDeleted = false
                     });
-
+                _context.SaveChanges();
             }
 
             var ou2 = _context.OrganizationUnits.FirstOrDefault(ou => ou.Id == 2);
@@ -42,6 +41,7 @@ namespace Taskever.Migrations.Seed
                         Code = "00002",
                         IsDeleted = false
                     });
+                _context.SaveChanges();
             }
 
             var ou3 = _context.OrganizationUnits.FirstOrDefault(ou => ou.Id == 3);
@@ -55,6 +55,7 @@ namespace Taskever.Migrations.Seed
                         Code = "00003",
                         IsDeleted = false
                     });
+                _context.SaveChanges();
             }
         }
     }

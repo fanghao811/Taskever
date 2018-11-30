@@ -101,6 +101,7 @@
     <Compile Include="People\PersonPhone.cs" />
     <Compile Include="Product\IProductRepository.cs" />
     <Compile Include="Product\Product.cs" />
+    <Compile Include="Product\ProductManager.cs" />
     <Compile Include="TaskeverConsts.cs" />
     <Compile Include="TaskeverCoreModule.cs" />
     <Compile Include="TaskeverDomainServiceBase.cs" />
