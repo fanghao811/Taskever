@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-4">
             <div class="portlet light">
                 <div class="portlet-title">
                     <div class="caption">
@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-8">
             <div class="portlet light">
                 <div class="portlet-title">
                     <div class="caption">
@@ -47,14 +47,19 @@
                         <a ng-if="vm.permissions.manageMembers" ng-click="vm.members.openAddModal()" class="btn btn-circle btn-default">
                             <i class="fa fa-plus"></i> 增加物料
                         </a>
+                        @*<a ng-click="vm.getProduct(4)" class="btn btn-circle btn-default">
+                            <i class="fa fa-plus"></i> 刷新物料
+                        </a>*@
                     </div>
                 </div>
                 <div class="portlet-body">
-                    <div ng-if="vm.organizationTree.selectedOu.id" ui-grid="vm.members.gridOptions" ui-grid-pagination ui-grid-resize-columns dir=@(CultureHelper.IsRtl ? "rtl" : "")></div>
+                    <div ng-if="vm.organizationTree.selectedOu.id" ui-grid="vm.productGridOptions" ui-grid-pagination ui-grid-resize-columns dir=@(CultureHelper.IsRtl ? "rtl" : "")></div>
                     <div ng-if="!vm.organizationTree.selectedOu.id" class="text-muted">
                         @L("SelectAnOrganizationUnitToSeeMembers")
                     </div>
                 </div>
+
+                <div>{{vm.productList}}</div>
             </div>
         </div>
     </div>

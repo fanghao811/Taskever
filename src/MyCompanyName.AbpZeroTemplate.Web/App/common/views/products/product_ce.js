@@ -1,19 +1,23 @@
 ﻿(function () {
     appModule.controller('common.views.products.createOrEdit', [
-        '$scope', '$uibModal', 'abp.services.app.product', 'enumService', '$log',
-        function ($scope, $uibModal, productService, enumService, $log) {
+        '$scope', '$uibModal', '$stateParams','abp.services.app.product',
+        function ($scope, $uibModal, $stateParams, productService) {
             var vm = this;
             vm.saving = false;
             vm.loading = false;
             //4 - 23
             vm.open = true;
 
+            // =========================================================================
+            // $stateParams.productId;
+            // =========================================================================
+            var productId = $stateParams.productId;
+            vm.pId = $stateParams.productId;
+
             //viewModal
             vm.location = '';
             vm.department = '';
             vm.category = '';
-
-            //vm.productUnits = enumService.product_units;
 
             vm.units = [
                 { name: '件', value: 1 },
@@ -21,23 +25,19 @@
                 { name: '台', value: 3 }
             ]
 
-            vm.orderStates = enumService.taskOrder_states;
+            vm.product = {};
 
-            vm.product = {
-                id: null,
-                categoryOuId: 4,
+            // =========================================================================
+            // getProductForEdit
+            // =========================================================================
 
-                productNumber: '330724',
-                name: 'IC1600多路输入采集开关',
-                abbreviation: 'IC1600开关',
-                mnemonicCode: 'IC1600',
-                modelNumber: '多路输入',
-                specification: '10*24*30cm',
-                unit: '',
-                description: '测试',
-                comment: '测试'
+            //TODO: GetProductForEdit
+            vm.getProductForEdit = function (product_Id) {
+                productService.getProductForEdit({ id:product_Id})
+                    .success(function (result) {
+                        vm.product = result;
+                    });
             };
-
 
             // =========================================================================
             // Datepicker set 
@@ -92,6 +92,7 @@
                 });
             };
 
+
             // =========================================================================
             // vm.save() && vm.cancel()
             // =========================================================================
@@ -112,21 +113,27 @@
                 vm.product = {};
             };
 
+            function init() {
+                if (productId) {//TODO  测试获取数据
+                    vm.getProductForEdit(productId);
+                } else {
+                    vm.product = {
+                        id: null,
+                        categoryOuId: 4,
+                        productNumber: '330724',
+                        name: 'IC1600多路输入采集开关',
+                        abbreviation: 'IC1600开关',
+                        mnemonicCode: 'IC1600',
+                        modelNumber: '多路输入',
+                        specification: '10*24*30cm',
+                        unit: '',
+                        description: '测试',
+                        comment: '测试'
+                    };
+                }
+            }
 
-
-            //function init() {
-            //    if (!productId) {// 如果 productId==null
-            //        vm.loading = true;
-            //        productService.getProductForEdit({
-            //            id: productId
-            //        }).success(function (result) {
-            //            vm.product = result.product;
-            //            vm.loading = false;
-            //        });
-            //    };
-            //};
-
-            //init();
+            init();
 
             // =========================================================================
             // angular-bootstrap-switch  github:https://github.com/frapontillo/angular-bootstrap-switch 

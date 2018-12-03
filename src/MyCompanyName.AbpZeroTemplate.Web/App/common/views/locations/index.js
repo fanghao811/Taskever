@@ -1,17 +1,35 @@
 ﻿(function () {
     appModule.controller('common.views.location.index', [
-        '$scope', '$uibModal', '$q', 'uiGridConstants', 'abp.services.app.organizationUnit', 'abp.services.app.commonLookup', 'lookupModal',
-        function ($scope, $uibModal, $q, uiGridConstants, organizationUnitService, commonLookupService, lookupModal) {
+        '$scope', '$uibModal', '$q', 'uiGridConstants',
+        '$state',
+        'abp.services.app.organizationUnit',
+        'abp.services.app.commonLookup',
+        'lookupModal',
+        'abp.services.app.product',
+        function ($scope, $uibModal, $q, uiGridConstants,
+            $state,
+            organizationUnitService,
+            commonLookupService,
+            lookupModal,
+            productService) {
             var vm = this;
 
             $scope.$on('$viewContentLoaded', function () {
                 App.initAjax();
             });
 
+            var requestParams = {
+                filter: '',
+                skipCount: 0,
+                maxResultCount: app.consts.grid.defaultPageSize,
+                sorting: 'id'
+            };
+
             vm.permissions = {
                 manageOrganizationTree: abp.auth.hasPermission('Pages.Administration.OrganizationUnits.ManageOrganizationTree'),
                 manageMembers: abp.auth.hasPermission('Pages.Administration.OrganizationUnits.ManageMembers')
             };
+            vm.productList = {};
 
             vm.organizationTree = {
 
@@ -44,8 +62,9 @@
                             vm.organizationTree.selectedOu.displayName = ouInTree.original.displayName;
                             vm.organizationTree.selectedOu.code = ouInTree.original.code;
                         }
-
-                        vm.members.load();
+                        //DONE02：
+                        vm.getProduct(vm.organizationTree.selectedOu.id);
+                        //vm.members.load();
                     }
                 },
 
@@ -278,8 +297,13 @@
                             setTimeout(function () {
                                 vm.organizationTree.$tree.jstree('show_contextmenu', ouId);
                             }, 100);
+                            //TODO:01 geProductInOu()  选择节点后，刷新物料列表
+                            //setTimeout(function () {
+                            //    vm.getProduct(ouId);
+                            //}, 100);
                         });
                     });
+
                 },
 
                 reload: function () {
@@ -291,164 +315,147 @@
                 }
             };
 
-            vm.members = {
-
-                gridOptions: {
-                    enableHorizontalScrollbar: uiGridConstants.scrollbars.WHEN_NEEDED,
-                    enableVerticalScrollbar: uiGridConstants.scrollbars.WHEN_NEEDED,
-                    paginationPageSizes: app.consts.grid.defaultPageSizes,
-                    paginationPageSize: app.consts.grid.defaultPageSize,
-                    useExternalPagination: true,
-                    useExternalSorting: true,
-                    appScopeProvider: vm,
-                    columnDefs: [
-                        {
-                            name: app.localize('Actions'),
-                            enableSorting: false,
-                            width: 100,
-                            cellTemplate:
-                                '<div class=\"ui-grid-cell-contents\">' +
-                                '  <button ng-if="grid.appScope.permissions.manageMembers" class="btn btn-default btn-xs" ng-click="grid.appScope.members.remove(row.entity)" title="' + app.localize('Delete') + '"><i class="fa fa-trash-o"></i></button>' +
-                                '</div>'
-                        },
-                        {
-                            name: app.localize('UserName'),
-                            field: 'userName',
-                            cellTemplate:
-                                '<div class=\"ui-grid-cell-contents\" title="{{row.entity.name + \' \' + row.entity.surname + \' (\' + row.entity.emailAddress + \')\'}}">' +
-                                '  <img ng-if="row.entity.profilePictureId" ng-src="' + abp.appPath + 'Profile/GetProfilePictureById?id={{row.entity.profilePictureId}}" width="22" height="22" class="img-rounded img-profile-picture-in-grid" />' +
-                                '  <img ng-if="!row.entity.profilePictureId" src="' + abp.appPath + 'Common/Images/default-profile-picture.png" width="22" height="22" class="img-rounded" />' +
-                                '  {{COL_FIELD CUSTOM_FILTERS}} &nbsp;' +
-                                '</div>',
-                            minWidth: 140
-                        },
-                        {
-                            name: app.localize('AddedTime'),
-                            field: 'addedTime',
-                            cellFilter: 'momentFormat: \'L\'',
-                            minWidth: 100
-                        }
-                    ],
-                    onRegisterApi: function (gridApi) {
-                        $scope.gridApi = gridApi;
-                        $scope.gridApi.core.on.sortChanged($scope, function (grid, sortColumns) {
-                            if (!sortColumns.length || !sortColumns[0].field) {
-                                requestParams.sorting = null;
-                            } else {
-                                requestParams.sorting = sortColumns[0].field + ' ' + sortColumns[0].sort.direction;
-                            }
-
-                            vm.members.load();
-                        });
-                        gridApi.pagination.on.paginationChanged($scope, function (pageNumber, pageSize) {
-                            requestParams.skipCount = (pageNumber - 1) * pageSize;
-                            requestParams.maxResultCount = pageSize;
-
-                            vm.members.load();
-                        });
+            //5.物料列表
+            vm.productGridOptions = {
+                enableHorizontalScrollbar: uiGridConstants.scrollbars.WHEN_NEEDED,
+                enableVerticalScrollbar: uiGridConstants.scrollbars.WHEN_NEEDED,
+                paginationPageSizes: app.consts.grid.defaultPageSizes,
+                paginationPageSize: app.consts.grid.defaultPageSize,
+                useExternalPagination: true,
+                useExternalSorting: true,
+                appScopeProvider: vm,
+                columnDefs: [
+                    {
+                        name: 'Product',
+                        enableSorting: false,
+                        width: 50,
+                        headerCellTemplate: '<span></span>',
+                        cellTemplate:
+                            '<div class=\"ui-grid-cell-contents text-center\">' +
+                            '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.showDetails(row.entity)"><i class="fa fa-search"></i></button>' +
+                            '</div>'
                     },
-                    data: []
-                },
-
-                load: function () {
-                    if (!vm.organizationTree.selectedOu.id) {
-                        vm.members.gridOptions.totalItems = 0;
-                        vm.members.gridOptions.data = [];
-                        return;
+                    {
+                        field: 'id',
+                        displayName: 'Id',
+                        enableSorting: false,
+                        width: 60
+                    },
+                    {
+                        field: 'productNumber',
+                        displayName: '物料编号'
+                    },
+                    {
+                        field: 'name',
+                        displayName: '物料名称'
+                    },
+                    {
+                        field: 'category',
+                        displayName: '物料类型'
+                    },
+                    {
+                        field: 'abbreviation',
+                        displayName: '简称',
+                        width: 120
+                    },
+                    {
+                        field: 'mnemonicCode',
+                        displayName: '助记码',
+                        width: 120
+                    },
+                    {
+                        field: 'modelNumber',
+                        displayName: '型号',
+                        width: 120
+                    },
+                    {
+                        field: 'specification',
+                        displayName: '规格'
+                    },
+                    {
+                        field: 'unit',
+                        displayName: '单元',
+                        width: 60
+                    },
+                    {
+                        field: 'description',
+                        displayName: '描述'
+                    },
+                    {
+                        name: 'ProductDelete',
+                        enableSorting: false,
+                        width: 50,
+                        headerCellTemplate: '<span></span>',
+                        cellTemplate:
+                            '<div class=\"ui-grid-cell-contents text-center\">' +
+                            '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.deleteProduct(row.entity)"><i class="fa fa-trash"></i></button>' +
+                            '</div>'
+                        //TODO05:grid.appScope.deleteProduct(row.entity)
                     }
+                ],
+                onRegisterApi: function (gridApi) {
+                    $scope.gridApi = gridApi;
+                    $scope.gridApi.core.on.sortChanged($scope, function (grid, sortColumns) {
+                        if (!sortColumns.length || !sortColumns[0].field) {
+                            requestParams.sorting = null;
+                        } else {
+                            requestParams.sorting = sortColumns[0].field + ' ' + sortColumns[0].sort.direction;
+                        }
+                        //TODO03:增加物料表格
+                        vm.getProduct(vm.organizationTree.selectedOu.id);
+                    });
+                    //分页查询
+                    gridApi.pagination.on.paginationChanged($scope, function (pageNumber, pageSize) {
+                        requestParams.skipCount = (pageNumber - 1) * pageSize;
+                        requestParams.maxResultCount = pageSize;
 
-                    organizationUnitService.getOrganizationUnitUsers({
-                        id: vm.organizationTree.selectedOu.id
-                    }).success(function (result) {
-                        vm.members.gridOptions.totalItems = result.totalCount;
-                        vm.members.gridOptions.data = result.items;
+                        vm.getProduct(vm.organizationTree.selectedOu.id);
                     });
                 },
+                data: []
+            };
 
-                add: function (userId) {
-                    var ouId = vm.organizationTree.selectedOu.id;
-                    if (!ouId) {
-                        return;
-                    }
-
-                    organizationUnitService.addUserToOrganizationUnit({
-                        organizationUnitId: ouId,
-                        userId: userId
-                    }).success(function () {
-                        abp.notify.success(app.localize('SuccessfullyAdded'));
-                        vm.organizationTree.incrementMemberCount(ouId, 1);
-                        vm.members.load();
+            //6.1 Get Product
+            vm.getProduct = function (ouId) {
+                vm.loading = true;
+                productService.getProductsInOu(ouId)
+                    .success(function (result) {
+                        vm.productGridOptions.data = result.items;
+                        vm.productGridOptions.totalItems = result.totalCount;
+                        vm.products = result.items;
+                    }).finally(function () {
+                        vm.loading = false;
                     });
-                },
+            };
 
-                remove: function (user) {
-                    var ouId = vm.organizationTree.selectedOu.id;
-                    if (!ouId) {
-                        return;
-                    }
-
-                    abp.message.confirm(
-                        app.localize('RemoveUserFromOuWarningMessage', user.userName, vm.organizationTree.selectedOu.displayName),
-                        function (isConfirmed) {
-                            if (isConfirmed) {
-                                organizationUnitService.removeUserFromOrganizationUnit({
-                                    organizationUnitId: ouId,
-                                    userId: user.id
-                                }).success(function () {
-                                    abp.notify.success(app.localize('SuccessfullyRemoved'));
-                                    //vm.organizationTree.incrementMemberCount(ouId, -1);
-                                    vm.members.load();
-                                });
+            //6.4 Delete product
+            vm.deleteProduct = function (product) { //TODO: Delete
+                abp.message.confirm(
+                    app.localize('AreYouSureToDeleteproduct', product.name),
+                    function (isConfirmed) {
+                        if (isConfirmed) {
+                            if (!product.id) {
+                                abp.notify.error('您尚未选择物料，删除失败！');
+                                return;
                             }
-                        }
-                    );
-                },
-
-                openAddModal: function () {
-                    var ouId = vm.organizationTree.selectedOu.id;
-                    if (!ouId) {
-                        return;
-                    }
-
-                    lookupModal.open({
-
-                        title: app.localize('SelectAUser'),
-                        serviceMethod: commonLookupService.findUsers,
-
-                        canSelect: function (item) {
-                            return $q(function (resolve, reject) {
-                                organizationUnitService.isInOrganizationUnit({
-                                    userId: item.value,
-                                    organizationUnitId: ouId
-                                }).success(function (result) {
-                                    if (result) {
-                                        abp.message.warn(app.localize('UserIsAlreadyInTheOrganizationUnit'));
-                                    }
-
-                                    resolve(!result);
-                                }).catch(function () {
-                                    reject();
+                            productService.deleteProduct({ id: product.id })
+                                .success(function () {
+                                    vm.getProduct(vm.organizationTree.selectedOu.id);
+                                    abp.notify.info('物料:' + product.name + '已删除！');
                                 });
-                            });
-                        },
-
-                        callback: function (selectedItem) {
-                            vm.members.add(selectedItem.value);
                         }
                     });
-                },
+            };
 
-                init: function () {
-                    if (!vm.permissions.manageMembers) {
-                        vm.members.gridOptions.columnDefs.shift();
-                    }
-                }
-            }
+            //6.5 showDetails
+            vm.showDetails = function (product) {
+                $state.go('productEdited', { productId: product.id });
+            };
 
-            vm.members.init();
-
-
-
+            //7 alertTest
+            vm.alertTest = function (product) {
+                alert(product.name);
+            };
             vm.organizationTree.init();
         }
     ]);

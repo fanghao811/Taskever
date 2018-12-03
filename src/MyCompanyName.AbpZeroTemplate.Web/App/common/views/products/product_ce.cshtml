@@ -25,7 +25,7 @@
                     <i class="icon-settings font-red"></i>
                     <span ng-if="vm.product.modelNumber || vm.product.name"
                           class="caption-subject font-red sbold">
-                         {{vm.product.name}}
+                        {{vm.product.name}}--{{vm.pId}}-- {{vm.product}}
                     </span>
                     <span ng-hide="vm.product.modelNumber || vm.product.name"
                           class="caption-subject font-red sbold">
@@ -207,8 +207,6 @@
             </div>
             <div class="portlet-body">
                 <p>{{vm.product}}</p>
-                <p>{{vm.units}}</p>
-                <p>{{vm.orderStates}}</p>
             </div>
         </div>
     </div>

@@ -20,7 +20,7 @@ namespace Taskever.Production
         //7.规格
         public string Specification { get; set; }
 
-        //TODO:8.单位 enum
+        //:8.单位 enum
         public ProductUnit Unit { get; set; }
 
         //6.用途描述 

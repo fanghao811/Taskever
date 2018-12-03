@@ -9,13 +9,14 @@ namespace Taskever.Production
     {
         //PersonEditDto GetPersonForEdit(NullableIdInput input);
         //Task<PagedResultOutput<PersonListDto>> GetPeople(GetPeopleInput input);
-        Task CreateOrUpdateProduct(CreateOrUpdateProductInput input);
-        //void DeletePerson(DelPersonInput input);
+        CreateOrUpdateProductInput GetProductForEdit(NullableIdInput input);
 
-        //Task DeletePhone(IdInput<long> input);
-        //Task<PhoneInPersonListDto> AddPhone(AddPhoneInput input);
+        Task CreateOrUpdateProduct(CreateOrUpdateProductInput input);
+
         Task<ListResultOutput<ProducListDto>> GetProductsInOu(long organizationUnitId);
 
         Task<PagedResultOutput<ProducListDto>> GetProductsFOP(GetProductInput input);
+
+        void DeleteProduct(IdInput<long> input);
     }
 }

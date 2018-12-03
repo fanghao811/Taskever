@@ -123,8 +123,40 @@ namespace Taskever.Production
                 personListDtos
                 );
         }
-    }
 
+
+        //Delte 2018/12/3
+        public void DeleteProduct(IdInput<long> input)
+        {
+            //Delete entity with standard Delete method of repositories.
+            _productRepository.Delete(input.Id);
+        }
+
+        //TODO:GetPersonForEdit 2018/12/3
+        public CreateOrUpdateProductInput GetProductForEdit(NullableIdInput input)
+        {
+            var product = new Product();
+
+            if (input.Id.HasValue)
+            {
+                //Editing an existing person
+                product = _productRepository.Get(input.Id.Value);
+            }
+
+            var output = new CreateOrUpdateProductInput();
+
+            //Person
+            output = product != null
+                ? product.MapTo<CreateOrUpdateProductInput>()
+                : new CreateOrUpdateProductInput();
+     
+            return output; 
+        }
+
+    }
+ 
+
+    //测试
     public class GetProductInput : PagedAndSortedInputDto, IShouldNormalize
     {
         public string Filter { get; set; }
