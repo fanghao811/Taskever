@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src",
-    "\\src\\MyCompanyName.AbpZeroTemplate.EntityFramework"
+    "\\Markdown",
+    "\\src"
   ],
-  "SelectedNode": "\\src\\Taskever.sln",
+  "SelectedNode": "\\Markdown",
   "PreviewInSolutionExplorer": false
 }

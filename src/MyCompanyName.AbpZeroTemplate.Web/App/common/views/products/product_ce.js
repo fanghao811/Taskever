@@ -97,9 +97,10 @@
                     vm.product
                 ).success(function () {
                     abp.notify.info(app.localize('SavedSuccessfully'));
+                    vm.product = {};
                 }).finally(function () {
                     vm.saving = false;
-                    $state.go('location');
+                    //$state.go('location');
                 });
             };
 

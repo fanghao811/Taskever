@@ -102,7 +102,7 @@
                         headerCellTemplate: '<span></span>',
                         cellTemplate:
                             '<div class=\"ui-grid-cell-contents text-center\">' +
-                            '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.deleteproduct(row.entity)"><i class="fa fa-trash"></i></button>' +
+                            '  <button class="btn btn-default btn-xs" ng-click="grid.appScope.deleteProduct(row.entity)"><i class="fa fa-trash"></i></button>' +
                             '</div>'
                     }
                 ],
@@ -189,9 +189,28 @@
                 abp.notify.info('TODO:弹窗 物料增改 尚在制作中...');
             }
 
+            //6.4 Delete product
+            vm.deleteProduct = function (product) { //TODO: Delete
+                abp.message.confirm(
+                    app.localize('AreYouSureToDeleteproduct', product.name),
+                    function (isConfirmed) {
+                        if (isConfirmed) {
+                            if (!product.id) {
+                                abp.notify.error('您尚未选择物料，删除失败！');
+                                return;
+                            }
+                            productService.deleteProduct({ id: product.id })
+                                .success(function () {
+                                    vm.getProduct();
+                                    abp.notify.info('物料:' + product.name + '已删除！');
+                                });
+                        }
+                    });
+            };
+
             vm.showDetails = function (product) {
                 //$state.go('profile.info', { productId: product.id, subTitle: 'about' });
-                $state.go('productEdited');
+                $state.go('productEdited',{ productId: product.id });
             };
 
             //Init

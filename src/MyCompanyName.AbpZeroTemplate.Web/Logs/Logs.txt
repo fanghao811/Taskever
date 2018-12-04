@@ -15416,3 +15416,1523 @@ WARN  2018-12-04 15:45:21,043 [23   ] Abp.Logging.LogHelper                    -
 DEBUG 2018-12-04 15:45:23,284 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"baf3c5b2-81cf-4752-870f-9be8377a3832","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T15:45:23.2847845+08:00","Properties":{}}
 DEBUG 2018-12-04 15:45:23,312 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: baf3c5b2-81cf-4752-870f-9be8377a3832
 DEBUG 2018-12-04 15:49:50,063 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: baf3c5b2-81cf-4752-870f-9be8377a3832
+DEBUG 2018-12-04 15:54:25,240 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 15:54:28,146 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-04 15:54:28,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,155 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,156 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,157 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,158 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 15:54:28,164 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-04 15:54:28,246 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 15:54:28,246 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 15:54:28,246 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 15:54:28,246 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 15:54:30,798 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 15:54:30,809 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 15:54:30,810 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 15:54:30,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 15:54:30,845 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 15:54:31,134 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 15:54:31,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 15:54:31,936 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 15:54:31,939 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 15:54:31,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 15:54:31,946 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 15:54:31,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 15:54:31,949 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 15:54:31,951 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 15:54:31,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 15:54:31,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 15:54:31,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 15:54:31,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 15:54:31,958 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 15:54:31,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 15:54:31,963 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 15:54:31,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 15:54:31,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 15:54:31,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 15:54:31,973 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 15:54:31,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 15:54:31,975 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 15:54:31,977 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 15:54:31,979 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 15:54:31,980 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 15:54:31,981 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 15:54:31,983 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 15:54:31,985 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 15:54:31,986 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 15:54:31,995 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 15:54:31,996 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 15:54:31,997 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 15:54:31,998 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 15:54:32,001 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 15:54:32,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 15:54:32,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 15:54:32,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 15:54:32,005 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 15:54:32,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 15:54:32,007 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 15:54:32,008 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 15:54:32,010 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 15:54:32,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 15:54:32,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 15:54:32,013 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 15:54:32,014 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 15:54:32,015 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 15:54:32,016 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 15:54:32,017 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 15:54:32,018 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2018-12-04 15:55:36,361 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接) ---> System.ComponentModel.Win32Exception (0x80004005): 找不到网络路径。
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   在 System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   在 System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   在 System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   在 System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   在 System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   在 System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   在 System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   在 System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   在 System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   在 System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   在 System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   在 System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   在 System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   在 System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+DEBUG 2018-12-04 16:00:03,410 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 16:00:06,105 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-04 16:00:06,110 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,112 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,113 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,114 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:00:06,121 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-04 16:00:06,195 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:00:06,195 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:00:06,195 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:00:06,195 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:00:09,999 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 16:00:10,009 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 16:00:10,011 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 16:00:10,051 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 16:00:10,081 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 16:00:10,350 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 16:00:11,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 16:00:11,161 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 16:00:11,164 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 16:00:11,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 16:00:11,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 16:00:11,176 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 16:00:11,177 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 16:00:11,180 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 16:00:11,181 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 16:00:11,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 16:00:11,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 16:00:11,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 16:00:11,192 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 16:00:11,195 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 16:00:11,199 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 16:00:11,201 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 16:00:11,205 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 16:00:11,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 16:00:11,207 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 16:00:11,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 16:00:11,210 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 16:00:11,211 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 16:00:11,215 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 16:00:11,217 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 16:00:11,219 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 16:00:11,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 16:00:11,229 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 16:00:11,231 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 16:00:11,241 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 16:00:11,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 16:00:11,244 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 16:00:11,245 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 16:00:11,246 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 16:00:11,247 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 16:00:11,248 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 16:00:11,249 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 16:00:11,250 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 16:00:11,251 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 16:00:11,254 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 16:00:11,255 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 16:00:11,256 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 16:00:11,258 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 16:00:11,259 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 16:00:11,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 16:00:11,261 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 16:00:11,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 16:00:11,263 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 16:00:11,265 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 16:00:11,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2018-12-04 16:00:15,826 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2018-12-04 16:00:20,830 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2018-12-04 16:01:05,992 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_2.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   在 Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   在 Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   在 Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__9_0()
+   在 System.Threading.Tasks.Task`1.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   在 Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+ERROR 2018-12-04 16:01:05,998 [5    ] Taskever.Web.Controllers.HomeController  - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> System.ArgumentException: 不支持关键字: “userid”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.SqlClient.SqlConnectionString..ctor(String connectionString)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.SqlClient.SqlConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.SqlClient.SqlConnection.set_ConnectionString(String value)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<SetConnectionString>b__18(DbConnection t, DbConnectionPropertyInterceptionContext`1 c)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.SetConnectionString(DbConnection connection, DbConnectionPropertyInterceptionContext`1 interceptionContext)
+   在 System.Data.Entity.Internal.LazyInternalConnection.InitializeFromConnectionStringSetting(ConnectionStringSettings appConfigConnection)
+   在 System.Data.Entity.Internal.LazyInternalConnection.TryInitializeFromAppConfig(String name, AppConfig config)
+   在 System.Data.Entity.Internal.LazyInternalConnection.Initialize()
+   在 System.Data.Entity.Internal.LazyInternalConnection.get_ProviderName()
+   在 System.Data.Entity.Internal.LazyInternalContext.get_ProviderName()
+   在 System.Data.Entity.Internal.DefaultModelCacheKeyFactory.Create(DbContext context)
+   在 System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   在 Abp.EntityFramework.AbpDbContext.Initialize()
+   在 Castle.MicroKernel.LifecycleConcerns.InitializationConcern.Apply(ComponentModel model, Object component)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyConcerns(IEnumerable`1 steps, Object instance)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.ApplyCommissionConcerns(Object instance)
+   在 Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   在 Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   在 Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   在 Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.<>c__DisplayClass6.<InvokeResolvePipeline>b__5()
+   在 Castle.MicroKernel.Handlers.ResolveInvocation.Proceed()
+   在 Castle.MicroKernel.Handlers.ComponentLifecycleExtension.Intercept(ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.InvokeResolvePipeline(Int32 extensionIndex, ResolveInvocation invocation)
+   在 Castle.MicroKernel.Handlers.ExtendedHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   在 Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   在 Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   在 Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   在 Castle.Windsor.WindsorContainer.Resolve[T]()
+   在 Abp.Dependency.IocManager.Resolve[T]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.Resolve[TDbContext]()
+   在 Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext]()
+   在 Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork)
+   在 Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.get_DbContext()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.get_Context_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.get_Context()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.get_Table_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.get_Table()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.GetAll_callback()
+   在 Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.EfRepositoryBase`2Proxy.GetAll()
+   在 Abp.EntityFramework.Repositories.EfRepositoryBase`3.<GetAllListAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Localization.ApplicationLanguageManager.<GetLanguagesFromDatabaseAsync>d__35.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Runtime.Caching.CacheExtensions.<>c__DisplayClass5_0`2.<<GetAsync>b__0>d.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Runtime.Caching.CacheBase.<GetAsync>d__12.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Runtime.Caching.CacheExtensions.<GetAsync>d__5`2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Localization.ApplicationLanguageManager.<GetLanguageDictionary>d__2a.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Localization.ApplicationLanguageManager.<GetLanguagesAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.<>c__DisplayClass7`1.<Run>b__5(Task`1 t)
+   在 System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   在 System.Threading.Tasks.Task.Execute()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   在 Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   在 Abp.Localization.ApplicationLanguageProvider.GetLanguages()
+   在 Abp.Localization.LanguageManager.GetLanguages()
+   在 Abp.Localization.LocalizationManager.GetAllLanguages()
+   在 Taskever.Web.Controllers.LayoutController.Header(String currentPageName) 位置 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.Web\Controllers\LayoutController.cs:行号 39
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<BeginInvokeSynchronousActionMethod>b__39(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, Object routeValues)
+   在 ASP._Page_Views_Layout__Layout_cshtml.Execute() 位置 c:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.Web\Views\Layout\_Layout.cshtml:行号 52
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2018-12-04 16:01:53,866 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 16:01:56,484 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-04 16:01:56,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,490 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,492 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:01:56,504 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-04 16:01:56,667 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:01:56,667 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:01:56,667 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:01:56,667 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:02:00,366 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 16:02:00,381 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 16:02:00,383 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 16:02:00,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 16:02:00,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 16:02:00,682 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 16:02:01,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 16:02:01,523 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 16:02:01,528 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 16:02:01,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 16:02:01,538 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 16:02:01,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 16:02:01,544 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 16:02:01,549 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 16:02:01,550 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 16:02:01,555 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 16:02:01,556 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 16:02:01,565 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 16:02:01,566 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 16:02:01,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 16:02:01,574 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 16:02:01,577 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 16:02:01,582 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 16:02:01,587 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 16:02:01,589 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 16:02:01,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 16:02:01,593 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 16:02:01,595 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 16:02:01,597 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 16:02:01,598 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 16:02:01,599 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 16:02:01,605 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 16:02:01,607 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 16:02:01,608 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 16:02:01,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 16:02:01,623 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 16:02:01,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 16:02:01,626 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 16:02:01,628 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 16:02:01,629 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 16:02:01,630 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 16:02:01,632 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 16:02:01,633 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 16:02:01,634 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 16:02:01,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 16:02:01,640 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 16:02:01,642 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 16:02:01,643 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 16:02:01,644 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 16:02:01,645 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 16:02:01,646 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 16:02:01,648 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 16:02:01,649 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 16:02:01,650 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 16:02:01,651 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2018-12-04 16:02:19,208 [6    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2018-12-04 16:02:35,232 [12   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2018-12-04 16:02:46,150 [13   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 16:02:47,889 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61c39d91-91da-4cd7-bae8-0bd78519da0d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T16:02:47.8798479+08:00","Properties":{}}
+DEBUG 2018-12-04 16:02:48,141 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61c39d91-91da-4cd7-bae8-0bd78519da0d
+DEBUG 2018-12-04 16:20:30,828 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 16:20:32,739 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-12-04 16:20:32,744 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,746 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,747 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,748 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,749 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:32,751 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:20:36,063 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-12-04 16:20:36,144 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:20:36,144 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:20:36,144 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:20:36,144 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:20:40,758 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 16:20:40,769 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 16:20:40,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 16:20:40,821 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 16:20:40,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 16:20:41,835 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 16:20:43,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 16:20:43,337 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 16:20:43,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 16:20:43,346 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 16:20:43,348 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 16:20:43,349 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 16:20:43,350 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 16:20:43,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 16:20:43,354 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 16:20:43,355 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 16:20:43,356 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 16:20:43,357 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 16:20:43,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 16:20:43,360 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 16:20:43,377 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 16:20:43,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 16:20:43,381 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 16:20:43,385 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 16:20:43,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 16:20:43,387 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 16:20:43,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 16:20:43,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 16:20:43,391 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 16:20:43,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 16:20:43,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 16:20:43,396 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 16:20:43,397 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 16:20:43,399 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 16:20:43,411 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 16:20:43,413 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 16:20:43,414 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 16:20:43,415 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 16:20:43,416 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 16:20:43,417 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 16:20:43,418 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 16:20:43,420 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 16:20:43,421 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 16:20:43,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 16:20:43,423 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 16:20:43,424 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 16:20:43,425 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 16:20:43,426 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 16:20:43,427 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 16:20:43,428 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 16:20:43,430 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 16:20:43,431 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 16:20:43,432 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 16:20:43,433 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 16:20:43,434 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+DEBUG 2018-12-04 16:31:51,421 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 16:31:52,760 [1    ] Abp.Modules.AbpModuleManager             - Found 18 ABP modules in total.
+DEBUG 2018-12-04 16:31:52,764 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:52,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 16:31:55,590 [1    ] Abp.Modules.AbpModuleManager             - 18 modules loaded.
+DEBUG 2018-12-04 16:31:55,698 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:31:55,698 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:31:55,698 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:31:55,698 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 16:31:59,428 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 16:31:59,438 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 16:31:59,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 16:31:59,482 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 16:31:59,491 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 16:31:59,895 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 16:32:00,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 16:32:00,680 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 16:32:00,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 16:32:00,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 16:32:00,689 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 16:32:00,690 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 16:32:00,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 16:32:00,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 16:32:00,695 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 16:32:00,696 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 16:32:00,706 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 16:32:00,707 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 16:32:00,709 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 16:32:00,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 16:32:00,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 16:32:00,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 16:32:00,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 16:32:00,722 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 16:32:00,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 16:32:00,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 16:32:00,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 16:32:00,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 16:32:00,729 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 16:32:00,732 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 16:32:00,733 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 16:32:00,735 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 16:32:00,736 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 16:32:00,738 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 16:32:00,752 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 16:32:00,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 16:32:00,754 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 16:32:00,756 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 16:32:00,757 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 16:32:00,758 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 16:32:00,761 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 16:32:00,762 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 16:32:00,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 16:32:00,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 16:32:00,768 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 16:32:00,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 16:32:00,770 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 16:32:00,771 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 16:32:00,773 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 16:32:00,774 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 16:32:00,776 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 16:32:00,777 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 16:32:00,785 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 16:32:00,786 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 16:32:00,787 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2018-12-04 16:32:25,708 [8    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2018-12-04 16:32:28,718 [10   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2018-12-04 16:32:39,244 [11   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 16:32:41,890 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"46177126-ecad-4057-9dc7-87cce4f7f285","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T16:32:41.878426+08:00","Properties":{}}
+DEBUG 2018-12-04 16:32:41,986 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 46177126-ecad-4057-9dc7-87cce4f7f285
+DEBUG 2018-12-04 16:33:08,585 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 46177126-ecad-4057-9dc7-87cce4f7f285
+WARN  2018-12-04 16:33:15,172 [13   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 16:33:17,150 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"71cf483f-8fea-4ed6-bec4-12bb9c9c6d31","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T16:33:17.15075+08:00","Properties":{}}
+DEBUG 2018-12-04 16:33:17,171 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 71cf483f-8fea-4ed6-bec4-12bb9c9c6d31
+DEBUG 2018-12-04 16:33:36,150 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 71cf483f-8fea-4ed6-bec4-12bb9c9c6d31
+WARN  2018-12-04 16:33:40,485 [8    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 16:33:41,548 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b67d8b15-c2b7-486e-a268-96e8524bd34a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T16:33:41.5480558+08:00","Properties":{}}
+DEBUG 2018-12-04 16:33:41,629 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b67d8b15-c2b7-486e-a268-96e8524bd34a
+DEBUG 2018-12-04 16:38:02,150 [22   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b67d8b15-c2b7-486e-a268-96e8524bd34a
+WARN  2018-12-04 16:38:04,941 [6    ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 16:38:07,516 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"053f5b72-b8d1-4a03-bb89-a1b63795ed50","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T16:38:07.5168905+08:00","Properties":{}}
+DEBUG 2018-12-04 16:38:07,612 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 053f5b72-b8d1-4a03-bb89-a1b63795ed50
+DEBUG 2018-12-04 17:46:58,484 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-12-04 17:47:00,263 [1    ] Abp.Modules.AbpModuleManager             - Found 19 ABP modules in total.
+DEBUG 2018-12-04 17:47:00,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Hangfire.AbpHangfireModule, Abp.HangFire, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Owin.AbpOwinModule, Abp.Owin, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Runtime.Caching.Redis.AbpRedisCacheModule, Abp.RedisCache, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.OData.AbpWebApiODataModule, Abp.Web.Api.OData, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,269 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.Ldap.AbpZeroLdapModule, Abp.Zero.Ldap, Version=0.8.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverApplicationModule, Taskever.Application, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverCoreModule, Taskever.Core, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,270 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.TaskeverDataModule, Taskever.EntityFramework, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.Web.TaskeverWebModule, Taskever.Web, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Taskever.WebApi.TaskeverWebApiModule, Taskever.WebApi, Version=1.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-12-04 17:47:00,286 [1    ] Abp.Modules.AbpModuleManager             - 19 modules loaded.
+DEBUG 2018-12-04 17:47:00,350 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 17:47:00,350 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 17:47:00,350 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 17:47:00,350 [1    ] o.Configuration.LanguageManagementConfig - Converted Taskever (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-12-04 17:47:02,299 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-12-04 17:47:02,307 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-12-04 17:47:02,308 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-12-04 17:47:02,322 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-12-04 17:47:02,330 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Taskever
+DEBUG 2018-12-04 17:47:02,458 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-12-04 17:47:03,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 27 classes defines auto mapping attributes
+DEBUG 2018-12-04 17:47:03,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Tasks.Dto.TaskEditDto
+DEBUG 2018-12-04 17:47:03,112 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-12-04 17:47:03,118 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-12-04 17:47:03,119 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Notifications.Dto.NotificationSubscriptionWithDisplayNameDto
+DEBUG 2018-12-04 17:47:03,120 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantListDto
+DEBUG 2018-12-04 17:47:03,121 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.MultiTenancy.Dto.TenantEditDto
+DEBUG 2018-12-04 17:47:03,123 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageEditDto
+DEBUG 2018-12-04 17:47:03,124 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Localization.Dto.ApplicationLanguageListDto
+DEBUG 2018-12-04 17:47:03,126 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionEditDto
+DEBUG 2018-12-04 17:47:03,127 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.FlatFeatureDto
+DEBUG 2018-12-04 17:47:03,129 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Editions.Dto.EditionListDto
+DEBUG 2018-12-04 17:47:03,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Profile.Dto.CurrentUserProfileEditDto
+DEBUG 2018-12-04 17:47:03,133 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserLoginAttemptDto
+DEBUG 2018-12-04 17:47:03,135 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto
+DEBUG 2018-12-04 17:47:03,136 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleListDto
+DEBUG 2018-12-04 17:47:03,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Roles.Dto.RoleEditDto
+DEBUG 2018-12-04 17:47:03,141 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Dto.FlatPermissionDto
+DEBUG 2018-12-04 17:47:03,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Auditing.Dto.AuditLogListDto
+DEBUG 2018-12-04 17:47:03,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Production.CreateOrUpdateProductInput
+DEBUG 2018-12-04 17:47:03,144 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.AddPhoneInput
+DEBUG 2018-12-04 17:47:03,146 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonEditDto
+DEBUG 2018-12-04 17:47:03,148 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PersonListDto
+DEBUG 2018-12-04 17:47:03,149 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.People.Dtos.PhoneInPersonListDto
+DEBUG 2018-12-04 17:47:03,150 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitDto
+DEBUG 2018-12-04 17:47:03,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Organizations.Dto.OrganizationUnitUserListDto
+DEBUG 2018-12-04 17:47:03,155 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Authorization.Users.Dto.UserListDto+UserListRoleDto
+DEBUG 2018-12-04 17:47:03,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Taskever.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-12-04 17:47:03,165 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tenants.Dashboard.ITenantDashboardAppService' with service name 'app/tenantDashboard'.
+DEBUG 2018-12-04 17:47:03,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Tasks.ITaskOrderAppService' with service name 'app/taskOrder'.
+DEBUG 2018-12-04 17:47:03,167 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-12-04 17:47:03,168 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Notifications.INotificationAppService' with service name 'app/notification'.
+DEBUG 2018-12-04 17:47:03,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-12-04 17:47:03,170 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Logging.IWebLogAppService' with service name 'app/webLog'.
+DEBUG 2018-12-04 17:47:03,171 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Localization.ILanguageAppService' with service name 'app/language'.
+DEBUG 2018-12-04 17:47:03,172 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Editions.IEditionAppService' with service name 'app/edition'.
+DEBUG 2018-12-04 17:47:03,173 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Tenants.ITenantSettingsAppService' with service name 'app/tenantSettings'.
+DEBUG 2018-12-04 17:47:03,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Configuration.Host.IHostSettingsAppService' with service name 'app/hostSettings'.
+DEBUG 2018-12-04 17:47:03,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Common.ICommonLookupAppService' with service name 'app/commonLookup'.
+DEBUG 2018-12-04 17:47:03,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Caching.ICachingAppService' with service name 'app/caching'.
+DEBUG 2018-12-04 17:47:03,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLinkAppService' with service name 'app/userLink'.
+DEBUG 2018-12-04 17:47:03,177 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserLoginAppService' with service name 'app/userLogin'.
+DEBUG 2018-12-04 17:47:03,178 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-12-04 17:47:03,179 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Users.Profile.IProfileAppService' with service name 'app/profile'.
+DEBUG 2018-12-04 17:47:03,181 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Authorization.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-12-04 17:47:03,182 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Auditing.IAuditLogAppService' with service name 'app/auditLog'.
+DEBUG 2018-12-04 17:47:03,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Production.IProductAppService' with service name 'app/product'.
+DEBUG 2018-12-04 17:47:03,183 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.People.IPersonAppService' with service name 'app/person'.
+DEBUG 2018-12-04 17:47:03,184 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Taskever.Organizations.IOrganizationUnitAppService' with service name 'app/organizationUnit'.
+WARN  2018-12-04 17:47:15,123 [10   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+WARN  2018-12-04 17:47:30,552 [10   ] Abp.Logging.LogHelper                    - Can not find 'chatHub' in localization source 'Taskever'!
+DEBUG 2018-12-04 17:47:32,746 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"673143fd-3296-4f53-9921-253100d13ca8","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-12-04T17:47:32.7343222+08:00","Properties":{}}
+DEBUG 2018-12-04 17:47:32,807 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 673143fd-3296-4f53-9921-253100d13ca8
+WARN  2018-12-04 17:49:18,497 [7    ] lers.Filters.AbpExceptionFilterAttribute - 邮箱地址 'admin@aspnetzero.com' 已被占用.
+Abp.UI.UserFriendlyException: 邮箱地址 'admin@aspnetzero.com' 已被占用.
+   在 Abp.IdentityFramework.IdentityResultExtensions.CheckErrors(IdentityResult identityResult, ILocalizationManager localizationManager)
+   在 Taskever.TaskeverAppServiceBase.CheckErrors(IdentityResult identityResult) 位置 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.Application\TaskeverAppServiceBase.cs:行号 62
+   在 Castle.Proxies.UserAppServiceProxy.CheckErrors_callback(IdentityResult identityResult)
+   在 Castle.Proxies.Invocations.TaskeverAppServiceBase_CheckErrors_6.InvokeMethodOnTarget()
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Authorization.Interceptors.AuthorizationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Auditing.AuditingInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.UserAppServiceProxy.CheckErrors(IdentityResult identityResult)
+   在 Taskever.Authorization.Users.UserAppService.<CreateUserAsync>d__15.MoveNext() 位置 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.Application\Authorization\Users\UserAppService.cs:行号 244
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   在 Taskever.Authorization.Users.UserAppService.<CreateOrUpdateUser>d__12.MoveNext() 位置 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.Application\Authorization\Users\UserAppService.cs:行号 174
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinally>d__1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinally>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2018-12-04 17:53:27,629 [6    ] lers.Filters.AbpExceptionFilterAttribute - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Runtime.Validation.Interception.ValidationInterceptor.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.ProductAppServiceProxy.CreateOrUpdateProduct(CreateOrUpdateProductInput input)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   在 Abp.WebApi.Controllers.Dynamic.Interceptors.AbpDynamicApiControllerInterceptor`1.Intercept(IInvocation invocation)
+   在 Castle.DynamicProxy.AbstractInvocation.Proceed()
+   在 Castle.Proxies.DynamicApiController`1Proxy_4.CreateOrUpdateProduct(CreateOrUpdateProductInput input)
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__7(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2018-12-04 17:53:27,632 [6    ] lers.Filters.AbpExceptionFilterAttribute - There are 1 validation errors:
+WARN  2018-12-04 17:53:27,632 [6    ] lers.Filters.AbpExceptionFilterAttribute - Description 字段是必需的。 (Description)

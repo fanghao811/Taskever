@@ -89,20 +89,20 @@
                         },
 
                         addSubUnit: {
-                            label: app.localize('AddSubUnit'),
+                            label: /*app.localize('AddSubUnit'),*/'增加分类',
                             _disabled: !vm.permissions.manageOrganizationTree,
                             action: function () {
                                 vm.organizationTree.addUnit(node.id);
                             }
                         },
 
-                        addMember: {
-                            label: app.localize('AddMember'),
-                            _disabled: !vm.permissions.manageMembers,
-                            action: function () {
-                                vm.members.openAddModal();
-                            }
-                        },
+                        //addMember: {
+                        //    label: app.localize('AddMember'),
+                        //    _disabled: !vm.permissions.manageMembers,
+                        //    action: function () {
+                        //        vm.members.openAddModal();
+                        //    }
+                        //},
 
                         'delete': {
                             label: app.localize("Delete"),
@@ -416,7 +416,7 @@
                 data: []
             };
 
-            //6.1 Get Product
+            //6.1 Get ProductInOu
             vm.getProduct = function (ouId) {
                 vm.loading = true;
                 productService.getProductsInOu(ouId)
@@ -429,7 +429,7 @@
                     });
             };
 
-            //6.1 Get Product
+            //6.2 Get ProductPaged
             vm.getProductFOP = function () {
                 vm.loading = true;
                 productService.getProductsFOP({
@@ -470,10 +470,6 @@
                 $state.go('productEdited', { productId: product.id });
             };
 
-            //7 alertTest
-            vm.alertTest = function (product) {
-                alert(product.name);
-            };
             vm.organizationTree.init();
         }
     ]);
