@@ -44,7 +44,7 @@
                         </span>
                     </div>
                     <div class="actions" ng-if="vm.organizationTree.selectedOu.id">
-                        <a ng-if="vm.permissions.manageMembers" ng-click="vm.members.openAddModal()" class="btn btn-circle btn-default">
+                        <a  data-ui-sref="productEdited" class="btn btn-circle btn-default">
                             <i class="fa fa-plus"></i> 增加物料
                         </a>
                         @*<a ng-click="vm.getProduct(4)" class="btn btn-circle btn-default">

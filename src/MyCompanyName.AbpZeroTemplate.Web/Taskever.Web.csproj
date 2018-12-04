@@ -398,6 +398,7 @@
     <Content Include="App\common\views\auditLogs\index.js" />
     <Content Include="App\common\views\languages\index.js" />
     <Content Include="App\common\views\languages\texts.js" />
+    <Content Include="App\common\views\users\loginAttemptsModal.cshtml" />
     <Content Include="App\common\views\_empty\modal.js" />
     <Content Include="App\common\views\_empty\index.js" />
     <Content Include="App\common\views\_empty\README.txt" />
@@ -1845,7 +1846,6 @@
     <Content Include="Abp\Framework\styles\abp.mixings.less" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
-    <Content Include="App\common\views\users\loginAttemptsModal.cshtml" />
     <Content Include="libs\malihu-custom-scrollbar-plugin\.bower.json" />
     <Content Include="libs\malihu-custom-scrollbar-plugin\bower.json" />
     <Content Include="App\common\views\HR\people\createOrEditModal.cshtml" />
