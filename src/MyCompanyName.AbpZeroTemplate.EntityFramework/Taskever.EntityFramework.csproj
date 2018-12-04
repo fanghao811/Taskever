@@ -293,9 +293,9 @@
     <Compile Include="Migrations\201811300159184_add_seed_orgnization.Designer.cs">
       <DependentUpon>201811300159184_add_seed_orgnization.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201811300552097_update_productModel_to_material.cs" />
-    <Compile Include="Migrations\201811300552097_update_productModel_to_material.Designer.cs">
-      <DependentUpon>201811300552097_update_productModel_to_material.cs</DependentUpon>
+    <Compile Include="Migrations\201812040650099_product.cs" />
+    <Compile Include="Migrations\201812040650099_product.Designer.cs">
+      <DependentUpon>201812040650099_product.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\Seed\DefaultOrgnizationCreator.cs" />
@@ -451,8 +451,8 @@
     <EmbeddedResource Include="Migrations\201811300159184_add_seed_orgnization.resx">
       <DependentUpon>201811300159184_add_seed_orgnization.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201811300552097_update_productModel_to_material.resx">
-      <DependentUpon>201811300552097_update_productModel_to_material.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812040650099_product.resx">
+      <DependentUpon>201812040650099_product.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -508,10 +508,10 @@ C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramewor
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone.resources
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.personphone55.resources
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.Added_TaskOrder_Entities.resources
+C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.add_seed_orgnization.resources
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.csproj.GenerateResource.cache
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.csproj.CoreCompileInputs.cache
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.csproj.CopyComplete
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.dll
 C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.EntityFramework.pdb
-C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.add_seed_orgnization.resources
-C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.update_productModel_to_material.resources
+C:\FH\Source\Repos\Taskever-Web\src\MyCompanyName.AbpZeroTemplate.EntityFramework\obj\Debug\Taskever.Migrations.product.resources

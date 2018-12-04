@@ -1,7 +1,7 @@
 ﻿(function () {
     appModule.controller('common.views.products.createOrEdit', [
-        '$scope', '$uibModal', '$stateParams','abp.services.app.product',
-        function ($scope, $uibModal, $stateParams, productService) {
+        '$scope', '$uibModal','$state', '$stateParams', 'abp.services.app.product',
+        function ($scope, $uibModal,$state, $stateParams, productService) {
             var vm = this;
             vm.saving = false;
             vm.loading = false;
@@ -12,12 +12,6 @@
             // $stateParams.productId;
             // =========================================================================
             var productId = $stateParams.productId;
-            vm.pId = $stateParams.productId;
-
-            //viewModal
-            vm.location = '';
-            vm.department = '';
-            vm.category = '';
 
             vm.units = [
                 { name: '件', value: 1 },
@@ -33,7 +27,7 @@
 
             //TODO: GetProductForEdit
             vm.getProductForEdit = function (product_Id) {
-                productService.getProductForEdit({ id:product_Id})
+                productService.getProductForEdit({ id: product_Id })
                     .success(function (result) {
                         vm.product = result;
                     });
@@ -83,7 +77,7 @@
                             break;
                         case 1:
                             vm.product.categoryOuId = result.id;
-                            vm.category = result.displayName;
+                            vm.product.category = result.displayName;
                             break;
                         default:
 
@@ -103,9 +97,9 @@
                     vm.product
                 ).success(function () {
                     abp.notify.info(app.localize('SavedSuccessfully'));
-
                 }).finally(function () {
                     vm.saving = false;
+                    $state.go('location');
                 });
             };
 
@@ -114,23 +108,7 @@
             };
 
             function init() {
-                if (productId) {//TODO  测试获取数据
-                    vm.getProductForEdit(productId);
-                } else {
-                    vm.product = {
-                        id: null,
-                        categoryOuId: 4,
-                        productNumber: '330724',
-                        name: 'IC1600多路输入采集开关',
-                        abbreviation: 'IC1600开关',
-                        mnemonicCode: 'IC1600',
-                        modelNumber: '多路输入',
-                        specification: '10*24*30cm',
-                        unit: '',
-                        description: '测试',
-                        comment: '测试'
-                    };
-                }
+                vm.getProductForEdit(productId);
             }
 
             init();

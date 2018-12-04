@@ -10,7 +10,7 @@
 </div>
 <ul class="page-breadcrumb breadcrumb ng-scope">
     <li>
-        <a data-ui-sref="product">物料管理</a>
+        <a data-ui-sref="location">物料管理</a>
         <i class="fa fa-circle"></i>
     </li>
     <li>
@@ -25,7 +25,7 @@
                     <i class="icon-settings font-red"></i>
                     <span ng-if="vm.product.modelNumber || vm.product.name"
                           class="caption-subject font-red sbold">
-                        {{vm.product.name}}--{{vm.pId}}-- {{vm.product}}
+                        {{vm.product.name}}-- {{vm.product}}
                     </span>
                     <span ng-hide="vm.product.modelNumber || vm.product.name"
                           class="caption-subject font-red sbold">
@@ -104,8 +104,8 @@
                                         <span class="input-group-addon">
                                             <i class="fa fa-envelope"></i>
                                         </span>
-                                        <input type="text" class="form-control" ng-class="{'edited':vm.category}"
-                                               ng-model="vm.category">
+                                        <input type="text" class="form-control" ng-class="{'edited':vm.product.category}"
+                                               ng-model="vm.product.category">
                                         <label for="form_control_1">物料类型</label>
                                         <span class="input-group-btn btn-right">
                                             <button class="btn green-haze" type="button"
@@ -149,9 +149,7 @@
                                         <span class="input-group-addon">
                                             <i class="fa fa-envelope"></i>
                                         </span>
-                                        @*<input type="text" class="form-control" ng-class="{'edited':vm.product.unit}"
-                                               ng-model="vm.product.unit">*@
-                                        <select class="form-control"
+                                        <select class="form-control" ng-class="{'edited':vm.product.unit}"
                                                 ng-options="v.value as v.name for v in vm.units"
                                                 ng-model="vm.product.unit"></select>
                                         <label for="form_control_1">规格</label>

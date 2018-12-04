@@ -32,7 +32,7 @@ namespace Taskever.Production
         /// <returns></returns>
         public async Task CreateOrUpdateProduct(CreateOrUpdateProductInput input)
         {
-            if (input.Id.HasValue)
+            if (input.Id.HasValue && input.Id != 0)
             {
                 await UpdateProduct(input);
             }
@@ -68,33 +68,32 @@ namespace Taskever.Production
         {
             Debug.Assert(input.Id != null, "input.Product.Id should be set.");
 
-            var product = await _productRepository.GetAsync(input.Id.Value);
-            product.Name = input.Name;
-
+            //var product = await _productRepository.GetAsync(input.Id.Value);
+            var product = input.MapTo<Product>();
             await _productRepository.UpdateAsync(product);
         }
 
-        public async Task<ListResultOutput<ProducListDto>>  GetProductsInOu(long organizationUnitId)
+        public async Task<ListResultOutput<ProducListDto>> GetProductsInOu(long organizationUnitId)
         {
             var query = await _productRepository.GetAll()
                                 .Include(p => p.Category)
-                                .Where(p=>p.CategoryOuId== organizationUnitId).ToListAsync();
+                                .Where(p => p.CategoryOuId == organizationUnitId).ToListAsync();
 
             var products = from product in query
-                             select new ProducListDto
-                             {
-                                 Id = product.Id,
-                                 Name = product.Name,
-                                 ProductNumber =product.ProductNumber,
-                                 Abbreviation=product.Abbreviation,
-                                 MnemonicCode=product.ModelNumber,
-                                 ModelNumber=product.ModelNumber,
-                                 Specification= product.Specification,
-                                 Unit= product.Unit,
-                                 Description = product.Description,
+                           select new ProducListDto
+                           {
+                               Id = product.Id,
+                               Name = product.Name,
+                               ProductNumber = product.ProductNumber,
+                               Abbreviation = product.Abbreviation,
+                               MnemonicCode = product.ModelNumber,
+                               ModelNumber = product.ModelNumber,
+                               Specification = product.Specification,
+                               Unit = product.Unit,
+                               Description = product.Description,
 
-                                 Category = product.Category.DisplayName,
-                             };
+                               Category = product.Category.DisplayName,
+                           };
             return new ListResultOutput<ProducListDto>(products.ToList());
         }
 
@@ -108,7 +107,7 @@ namespace Taskever.Production
         {
             var query = _productRepository.GetAll()
                         .Include(p => p.Category)
-                        .WhereIf(!input.Filter.IsNullOrWhiteSpace(),p =>p.Name.Contains(input.Filter) ||p.Abbreviation.Contains(input.Filter));
+                        .WhereIf(!input.Filter.IsNullOrWhiteSpace(), p => p.Name.Contains(input.Filter) || p.Abbreviation.Contains(input.Filter));
 
             var productCount = query.Count();
 
@@ -149,12 +148,12 @@ namespace Taskever.Production
             output = product != null
                 ? product.MapTo<CreateOrUpdateProductInput>()
                 : new CreateOrUpdateProductInput();
-     
-            return output; 
+
+            return output;
         }
 
     }
- 
+
 
     //测试
     public class GetProductInput : PagedAndSortedInputDto, IShouldNormalize

@@ -40,6 +40,9 @@ namespace Taskever
                 .ForMember(product => product.Location, options => options.Ignore())
                 .ForMember(product => product.Category, options => options.Ignore());
 
+            Mapper.CreateMap<Product, CreateOrUpdateProductInput>()
+                .ForMember(dto => dto.Category, opt => opt.MapFrom(src => src.Category.DisplayName));
+
             Mapper.CreateMap<Product, ProducListDto>()
                 .ForMember(dto => dto.Category, opt => opt.MapFrom(src => src.Category.DisplayName));
 

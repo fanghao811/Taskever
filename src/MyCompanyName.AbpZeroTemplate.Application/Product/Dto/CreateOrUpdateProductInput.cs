@@ -15,6 +15,8 @@ namespace Taskever.Production
         public long? Id { get; set; }
         public long? CategoryOuId { get; set; }
 
+        public string Category { get; set; }
+
         //1.物料编号
         public string ProductNumber { get; set; }
 

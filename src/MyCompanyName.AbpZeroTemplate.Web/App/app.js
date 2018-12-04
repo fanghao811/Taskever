@@ -217,7 +217,7 @@ appModule.config([
                 menu: 'Product.List'
             })
             .state('productEdited', {
-                url: '/productEdited/{productId:[0-9]}',
+                url: '/productEdited/:productId',
                 templateUrl: '~/App/common/views/products/product_ce.cshtml',
                 controller: 'common.views.products.createOrEdit',
                 controllerAs: 'vm',

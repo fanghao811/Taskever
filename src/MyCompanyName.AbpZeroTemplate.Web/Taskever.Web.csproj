@@ -374,12 +374,6 @@
     <Content Include="App\common\views\organizationUnits\rootTree.js" />
     <Content Include="App\common\views\products\product_list.js" />
     <Content Include="App\common\views\products\product_ce.js" />
-    <Content Include="App\common\views\profile\changePicture.css">
-      <DependentUpon>changePicture.less</DependentUpon>
-    </Content>
-    <Content Include="App\common\views\profile\changePicture.min.css">
-      <DependentUpon>changePicture.css</DependentUpon>
-    </Content>
     <Content Include="App\common\views\profile\linkAccountModal.js" />
     <Content Include="App\common\views\profile\linkedAccountsModal.js" />
     <Content Include="App\common\views\notifications\settingsModal.js" />
@@ -404,13 +398,6 @@
     <Content Include="App\common\views\auditLogs\index.js" />
     <Content Include="App\common\views\languages\index.js" />
     <Content Include="App\common\views\languages\texts.js" />
-    <Content Include="App\common\views\users\loginAttemptsModal.css">
-      <DependentUpon>loginAttemptsModal.less</DependentUpon>
-    </Content>
-    <Content Include="App\common\views\users\loginAttemptsModal.js" />
-    <Content Include="App\common\views\users\loginAttemptsModal.min.css">
-      <DependentUpon>loginAttemptsModal.css</DependentUpon>
-    </Content>
     <Content Include="App\common\views\_empty\modal.js" />
     <Content Include="App\common\views\_empty\index.js" />
     <Content Include="App\common\views\_empty\README.txt" />
@@ -423,13 +410,6 @@
     </Content>
     <Content Include="App\host\views\editions\createOrEditModal.js" />
     <Content Include="App\host\views\editions\index.js" />
-    <Content Include="App\host\views\maintenance\index.css">
-      <DependentUpon>index.less</DependentUpon>
-    </Content>
-    <Content Include="App\host\views\maintenance\index.js" />
-    <Content Include="App\host\views\maintenance\index.min.css">
-      <DependentUpon>index.css</DependentUpon>
-    </Content>
     <Content Include="App\host\views\tenants\featuresModal.js" />
     <Content Include="Common\Images\app-logo-on-dark.png" />
     <Content Include="Common\Images\default-profile-picture.png" />
@@ -1862,14 +1842,10 @@
     <Content Include="fonts\sourcesans-pro\toadOcfmlt9b38dHJxOBGJCDkYQxybH_Rl7Qv7ee2N4.woff2" />
     <Content Include="fonts\sourcesans-pro\toadOcfmlt9b38dHJxOBGLpVETArfVi9McBbsQ4atuQ.woff2" />
     <Content Include="fonts\sourcesans-pro\toadOcfmlt9b38dHJxOBGOode0-EuMkY--TSyExeINg.woff2" />
-    <Content Include="App\host\views\maintenance\index.cshtml" />
-    <Content Include="App\host\views\maintenance\index.less" />
-    <Content Include="App\common\views\profile\changePicture.less" />
     <Content Include="Abp\Framework\styles\abp.mixings.less" />
     <Content Include="Abp\Framework\styles\abp.less" />
     <Content Include="Abp\Framework\styles\abp.css.map" />
     <Content Include="App\common\views\users\loginAttemptsModal.cshtml" />
-    <Content Include="App\common\views\users\loginAttemptsModal.less" />
     <Content Include="libs\malihu-custom-scrollbar-plugin\.bower.json" />
     <Content Include="libs\malihu-custom-scrollbar-plugin\bower.json" />
     <Content Include="App\common\views\HR\people\createOrEditModal.cshtml" />
@@ -1906,6 +1882,7 @@
     <Content Include="App\common\views\tasks\task_ce.cshtml" />
     <Content Include="App\common\views\tasks\deviceModal.cshtml" />
     <Content Include="App\common\views\tasks\assignedUserModal.cshtml" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
@@ -2729,7 +2706,9 @@
     <Compile Include="Views\UrlChecker.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\web.config" />
+    <Content Include="Views\web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
@@ -2844,7 +2823,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App\host\views\maintenance\" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyCompanyName.AbpZeroTemplate.Application\Taskever.Application.csproj">
       <Project>{edf5d964-4c0f-4f19-b674-58a38a5e5401}</Project>
