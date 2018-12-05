@@ -25,6 +25,28 @@ namespace Taskever.Production
             _productRepository = productRepository;
         }
 
+        public async Task<PagedResultOutput<ProducListDto>> GetProductsFOP(GetProductInput input)
+        {
+            var query = _productRepository.GetAll()
+                        .Include(p => p.Category)
+                        .WhereIf(!input.Filter.IsNullOrWhiteSpace(), 
+                        p => p.Name.Contains(input.Filter) || p.Abbreviation.Contains(input.Filter));
+
+            var productCount = query.Count();
+
+            var products = await query
+                .OrderBy(input.Sorting)
+                .PageBy(input).ToListAsync();
+
+            var personListDtos = products.MapTo<List<ProducListDto>>();
+
+            return new PagedResultOutput<ProducListDto>(
+                productCount,
+                personListDtos
+                );
+        }
+
+
         /// <summary>
         /// 1.增改
         /// </summary>
@@ -42,7 +64,6 @@ namespace Taskever.Production
             }
         }
 
-
         //[AbpAuthorize("Administration.ProductManagement.CreateProduct")]
         /// <summary>
         /// 2.增加
@@ -51,14 +72,6 @@ namespace Taskever.Production
         /// <returns></returns>
         public async Task CreateProduct(CreateOrUpdateProductInput input)
         {
-            //c product = new Product
-            //{
-            //    DepartmentOuId = input.DepartmentOuId,
-            //    LocationOuId = input.LocationOuId,
-            //    CategoryOuId = input.CategoryOuId,
-            //    Name = input.Name,
-            //};
-
             var product = input.MapTo<Product>();
 
             await _productRepository.InsertAsync(product);
@@ -97,33 +110,6 @@ namespace Taskever.Production
             return new ListResultOutput<ProducListDto>(products.ToList());
         }
 
-        /// <summary>
-        /// 条件查询&&分页
-        /// </summary>
-        /// <param name="input"></param>
-        /// <returns></returns>
-        //This method uses async pattern that is supported by ASP.NET Boilerplate
-        public async Task<PagedResultOutput<ProducListDto>> GetProductsFOP(GetProductInput input)
-        {
-            var query = _productRepository.GetAll()
-                        .Include(p => p.Category)
-                        .WhereIf(!input.Filter.IsNullOrWhiteSpace(), p => p.Name.Contains(input.Filter) || p.Abbreviation.Contains(input.Filter));
-
-            var productCount = query.Count();
-
-            var products = await query
-                .OrderBy(input.Sorting)
-                .PageBy(input).ToListAsync();
-
-            var personListDtos = products.MapTo<List<ProducListDto>>();
-
-            return new PagedResultOutput<ProducListDto>(
-                productCount,
-                personListDtos
-                );
-        }
-
-
         //Delte 2018/12/3
         public void DeleteProduct(IdInput<long> input)
         {
@@ -131,7 +117,7 @@ namespace Taskever.Production
             _productRepository.Delete(input.Id);
         }
 
-        //TODO:GetPersonForEdit 2018/12/3
+        //TODO:2018/12/3
         public CreateOrUpdateProductInput GetProductForEdit(NullableIdInput input)
         {
             var product = new Product();
@@ -153,7 +139,6 @@ namespace Taskever.Production
         }
 
     }
-
 
     //测试
     public class GetProductInput : PagedAndSortedInputDto, IShouldNormalize

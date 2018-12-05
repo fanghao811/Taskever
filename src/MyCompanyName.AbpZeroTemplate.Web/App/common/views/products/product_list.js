@@ -14,12 +14,12 @@
             //vm.filterText = $stateParams.filterText || '';
             //vm.products = {};
             //2.设置权限集合
-            //vm.permissions = {
-            //    create: abp.auth.hasPermission('Pages.Administration.Languages.Create'),
-            //    edit: abp.auth.hasPermission('Pages.Administration.Languages.Edit'),
-            //    changeTexts: abp.auth.hasPermission('Pages.Administration.Languages.ChangeTexts'),
-            //    'delete': abp.auth.hasPermission('Pages.Administration.Languages.Delete')
-            //};
+            vm.permissions = {
+                create: abp.auth.hasPermission('Pages.Administration.Languages.Create'),
+                edit: abp.auth.hasPermission('Pages.Administration.Languages.Edit'),
+                changeTexts: abp.auth.hasPermission('Pages.Administration.Languages.ChangeTexts'),
+                'delete': abp.auth.hasPermission('Pages.Administration.Languages.Delete')
+            };
 
             //3.查询参数 requestParams
             var requestParams = {
@@ -156,14 +156,13 @@
                     vm.loading = false;
                 });
             };
-
             //6.2 Create product
             vm.createProduct = function () {
                 openCreateOrEditproductModal(null);
             };
             //6.3 Edit product
             vm.editProduct = function (product) {
-                openCreateOrEditproductModal(product.id); //TODO: CAN EDIT?
+                openCreateOrEditproductModal(product.id);
             };
             //6.4 Delete product
             vm.deleteProduct = function (product) { //TODO: Delete
@@ -188,25 +187,6 @@
             function openCreateOrEditproductModal(id) {
                 abp.notify.info('TODO:弹窗 物料增改 尚在制作中...');
             }
-
-            //6.4 Delete product
-            vm.deleteProduct = function (product) { //TODO: Delete
-                abp.message.confirm(
-                    app.localize('AreYouSureToDeleteproduct', product.name),
-                    function (isConfirmed) {
-                        if (isConfirmed) {
-                            if (!product.id) {
-                                abp.notify.error('您尚未选择物料，删除失败！');
-                                return;
-                            }
-                            productService.deleteProduct({ id: product.id })
-                                .success(function () {
-                                    vm.getProduct();
-                                    abp.notify.info('物料:' + product.name + '已删除！');
-                                });
-                        }
-                    });
-            };
 
             vm.showDetails = function (product) {
                 //$state.go('profile.info', { productId: product.id, subTitle: 'about' });
